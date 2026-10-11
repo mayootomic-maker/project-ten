@@ -1,3 +1,13 @@
+# Deployed Project Ten
+
+Dashboard: https://mayootomic-maker.github.io/project-ten/
+
+Cloud workflow: https://github.com/mayootomic-maker/project-ten/actions/workflows/virtual-market-daily.yml
+
+Two manual cloud executions passed on 2026-10-11, including real-price acquisition, 16 tests, state validation, ledger persistence, and Pages publishing. Automatic schedule: 00:29, 04:29, 08:29, 12:29, 16:29, 20:29 UTC. Schedules can be delayed; no claim of uninterrupted execution is made. All 100 strategies use independent simulated CHF 100 portfolios. Decisions run once per completed daily candle. No broker credentials or real-money order endpoints exist.
+
+---
+
 # PROJECT TEN / AGENT COMMAND
 
 **A working, open-source-style research simulator with 100 identifiable agents.**
@@ -6,7 +16,7 @@
 
 ## Quick start — 60 seconds
 
-The download already contains a **synthetic demonstration** with 100 agents, 180 days of individual virtual trading, audit records, and a visually complete dashboard. Synthetic profits are not real results.
+This deployment starts with real Kraken price data and simulated money. No synthetic performance is published. The optional `demo` command is for local tests only and produces explicitly synthetic results.
 
 1. Extract the entire ZIP. Do not try to run it inside ZIP preview software.
 2. On Windows, double-click **`Start-ProjectTen-Windows.bat`**. On Mac/Linux, open a terminal in the extracted folder and run `python3 -m project_ten serve`.
@@ -23,7 +33,7 @@ python -m project_ten watch
 
 For a **single market evaluation** (for example, in a scheduled cloud job), run `python -m project_ten live`. Use `python -m project_ten serve` separately to browse the latest saved results.
 
-`live` automatically downloads current public Kraken daily history and current bid/ask quotes. On its **first run**, it backs up the bundled synthetic simulation, screens 100 agents, and opens **100 independent CHF 100-equivalent virtual accounts** plus **one shared CHF 100-equivalent portfolio**. All balances start at CHF 100, with **zero claimed forward trades**. It does not retroactively execute historical orders. On the *next completed daily candle* (and only when the command executes), qualified agents can make a modeled buy/sell at the then-current public bid/ask, charging simulated fees/slippage. Run `live` daily or install the included GitHub Actions schedule (six quote checks per day). When there is no new completed bar, `live` refreshes current marks and does **not** create duplicate trades.
+`live` automatically downloads current public Kraken daily history and current bid/ask quotes. On its **first run**, it screens 100 agents, and opens **100 independent CHF 100-equivalent virtual accounts** plus **one shared CHF 100-equivalent portfolio**. All balances start at CHF 100, with **zero claimed forward trades**. It does not retroactively execute historical orders. On the *next completed daily candle* (and only when the command executes), all 100 independent agents can make a modeled buy/sell (qualification gates apply to the separate shared portfolio) at the then-current public bid/ask, charging simulated fees/slippage. Run `live` daily or install the included GitHub Actions schedule (six quote checks per day). When there is no new completed bar, `live` refreshes current marks and does **not** create duplicate trades.
 
 The dashboard automatically refreshes its local or published JSON every 90 seconds, but the cloud data source updates only when the GitHub workflow or local command actually runs. A fresh website **does not imply** continuous trading or second-by-second quotes. Mode, last observed quote time and number of forward evaluations are displayed explicitly.
 
@@ -71,7 +81,7 @@ The **research incubator** generates 12 proposed parameter changes based solely 
 
 | Assumption | Model default |
 | --- | ---: |
-| Exchange fee (taker, per side) | 0.80% (Kraken Pro entry tier, October 2026) |
+| Exchange fee (taker, per side) | 0.80% (conservative configured assumption, not a verified current venue tier) |
 | Additional bid-ask spread (total) | 0.10%, **assumed** for historical replay |
 | Extra slippage (each side) | 0.05%, **assumed** |
 | Conservative minimum notional | USD 10.00, **not** a claim of venue minimum |
@@ -108,7 +118,7 @@ Code layout: `project_ten/data.py` verifies incoming OHLC; `strategies.py` defin
 
 ### Official sources
 
-- [Kraken Pro spot fees](https://www.kraken.com/features/fee-schedule) (Tier 1: 0.4% maker / 0.8% taker, checked October 2026)
+- [Kraken Pro spot fees](https://www.kraken.com/features/fee-schedule) (consult current rates; this experiment uses a configured conservative fee assumption)
 - [Kraken historical OHLC dataset](https://support.kraken.com/in/articles/360047124832-downloadable-historical-ohlcvt-open-high-low-close-volume-trades-data) (REST OHLC contains limited lookback; complete historical CSV files are provided separately)
 - [Alpaca paper trading limitations](https://docs.alpaca.markets/us/v1.4.2/docs/paper-trading) (market impact, latency and order queue not fully represented)
 - [GitHub scheduled workflow limitations](https://docs.github.com/en/actions/how-tos/troubleshoot-workflows)
@@ -126,3 +136,4 @@ python -m project_ten export-offline
 ```
 
 This generates a new fully self-contained HTML at the project root. To see ongoing updates without manually transferring HTML, configure the optional scheduled GitHub Pages site.
+
