@@ -1,0 +1,2 @@
+# Project Ten uses the Python standard library only.
+# Python 3.10+; no pip packages required.

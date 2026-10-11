@@ -1,0 +1,68 @@
+name: Project Ten | cloud paper research
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Six public-price observations per day; strategy entries run only once per newly
+    # completed UTC daily candle. GitHub schedules are approximate, not real-time.
+    - cron: '29 0,4,8,12,16,20 * * *'
+
+concurrency:
+  group: project-ten-virtual-ledger
+  cancel-in-progress: false
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout persistent paper ledger
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify model invariants
+        run: python -m unittest discover -s tests -q
+      - name: Fetch public market data and run virtual agents
+        run: |
+          python -m project_ten live
+          python -m project_ten audit
+          python -m project_ten publish
+          python scripts/verify_cloud.py
+      - name: Publish ledger changes to repository
+        shell: bash
+        run: |
+          git config user.name 'Project Ten Bot'
+          git config user.email 'project-ten-bot@users.noreply.github.com'
+          git add -A data state reports docs
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public-price paper ledger [skip ci]'
+            git push
+          else
+            echo 'No state changes to commit'
+          fi
+      - name: Upload static dashboard for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  dashboard:
+    needs: simulate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy static dashboard to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

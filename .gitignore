@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.DS_Store
+*.tmp
+ProjectTen-Offline-Dashboard.html
+state/synthetic-demo-backup/
