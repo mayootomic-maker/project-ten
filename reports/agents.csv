@@ -1,0 +1,101 @@
+rank,code,name,asset,family,net_chf,net_pct,fees_chf,trades,qualified
+1,AG-001,Crosswind Raven,BTC,sma,0.0,0.0,0.0,0,False
+2,AG-002,Crosswind Lynx,ETH,sma,0.0,0.0,0.0,0,False
+3,AG-003,Crosswind Vesper,SOL,sma,0.0,0.0,0.0,0,False
+4,AG-004,Vanguard Atlas,BTC,breakout,0.0,0.0,0.0,0,False
+5,AG-005,Vanguard Comet,ETH,breakout,0.0,0.0,0.0,0,False
+6,AG-006,Vanguard Cipher,SOL,breakout,0.0,0.0,0.0,0,False
+7,AG-007,Vector Sable,BTC,momentum,0.0,0.0,0.0,0,False
+8,AG-008,Vector Falcon,ETH,momentum,0.0,0.0,0.0,0,False
+9,AG-009,Vector Vortex,SOL,momentum,0.0,0.0,0.0,0,False
+10,AG-010,Undertow Specter,BTC,rsi,0.0,0.0,0.0,0,False
+11,AG-011,Undertow Kite,ETH,rsi,0.0,0.0,0.0,0,False
+12,AG-012,Undertow Nova,SOL,rsi,0.0,0.0,0.0,0,False
+13,AG-013,Echo Orion,BTC,zscore,0.0,0.0,0.0,0,False
+14,AG-014,Echo Mantis,ETH,zscore,0.0,0.0,0.0,0,False
+15,AG-015,Echo Volt,SOL,zscore,0.0,0.0,0.0,0,False
+16,AG-016,Sentinel Helix,BTC,voltrend,0.0,0.0,0.0,0,False
+17,AG-017,Sentinel Ghost,ETH,voltrend,0.0,0.0,0.0,0,False
+18,AG-018,Sentinel Monarch,SOL,voltrend,0.0,0.0,0.0,0,False
+19,AG-019,Crosswind Onyx,BTC,sma,0.0,0.0,0.0,0,False
+20,AG-020,Crosswind Cinder,ETH,sma,0.0,0.0,0.0,0,False
+21,AG-021,Crosswind Halo,SOL,sma,0.0,0.0,0.0,0,False
+22,AG-022,Vanguard Axiom,BTC,breakout,0.0,0.0,0.0,0,False
+23,AG-023,Vanguard Kestrel,ETH,breakout,0.0,0.0,0.0,0,False
+24,AG-024,Vanguard Mosaic,SOL,breakout,0.0,0.0,0.0,0,False
+25,AG-025,Vector Obsidian,BTC,momentum,0.0,0.0,0.0,0,False
+26,AG-026,Vector Ember,ETH,momentum,0.0,0.0,0.0,0,False
+27,AG-027,Vector Delta,SOL,momentum,0.0,0.0,0.0,0,False
+28,AG-028,Undertow Osprey,BTC,rsi,0.0,0.0,0.0,0,False
+29,AG-029,Undertow Quartz,ETH,rsi,0.0,0.0,0.0,0,False
+30,AG-030,Undertow Nomad,SOL,rsi,0.0,0.0,0.0,0,False
+31,AG-031,Echo Phantom,BTC,zscore,0.0,0.0,0.0,0,False
+32,AG-032,Echo Archer,ETH,zscore,0.0,0.0,0.0,0,False
+33,AG-033,Echo Hydra,SOL,zscore,0.0,0.0,0.0,0,False
+34,AG-034,Sentinel Talon,BTC,voltrend,0.0,0.0,0.0,0,False
+35,AG-035,Sentinel Pulse,ETH,voltrend,0.0,0.0,0.0,0,False
+36,AG-036,Sentinel Titan,SOL,voltrend,0.0,0.0,0.0,0,False
+37,AG-037,Crosswind Sphinx,BTC,sma,0.0,0.0,0.0,0,False
+38,AG-038,Crosswind Dart,ETH,sma,0.0,0.0,0.0,0,False
+39,AG-039,Crosswind Silhouette,SOL,sma,0.0,0.0,0.0,0,False
+40,AG-040,Vanguard Horizon,BTC,breakout,0.0,0.0,0.0,0,False
+41,AG-041,Vanguard Warden,ETH,breakout,0.0,0.0,0.0,0,False
+42,AG-042,Vanguard Strix,SOL,breakout,0.0,0.0,0.0,0,False
+43,AG-043,Vector Rook,BTC,momentum,0.0,0.0,0.0,0,False
+44,AG-044,Vector Eclipse,ETH,momentum,0.0,0.0,0.0,0,False
+45,AG-045,Vector Prism,SOL,momentum,0.0,0.0,0.0,0,False
+46,AG-046,Undertow Drift,BTC,rsi,0.0,0.0,0.0,0,False
+47,AG-047,Undertow Frost,ETH,rsi,0.0,0.0,0.0,0,False
+48,AG-048,Undertow Acumen,SOL,rsi,0.0,0.0,0.0,0,False
+49,AG-049,Echo Eon,BTC,zscore,0.0,0.0,0.0,0,False
+50,AG-050,Echo Nexus,ETH,zscore,0.0,0.0,0.0,0,False
+51,AG-051,Echo Raven 2,SOL,zscore,0.0,0.0,0.0,0,False
+52,AG-052,Sentinel Lynx 2,BTC,voltrend,0.0,0.0,0.0,0,False
+53,AG-053,Sentinel Vesper 2,ETH,voltrend,0.0,0.0,0.0,0,False
+54,AG-054,Sentinel Atlas 2,SOL,voltrend,0.0,0.0,0.0,0,False
+55,AG-055,Crosswind Comet 2,BTC,sma,0.0,0.0,0.0,0,False
+56,AG-056,Crosswind Cipher 2,ETH,sma,0.0,0.0,0.0,0,False
+57,AG-057,Crosswind Sable 2,SOL,sma,0.0,0.0,0.0,0,False
+58,AG-058,Vanguard Falcon 2,BTC,breakout,0.0,0.0,0.0,0,False
+59,AG-059,Vanguard Vortex 2,ETH,breakout,0.0,0.0,0.0,0,False
+60,AG-060,Vanguard Specter 2,SOL,breakout,0.0,0.0,0.0,0,False
+61,AG-061,Vector Kite 2,BTC,momentum,0.0,0.0,0.0,0,False
+62,AG-062,Vector Nova 2,ETH,momentum,0.0,0.0,0.0,0,False
+63,AG-063,Vector Orion 2,SOL,momentum,0.0,0.0,0.0,0,False
+64,AG-064,Undertow Mantis 2,BTC,rsi,0.0,0.0,0.0,0,False
+65,AG-065,Undertow Volt 2,ETH,rsi,0.0,0.0,0.0,0,False
+66,AG-066,Undertow Helix 2,SOL,rsi,0.0,0.0,0.0,0,False
+67,AG-067,Echo Ghost 2,BTC,zscore,0.0,0.0,0.0,0,False
+68,AG-068,Echo Monarch 2,ETH,zscore,0.0,0.0,0.0,0,False
+69,AG-069,Echo Onyx 2,SOL,zscore,0.0,0.0,0.0,0,False
+70,AG-070,Sentinel Cinder 2,BTC,voltrend,0.0,0.0,0.0,0,False
+71,AG-071,Sentinel Halo 2,ETH,voltrend,0.0,0.0,0.0,0,True
+72,AG-072,Sentinel Axiom 2,SOL,voltrend,0.0,0.0,0.0,0,False
+73,AG-073,Crosswind Kestrel 2,BTC,sma,0.0,0.0,0.0,0,False
+74,AG-074,Crosswind Mosaic 2,ETH,sma,0.0,0.0,0.0,0,False
+75,AG-075,Crosswind Obsidian 2,SOL,sma,0.0,0.0,0.0,0,False
+76,AG-076,Vanguard Ember 2,BTC,breakout,0.0,0.0,0.0,0,False
+77,AG-077,Vanguard Delta 2,ETH,breakout,0.0,0.0,0.0,0,False
+78,AG-078,Vanguard Osprey 2,SOL,breakout,0.0,0.0,0.0,0,False
+79,AG-079,Vector Quartz 2,BTC,momentum,0.0,0.0,0.0,0,False
+80,AG-080,Vector Nomad 2,ETH,momentum,0.0,0.0,0.0,0,False
+81,AG-081,Vector Phantom 2,SOL,momentum,0.0,0.0,0.0,0,False
+82,AG-082,Undertow Archer 2,BTC,rsi,0.0,0.0,0.0,0,False
+83,AG-083,Undertow Hydra 2,ETH,rsi,0.0,0.0,0.0,0,False
+84,AG-084,Undertow Talon 2,SOL,rsi,0.0,0.0,0.0,0,False
+85,AG-085,Echo Pulse 2,BTC,zscore,0.0,0.0,0.0,0,False
+86,AG-086,Echo Titan 2,ETH,zscore,0.0,0.0,0.0,0,False
+87,AG-087,Echo Sphinx 2,SOL,zscore,0.0,0.0,0.0,0,False
+88,AG-088,Sentinel Dart 2,BTC,voltrend,0.0,0.0,0.0,0,False
+89,AG-089,Sentinel Silhouette 2,ETH,voltrend,0.0,0.0,0.0,0,False
+90,AG-090,Sentinel Horizon 2,SOL,voltrend,0.0,0.0,0.0,0,False
+91,AG-091,Crosswind Warden 2,BTC,sma,0.0,0.0,0.0,0,False
+92,AG-092,Crosswind Strix 2,ETH,sma,0.0,0.0,0.0,0,False
+93,AG-093,Crosswind Rook 2,SOL,sma,0.0,0.0,0.0,0,False
+94,AG-094,Vanguard Eclipse 2,BTC,breakout,0.0,0.0,0.0,0,False
+95,AG-095,Vanguard Prism 2,ETH,breakout,0.0,0.0,0.0,0,False
+96,AG-096,Vanguard Drift 2,SOL,breakout,0.0,0.0,0.0,0,False
+97,AG-097,Vector Frost 2,BTC,momentum,0.0,0.0,0.0,0,False
+98,AG-098,Vector Acumen 2,ETH,momentum,0.0,0.0,0.0,0,False
+99,AG-099,Vector Eon 2,SOL,momentum,0.0,0.0,0.0,0,False
+100,AG-100,Undertow Nexus 2,BTC,rsi,0.0,0.0,0.0,0,False

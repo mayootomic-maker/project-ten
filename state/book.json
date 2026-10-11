@@ -1,0 +1,1855 @@
+{
+  "meta": {
+    "mode": "KRAKEN REAL PRICES / VIRTUAL MONEY",
+    "initial_chf": 100.0,
+    "fx_usd_per_chf": 1.2033,
+    "fx_label": "Frozen reference CHF/USD 2026-10-09 (not executable rate)",
+    "currency": "USD",
+    "last_bar": 1791590400,
+    "forward_days": 0,
+    "last_run": null,
+    "initial_usd": 120.33,
+    "feed": "Kraken historical OHLC, daily",
+    "paper_only": true,
+    "quote_at": 1791746339,
+    "quotes": {
+      "BTC": {
+        "bid": 83634.6,
+        "ask": 83634.7,
+        "at": 1791746338
+      },
+      "ETH": {
+        "bid": 2533.43,
+        "ask": 2533.44,
+        "at": 1791746339
+      },
+      "SOL": {
+        "bid": 111.24,
+        "ask": 111.25,
+        "at": 1791746339
+      }
+    },
+    "observation_started_at": "2026-10-11T19:18:59.240470+00:00"
+  },
+  "agents": {
+    "BTC-sma-5-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-sma-5-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-sma-5-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-breakout-12-5": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-breakout-12-5": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-breakout-12-5": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-momentum-7-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-momentum-7-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-momentum-7-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-rsi-8-25": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-rsi-8-25": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-rsi-8-25": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-zscore-15-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-zscore-15-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-zscore-15-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-voltrend-5-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-voltrend-5-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-voltrend-5-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-sma-8-50": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-sma-8-50": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-sma-8-50": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-breakout-20-7": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-breakout-20-7": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-breakout-20-7": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-momentum-14-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-momentum-14-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-momentum-14-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-rsi-10-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-rsi-10-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-rsi-10-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-zscore-20-175": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-zscore-20-175": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-zscore-20-175": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-voltrend-8-40": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-voltrend-8-40": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-voltrend-8-40": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-sma-10-70": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-sma-10-70": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-sma-10-70": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-breakout-30-10": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-breakout-30-10": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-breakout-30-10": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-momentum-21-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-momentum-21-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-momentum-21-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-rsi-14-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-rsi-14-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-rsi-14-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-zscore-25-200": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-zscore-25-200": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-zscore-25-200": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-voltrend-10-50": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-voltrend-10-50": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-voltrend-10-50": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-sma-15-90": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-sma-15-90": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-sma-15-90": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-breakout-45-15": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-breakout-45-15": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-breakout-45-15": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-momentum-35-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-momentum-35-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-momentum-35-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-rsi-14-35": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-rsi-14-35": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-rsi-14-35": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-zscore-35-175": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-zscore-35-175": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-zscore-35-175": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-voltrend-15-60": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-voltrend-15-60": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-voltrend-15-60": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-sma-20-120": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-sma-20-120": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-sma-20-120": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-breakout-60-20": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-breakout-60-20": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-breakout-60-20": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-momentum-60-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-momentum-60-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-momentum-60-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-rsi-20-35": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-rsi-20-35": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-rsi-20-35": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-zscore-45-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-zscore-45-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-zscore-45-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-voltrend-20-80": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-voltrend-20-80": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-voltrend-20-80": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-sma-30-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-sma-30-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-sma-30-150": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-breakout-90-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-breakout-90-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-breakout-90-30": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-momentum-100-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "ETH-momentum-100-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "SOL-momentum-100-0": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    },
+    "BTC-rsi-25-40": {
+      "cash": 120.33,
+      "qty": 0.0,
+      "fees": 0.0,
+      "trades": 0,
+      "rejects": 0,
+      "last_action": "Not evaluated",
+      "last_side": null,
+      "events": [],
+      "equity": 120.33,
+      "curve": [
+        120.33
+      ],
+      "peak": 120.33,
+      "max_drawdown": 0.0,
+      "stopped": false,
+      "last_signal": 0
+    }
+  },
+  "shared": {
+    "cash": 120.33,
+    "positions": {},
+    "fees": 0.0,
+    "trades": 0,
+    "rejects": 0,
+    "curve": [
+      120.33
+    ],
+    "equity": 120.33,
+    "peak": 120.33,
+    "max_drawdown": 0.0,
+    "stopped": false,
+    "events": []
+  },
+  "audit": [],
+  "shortlist": [
+    "ETH-voltrend-15-60"
+  ]
+}
