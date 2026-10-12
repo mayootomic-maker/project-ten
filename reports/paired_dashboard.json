@@ -4,7 +4,7 @@
     "paper_only": true,
     "mode": "REAL PUBLIC PRICES / SIMULATED MONEY",
     "started_at": 1791792672,
-    "observed_at": 1791792678,
+    "observed_at": 1791792751,
     "initial_chf_per_duo": 100,
     "research_workers": 50,
     "trading_workers": 50,
@@ -240,7 +240,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-001",
@@ -257,6 +257,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -484,7 +489,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-002",
@@ -501,6 +506,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -728,7 +738,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-003",
@@ -745,6 +755,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -972,7 +987,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-004",
@@ -989,6 +1004,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -1216,7 +1236,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-005",
@@ -1233,6 +1253,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -1460,7 +1485,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-006",
@@ -1477,6 +1502,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -1704,7 +1734,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-007",
@@ -1721,6 +1751,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -1948,7 +1983,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-008",
@@ -1965,6 +2000,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -2192,7 +2232,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-009",
@@ -2209,6 +2249,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -2436,7 +2481,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-010",
@@ -2453,6 +2498,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -2680,7 +2730,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-011",
@@ -2697,6 +2747,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -2924,7 +2979,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-012",
@@ -2941,6 +2996,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -3168,7 +3228,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-013",
@@ -3185,6 +3245,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -3412,7 +3477,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-014",
@@ -3429,6 +3494,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -3656,7 +3726,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-015",
@@ -3673,6 +3743,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -3900,7 +3975,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-016",
@@ -3917,6 +3992,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -4144,7 +4224,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-017",
@@ -4161,6 +4241,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -4388,7 +4473,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-018",
@@ -4405,6 +4490,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -4632,7 +4722,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-019",
@@ -4649,6 +4739,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -4876,7 +4971,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-020",
@@ -4893,6 +4988,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -5120,7 +5220,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-021",
@@ -5137,6 +5237,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -5364,7 +5469,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-022",
@@ -5381,6 +5486,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -5608,7 +5718,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-023",
@@ -5625,6 +5735,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -5852,7 +5967,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-024",
@@ -5869,6 +5984,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -6096,7 +6216,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-025",
@@ -6113,6 +6233,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -6340,7 +6465,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-026",
@@ -6357,6 +6482,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -6584,7 +6714,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-027",
@@ -6601,6 +6731,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -6828,7 +6963,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-028",
@@ -6845,6 +6980,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -7072,7 +7212,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-029",
@@ -7089,6 +7229,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -7316,7 +7461,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-030",
@@ -7333,6 +7478,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -7496,7 +7646,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-031",
@@ -7513,6 +7663,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -7676,7 +7831,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-032",
@@ -7693,6 +7848,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -7856,7 +8016,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-033",
@@ -7873,6 +8033,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -8036,7 +8201,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-034",
@@ -8053,6 +8218,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -8216,7 +8386,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-035",
@@ -8233,6 +8403,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -8396,7 +8571,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-036",
@@ -8413,6 +8588,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -8576,7 +8756,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-037",
@@ -8593,6 +8773,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -8756,7 +8941,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-038",
@@ -8773,6 +8958,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -8936,7 +9126,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-039",
@@ -8953,6 +9143,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9116,7 +9311,7 @@
         "limitations": "No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit."
       },
       "research_at": 1791792672,
-      "last_decision": "OBSERVING: no retrospective entry; wait for a new completed candle",
+      "last_decision": "HOLD: no new completed candle; refreshed price mark",
       "events": [
         {
           "duo": "DUO-040",
@@ -9133,6 +9328,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9163,94 +9363,94 @@
           {
             "instrument": "PF_XBTUSD",
             "pair": "XBT:USD",
-            "bid": 83706.0,
-            "ask": 83707.0,
-            "volume_usd_24h": 291659656.0231,
-            "open_interest": 2469.2475,
+            "bid": 83723.0,
+            "ask": 83724.0,
+            "volume_usd_24h": 291761691.9397,
+            "open_interest": 2469.4398,
             "funding_rate_provider_units": 1.455950675126972,
             "relative_funding_rate_provider_units": 1.7351808333333e-05,
-            "basis_pct": 0.013699092615948594,
-            "change_24h_pct": 0.88,
-            "observed_at": 1791792672,
+            "basis_pct": 0.014671445633851476,
+            "change_24h_pct": 0.9,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ETHUSD",
             "pair": "ETH:USD",
-            "bid": 2557.0,
-            "ask": 2557.1,
-            "volume_usd_24h": 79749574.1286,
-            "open_interest": 32166.449,
+            "bid": 2557.2,
+            "ask": 2557.3,
+            "volume_usd_24h": 79759156.7594,
+            "open_interest": 32167.87,
             "funding_rate_provider_units": 0.0262463327095,
             "relative_funding_rate_provider_units": 1.024715e-05,
-            "basis_pct": 0.00572420624080916,
-            "change_24h_pct": 2.3,
-            "observed_at": 1791792672,
+            "basis_pct": 0.007043906796333488,
+            "change_24h_pct": 2.33,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ZECUSD",
             "pair": "ZEC:USD",
-            "bid": 1313.46,
-            "ask": 1313.47,
-            "volume_usd_24h": 32702712.0192,
-            "open_interest": 12464.21,
+            "bid": 1313.82,
+            "ask": 1313.83,
+            "volume_usd_24h": 32713602.7047,
+            "open_interest": 12457.22,
             "funding_rate_provider_units": -0.02381698545758169,
             "relative_funding_rate_provider_units": -1.8041879166667e-05,
-            "basis_pct": -0.012906007400370623,
-            "change_24h_pct": 7.2,
-            "observed_at": 1791792672,
+            "basis_pct": -0.001882528639385317,
+            "change_24h_pct": 7.36,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_SOLUSD",
             "pair": "SOL:USD",
-            "bid": 112.24,
-            "ask": 112.25,
-            "volume_usd_24h": 32292371.2917,
-            "open_interest": 326954.41,
+            "bid": 112.28,
+            "ask": 112.29,
+            "volume_usd_24h": 32296712.2896,
+            "open_interest": 326951.38,
             "funding_rate_provider_units": 0.002724483998666704,
             "relative_funding_rate_provider_units": 2.4221941666667e-05,
-            "basis_pct": 0.01754950589021309,
-            "change_24h_pct": 2.72,
-            "observed_at": 1791792672,
+            "basis_pct": 0.016690127124530107,
+            "change_24h_pct": 2.75,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_XRPUSD",
             "pair": "XRP:USD",
-            "bid": 1.4095,
-            "ask": 1.4096,
-            "volume_usd_24h": 26656747.7026,
-            "open_interest": 10792674.0,
+            "bid": 1.4097,
+            "ask": 1.4098,
+            "volume_usd_24h": 26657062.341,
+            "open_interest": 10792071.0,
             "funding_rate_provider_units": -1.921716947225e-05,
             "relative_funding_rate_provider_units": -1.3611725e-05,
-            "basis_pct": -0.017841891163417056,
-            "change_24h_pct": 1.24,
-            "observed_at": 1791792672,
+            "basis_pct": -0.019622906410932117,
+            "change_24h_pct": 1.29,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
         "selected": {
           "instrument": "PF_XBTUSD",
           "pair": "XBT:USD",
-          "bid": 83706.0,
-          "ask": 83707.0,
-          "volume_usd_24h": 291659656.0231,
-          "open_interest": 2469.2475,
+          "bid": 83723.0,
+          "ask": 83724.0,
+          "volume_usd_24h": 291761691.9397,
+          "open_interest": 2469.4398,
           "funding_rate_provider_units": 1.455950675126972,
           "relative_funding_rate_provider_units": 1.7351808333333e-05,
-          "basis_pct": 0.013699092615948594,
-          "change_24h_pct": 0.88,
-          "observed_at": 1791792672,
+          "basis_pct": 0.014671445633851476,
+          "change_24h_pct": 0.9,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -9259,6 +9459,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9289,94 +9494,94 @@
           {
             "instrument": "PF_XBTUSD",
             "pair": "XBT:USD",
-            "bid": 83706.0,
-            "ask": 83707.0,
-            "volume_usd_24h": 291659656.0231,
-            "open_interest": 2469.2475,
+            "bid": 83723.0,
+            "ask": 83724.0,
+            "volume_usd_24h": 291761691.9397,
+            "open_interest": 2469.4398,
             "funding_rate_provider_units": 1.455950675126972,
             "relative_funding_rate_provider_units": 1.7351808333333e-05,
-            "basis_pct": 0.013699092615948594,
-            "change_24h_pct": 0.88,
-            "observed_at": 1791792672,
+            "basis_pct": 0.014671445633851476,
+            "change_24h_pct": 0.9,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ETHUSD",
             "pair": "ETH:USD",
-            "bid": 2557.0,
-            "ask": 2557.1,
-            "volume_usd_24h": 79749574.1286,
-            "open_interest": 32166.449,
+            "bid": 2557.2,
+            "ask": 2557.3,
+            "volume_usd_24h": 79759156.7594,
+            "open_interest": 32167.87,
             "funding_rate_provider_units": 0.0262463327095,
             "relative_funding_rate_provider_units": 1.024715e-05,
-            "basis_pct": 0.00572420624080916,
-            "change_24h_pct": 2.3,
-            "observed_at": 1791792672,
+            "basis_pct": 0.007043906796333488,
+            "change_24h_pct": 2.33,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ZECUSD",
             "pair": "ZEC:USD",
-            "bid": 1313.46,
-            "ask": 1313.47,
-            "volume_usd_24h": 32702712.0192,
-            "open_interest": 12464.21,
+            "bid": 1313.82,
+            "ask": 1313.83,
+            "volume_usd_24h": 32713602.7047,
+            "open_interest": 12457.22,
             "funding_rate_provider_units": -0.02381698545758169,
             "relative_funding_rate_provider_units": -1.8041879166667e-05,
-            "basis_pct": -0.012906007400370623,
-            "change_24h_pct": 7.2,
-            "observed_at": 1791792672,
+            "basis_pct": -0.001882528639385317,
+            "change_24h_pct": 7.36,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_SOLUSD",
             "pair": "SOL:USD",
-            "bid": 112.24,
-            "ask": 112.25,
-            "volume_usd_24h": 32292371.2917,
-            "open_interest": 326954.41,
+            "bid": 112.28,
+            "ask": 112.29,
+            "volume_usd_24h": 32296712.2896,
+            "open_interest": 326951.38,
             "funding_rate_provider_units": 0.002724483998666704,
             "relative_funding_rate_provider_units": 2.4221941666667e-05,
-            "basis_pct": 0.01754950589021309,
-            "change_24h_pct": 2.72,
-            "observed_at": 1791792672,
+            "basis_pct": 0.016690127124530107,
+            "change_24h_pct": 2.75,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_XRPUSD",
             "pair": "XRP:USD",
-            "bid": 1.4095,
-            "ask": 1.4096,
-            "volume_usd_24h": 26656747.7026,
-            "open_interest": 10792674.0,
+            "bid": 1.4097,
+            "ask": 1.4098,
+            "volume_usd_24h": 26657062.341,
+            "open_interest": 10792071.0,
             "funding_rate_provider_units": -1.921716947225e-05,
             "relative_funding_rate_provider_units": -1.3611725e-05,
-            "basis_pct": -0.017841891163417056,
-            "change_24h_pct": 1.24,
-            "observed_at": 1791792672,
+            "basis_pct": -0.019622906410932117,
+            "change_24h_pct": 1.29,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
         "selected": {
           "instrument": "PF_XBTUSD",
           "pair": "XBT:USD",
-          "bid": 83706.0,
-          "ask": 83707.0,
-          "volume_usd_24h": 291659656.0231,
-          "open_interest": 2469.2475,
+          "bid": 83723.0,
+          "ask": 83724.0,
+          "volume_usd_24h": 291761691.9397,
+          "open_interest": 2469.4398,
           "funding_rate_provider_units": 1.455950675126972,
           "relative_funding_rate_provider_units": 1.7351808333333e-05,
-          "basis_pct": 0.013699092615948594,
-          "change_24h_pct": 0.88,
-          "observed_at": 1791792672,
+          "basis_pct": 0.014671445633851476,
+          "change_24h_pct": 0.9,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -9385,6 +9590,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9415,94 +9625,94 @@
           {
             "instrument": "PF_FILUSD",
             "pair": "FIL:USD",
-            "bid": 1.244,
-            "ask": 1.2453,
-            "volume_usd_24h": 4554340.90885,
-            "open_interest": 1669320.9,
+            "bid": 1.2405,
+            "ask": 1.2431,
+            "volume_usd_24h": 4548046.81134,
+            "open_interest": 1669052.6,
             "funding_rate_provider_units": 3.9292655888167e-05,
             "relative_funding_rate_provider_units": 3.1716016666667e-05,
-            "basis_pct": 0.07346406802830607,
-            "change_24h_pct": 12.82,
-            "observed_at": 1791792672,
+            "basis_pct": 0.04493053958833926,
+            "change_24h_pct": 12.57,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_NEARUSD",
             "pair": "NEAR:USD",
-            "bid": 5.7945,
-            "ask": 5.8008,
-            "volume_usd_24h": 21338962.1265,
-            "open_interest": 1192478.0,
+            "bid": 5.7925,
+            "ask": 5.7954,
+            "volume_usd_24h": 21326706.8555,
+            "open_interest": 1191680.0,
             "funding_rate_provider_units": -0.000229260767853748,
             "relative_funding_rate_provider_units": -3.9207970833333e-05,
-            "basis_pct": -0.017849600206976124,
-            "change_24h_pct": 10.98,
-            "observed_at": 1791792672,
+            "basis_pct": -0.014166402768422959,
+            "change_24h_pct": 11.05,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ZECUSD",
             "pair": "ZEC:USD",
-            "bid": 1313.46,
-            "ask": 1313.47,
-            "volume_usd_24h": 32702712.0192,
-            "open_interest": 12464.21,
+            "bid": 1313.82,
+            "ask": 1313.83,
+            "volume_usd_24h": 32713602.7047,
+            "open_interest": 12457.22,
             "funding_rate_provider_units": -0.02381698545758169,
             "relative_funding_rate_provider_units": -1.8041879166667e-05,
-            "basis_pct": -0.012906007400370623,
-            "change_24h_pct": 7.2,
-            "observed_at": 1791792672,
+            "basis_pct": -0.001882528639385317,
+            "change_24h_pct": 7.36,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_AVAXUSD",
             "pair": "AVAX:USD",
-            "bid": 11.024,
-            "ask": 11.027,
-            "volume_usd_24h": 2570421.66459,
+            "bid": 11.033,
+            "ask": 11.037,
+            "volume_usd_24h": 2569821.56754,
             "open_interest": 352092.58,
             "funding_rate_provider_units": 3.5846224610837e-05,
             "relative_funding_rate_provider_units": 3.251741666667e-06,
-            "basis_pct": 0.012815030120494342,
-            "change_24h_pct": 6.89,
-            "observed_at": 1791792672,
+            "basis_pct": 0.011151636902595463,
+            "change_24h_pct": 6.86,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_FETUSD",
-            "pair": "FET:USD",
-            "bid": 0.23607,
-            "ask": 0.23636,
-            "volume_usd_24h": 2669536.81851,
-            "open_interest": 7197430.0,
-            "funding_rate_provider_units": -2.06433481875e-07,
-            "relative_funding_rate_provider_units": -8.689375e-07,
-            "basis_pct": 0.024925561904765026,
-            "change_24h_pct": 6.61,
-            "observed_at": 1791792672,
+            "instrument": "PF_ENAUSD",
+            "pair": "ENA:USD",
+            "bid": 0.23574,
+            "ask": 0.23597,
+            "volume_usd_24h": 2155570.95776,
+            "open_interest": 10504336.0,
+            "funding_rate_provider_units": 4.46353618312e-07,
+            "relative_funding_rate_provider_units": 1.8892875e-06,
+            "basis_pct": 0.00666374957070115,
+            "change_24h_pct": 6.78,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
         "selected": {
           "instrument": "PF_FILUSD",
           "pair": "FIL:USD",
-          "bid": 1.244,
-          "ask": 1.2453,
-          "volume_usd_24h": 4554340.90885,
-          "open_interest": 1669320.9,
+          "bid": 1.2405,
+          "ask": 1.2431,
+          "volume_usd_24h": 4548046.81134,
+          "open_interest": 1669052.6,
           "funding_rate_provider_units": 3.9292655888167e-05,
           "relative_funding_rate_provider_units": 3.1716016666667e-05,
-          "basis_pct": 0.07346406802830607,
-          "change_24h_pct": 12.82,
-          "observed_at": 1791792672,
+          "basis_pct": 0.04493053958833926,
+          "change_24h_pct": 12.57,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -9511,6 +9721,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9542,70 +9757,70 @@
             "instrument": "PF_STRKUSD",
             "pair": "STRK:USD",
             "bid": 0.10145,
-            "ask": 0.10163,
-            "volume_usd_24h": 13053141.07958,
-            "open_interest": 7909080.0,
+            "ask": 0.10152,
+            "volume_usd_24h": 13042602.74349,
+            "open_interest": 7912045.0,
             "funding_rate_provider_units": 1.94449057701e-05,
             "relative_funding_rate_provider_units": 0.00019195745,
-            "basis_pct": 0.20579843974988243,
-            "change_24h_pct": -6.15,
-            "observed_at": 1791792672,
+            "basis_pct": 0.17456908556550133,
+            "change_24h_pct": -6.11,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ATOMUSD",
             "pair": "ATOM:USD",
-            "bid": 1.867,
-            "ask": 1.869,
+            "bid": 1.866,
+            "ask": 1.868,
             "volume_usd_24h": 1420918.2608,
             "open_interest": 1663286.8,
             "funding_rate_provider_units": -8.1495478666667e-05,
             "relative_funding_rate_provider_units": -4.3510666666667e-05,
-            "basis_pct": -0.008029885045168772,
+            "basis_pct": -0.05167803689262174,
             "change_24h_pct": -3.41,
-            "observed_at": 1791792672,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_TIAUSD",
             "pair": "TIA:USD",
-            "bid": 0.5971,
-            "ask": 0.5981,
-            "volume_usd_24h": 1306735.34202,
+            "bid": 0.597,
+            "ask": 0.5978,
+            "volume_usd_24h": 1306519.08642,
             "open_interest": 1102744.9,
             "funding_rate_provider_units": 3.39853059e-06,
             "relative_funding_rate_provider_units": 5.6930625e-06,
-            "basis_pct": 0.018121056950048953,
-            "change_24h_pct": -1.86,
-            "observed_at": 1791792672,
+            "basis_pct": 0.02373348956328236,
+            "change_24h_pct": -1.42,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ARBUSD",
             "pair": "ARB:USD",
-            "bid": 0.19405,
-            "ask": 0.19421,
-            "volume_usd_24h": 2449230.7802,
-            "open_interest": 5559795.0,
+            "bid": 0.19415,
+            "ask": 0.19422,
+            "volume_usd_24h": 2449061.35053,
+            "open_interest": 5559787.0,
             "funding_rate_provider_units": 1.018686014667e-06,
             "relative_funding_rate_provider_units": 5.244470833333e-06,
-            "basis_pct": 0.0060335359571617175,
-            "change_24h_pct": -0.02,
-            "observed_at": 1791792672,
+            "basis_pct": 0.0016987946221513894,
+            "change_24h_pct": -0.08,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_AAVEUSD",
-            "pair": "AAVE:USD",
-            "bid": 168.47,
-            "ask": 168.55,
-            "volume_usd_24h": 1328098.6805,
-            "open_interest": 18551.52,
-            "funding_rate_provider_units": -0.00557417359995661,
-            "relative_funding_rate_provider_units": -3.2937358333333e-05,
-            "basis_pct": -0.01809445141442989,
-            "change_24h_pct": 0.86,
-            "observed_at": 1791792672,
+            "instrument": "PF_XBTUSD",
+            "pair": "XBT:USD",
+            "bid": 83723.0,
+            "ask": 83724.0,
+            "volume_usd_24h": 291761691.9397,
+            "open_interest": 2469.4398,
+            "funding_rate_provider_units": 1.455950675126972,
+            "relative_funding_rate_provider_units": 1.7351808333333e-05,
+            "basis_pct": 0.014671445633851476,
+            "change_24h_pct": 0.9,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
@@ -9613,22 +9828,22 @@
           "instrument": "PF_STRKUSD",
           "pair": "STRK:USD",
           "bid": 0.10145,
-          "ask": 0.10163,
-          "volume_usd_24h": 13053141.07958,
-          "open_interest": 7909080.0,
+          "ask": 0.10152,
+          "volume_usd_24h": 13042602.74349,
+          "open_interest": 7912045.0,
           "funding_rate_provider_units": 1.94449057701e-05,
           "relative_funding_rate_provider_units": 0.00019195745,
-          "basis_pct": 0.20579843974988243,
-          "change_24h_pct": -6.15,
-          "observed_at": 1791792672,
+          "basis_pct": 0.17456908556550133,
+          "change_24h_pct": -6.11,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -9637,6 +9852,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9668,70 +9888,70 @@
             "instrument": "PF_STRKUSD",
             "pair": "STRK:USD",
             "bid": 0.10145,
-            "ask": 0.10163,
-            "volume_usd_24h": 13053141.07958,
-            "open_interest": 7909080.0,
+            "ask": 0.10152,
+            "volume_usd_24h": 13042602.74349,
+            "open_interest": 7912045.0,
             "funding_rate_provider_units": 1.94449057701e-05,
             "relative_funding_rate_provider_units": 0.00019195745,
-            "basis_pct": 0.20579843974988243,
-            "change_24h_pct": -6.15,
-            "observed_at": 1791792672,
+            "basis_pct": 0.17456908556550133,
+            "change_24h_pct": -6.11,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ATOMUSD",
             "pair": "ATOM:USD",
-            "bid": 1.867,
-            "ask": 1.869,
+            "bid": 1.866,
+            "ask": 1.868,
             "volume_usd_24h": 1420918.2608,
             "open_interest": 1663286.8,
             "funding_rate_provider_units": -8.1495478666667e-05,
             "relative_funding_rate_provider_units": -4.3510666666667e-05,
-            "basis_pct": -0.008029885045168772,
+            "basis_pct": -0.05167803689262174,
             "change_24h_pct": -3.41,
-            "observed_at": 1791792672,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_TIAUSD",
             "pair": "TIA:USD",
-            "bid": 0.5971,
-            "ask": 0.5981,
-            "volume_usd_24h": 1306735.34202,
+            "bid": 0.597,
+            "ask": 0.5978,
+            "volume_usd_24h": 1306519.08642,
             "open_interest": 1102744.9,
             "funding_rate_provider_units": 3.39853059e-06,
             "relative_funding_rate_provider_units": 5.6930625e-06,
-            "basis_pct": 0.018121056950048953,
-            "change_24h_pct": -1.86,
-            "observed_at": 1791792672,
+            "basis_pct": 0.02373348956328236,
+            "change_24h_pct": -1.42,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ARBUSD",
             "pair": "ARB:USD",
-            "bid": 0.19405,
-            "ask": 0.19421,
-            "volume_usd_24h": 2449230.7802,
-            "open_interest": 5559795.0,
+            "bid": 0.19415,
+            "ask": 0.19422,
+            "volume_usd_24h": 2449061.35053,
+            "open_interest": 5559787.0,
             "funding_rate_provider_units": 1.018686014667e-06,
             "relative_funding_rate_provider_units": 5.244470833333e-06,
-            "basis_pct": 0.0060335359571617175,
-            "change_24h_pct": -0.02,
-            "observed_at": 1791792672,
+            "basis_pct": 0.0016987946221513894,
+            "change_24h_pct": -0.08,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_AAVEUSD",
-            "pair": "AAVE:USD",
-            "bid": 168.47,
-            "ask": 168.55,
-            "volume_usd_24h": 1328098.6805,
-            "open_interest": 18551.52,
-            "funding_rate_provider_units": -0.00557417359995661,
-            "relative_funding_rate_provider_units": -3.2937358333333e-05,
-            "basis_pct": -0.01809445141442989,
-            "change_24h_pct": 0.86,
-            "observed_at": 1791792672,
+            "instrument": "PF_XBTUSD",
+            "pair": "XBT:USD",
+            "bid": 83723.0,
+            "ask": 83724.0,
+            "volume_usd_24h": 291761691.9397,
+            "open_interest": 2469.4398,
+            "funding_rate_provider_units": 1.455950675126972,
+            "relative_funding_rate_provider_units": 1.7351808333333e-05,
+            "basis_pct": 0.014671445633851476,
+            "change_24h_pct": 0.9,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
@@ -9739,22 +9959,22 @@
           "instrument": "PF_STRKUSD",
           "pair": "STRK:USD",
           "bid": 0.10145,
-          "ask": 0.10163,
-          "volume_usd_24h": 13053141.07958,
-          "open_interest": 7909080.0,
+          "ask": 0.10152,
+          "volume_usd_24h": 13042602.74349,
+          "open_interest": 7912045.0,
           "funding_rate_provider_units": 1.94449057701e-05,
           "relative_funding_rate_provider_units": 0.00019195745,
-          "basis_pct": 0.20579843974988243,
-          "change_24h_pct": -6.15,
-          "observed_at": 1791792672,
+          "basis_pct": 0.17456908556550133,
+          "change_24h_pct": -6.11,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -9763,6 +9983,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9793,94 +10018,94 @@
           {
             "instrument": "PF_FILUSD",
             "pair": "FIL:USD",
-            "bid": 1.244,
-            "ask": 1.2453,
-            "volume_usd_24h": 4554340.90885,
-            "open_interest": 1669320.9,
+            "bid": 1.2405,
+            "ask": 1.2431,
+            "volume_usd_24h": 4548046.81134,
+            "open_interest": 1669052.6,
             "funding_rate_provider_units": 3.9292655888167e-05,
             "relative_funding_rate_provider_units": 3.1716016666667e-05,
-            "basis_pct": 0.07346406802830607,
-            "change_24h_pct": 12.82,
-            "observed_at": 1791792672,
+            "basis_pct": 0.04493053958833926,
+            "change_24h_pct": 12.57,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_NEARUSD",
             "pair": "NEAR:USD",
-            "bid": 5.7945,
-            "ask": 5.8008,
-            "volume_usd_24h": 21338962.1265,
-            "open_interest": 1192478.0,
+            "bid": 5.7925,
+            "ask": 5.7954,
+            "volume_usd_24h": 21326706.8555,
+            "open_interest": 1191680.0,
             "funding_rate_provider_units": -0.000229260767853748,
             "relative_funding_rate_provider_units": -3.9207970833333e-05,
-            "basis_pct": -0.017849600206976124,
-            "change_24h_pct": 10.98,
-            "observed_at": 1791792672,
+            "basis_pct": -0.014166402768422959,
+            "change_24h_pct": 11.05,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ZECUSD",
             "pair": "ZEC:USD",
-            "bid": 1313.46,
-            "ask": 1313.47,
-            "volume_usd_24h": 32702712.0192,
-            "open_interest": 12464.21,
+            "bid": 1313.82,
+            "ask": 1313.83,
+            "volume_usd_24h": 32713602.7047,
+            "open_interest": 12457.22,
             "funding_rate_provider_units": -0.02381698545758169,
             "relative_funding_rate_provider_units": -1.8041879166667e-05,
-            "basis_pct": -0.012906007400370623,
-            "change_24h_pct": 7.2,
-            "observed_at": 1791792672,
+            "basis_pct": -0.001882528639385317,
+            "change_24h_pct": 7.36,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_AVAXUSD",
             "pair": "AVAX:USD",
-            "bid": 11.024,
-            "ask": 11.027,
-            "volume_usd_24h": 2570421.66459,
+            "bid": 11.033,
+            "ask": 11.037,
+            "volume_usd_24h": 2569821.56754,
             "open_interest": 352092.58,
             "funding_rate_provider_units": 3.5846224610837e-05,
             "relative_funding_rate_provider_units": 3.251741666667e-06,
-            "basis_pct": 0.012815030120494342,
-            "change_24h_pct": 6.89,
-            "observed_at": 1791792672,
+            "basis_pct": 0.011151636902595463,
+            "change_24h_pct": 6.86,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_FETUSD",
-            "pair": "FET:USD",
-            "bid": 0.23607,
-            "ask": 0.23636,
-            "volume_usd_24h": 2669536.81851,
-            "open_interest": 7197430.0,
-            "funding_rate_provider_units": -2.06433481875e-07,
-            "relative_funding_rate_provider_units": -8.689375e-07,
-            "basis_pct": 0.024925561904765026,
-            "change_24h_pct": 6.61,
-            "observed_at": 1791792672,
+            "instrument": "PF_ENAUSD",
+            "pair": "ENA:USD",
+            "bid": 0.23574,
+            "ask": 0.23597,
+            "volume_usd_24h": 2155570.95776,
+            "open_interest": 10504336.0,
+            "funding_rate_provider_units": 4.46353618312e-07,
+            "relative_funding_rate_provider_units": 1.8892875e-06,
+            "basis_pct": 0.00666374957070115,
+            "change_24h_pct": 6.78,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
         "selected": {
           "instrument": "PF_FILUSD",
           "pair": "FIL:USD",
-          "bid": 1.244,
-          "ask": 1.2453,
-          "volume_usd_24h": 4554340.90885,
-          "open_interest": 1669320.9,
+          "bid": 1.2405,
+          "ask": 1.2431,
+          "volume_usd_24h": 4548046.81134,
+          "open_interest": 1669052.6,
           "funding_rate_provider_units": 3.9292655888167e-05,
           "relative_funding_rate_provider_units": 3.1716016666667e-05,
-          "basis_pct": 0.07346406802830607,
-          "change_24h_pct": 12.82,
-          "observed_at": 1791792672,
+          "basis_pct": 0.04493053958833926,
+          "change_24h_pct": 12.57,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -9889,6 +10114,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -9919,94 +10149,94 @@
           {
             "instrument": "PF_FILUSD",
             "pair": "FIL:USD",
-            "bid": 1.244,
-            "ask": 1.2453,
-            "volume_usd_24h": 4554340.90885,
-            "open_interest": 1669320.9,
+            "bid": 1.2405,
+            "ask": 1.2431,
+            "volume_usd_24h": 4548046.81134,
+            "open_interest": 1669052.6,
             "funding_rate_provider_units": 3.9292655888167e-05,
             "relative_funding_rate_provider_units": 3.1716016666667e-05,
-            "basis_pct": 0.07346406802830607,
-            "change_24h_pct": 12.82,
-            "observed_at": 1791792672,
+            "basis_pct": 0.04493053958833926,
+            "change_24h_pct": 12.57,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_NEARUSD",
             "pair": "NEAR:USD",
-            "bid": 5.7945,
-            "ask": 5.8008,
-            "volume_usd_24h": 21338962.1265,
-            "open_interest": 1192478.0,
+            "bid": 5.7925,
+            "ask": 5.7954,
+            "volume_usd_24h": 21326706.8555,
+            "open_interest": 1191680.0,
             "funding_rate_provider_units": -0.000229260767853748,
             "relative_funding_rate_provider_units": -3.9207970833333e-05,
-            "basis_pct": -0.017849600206976124,
-            "change_24h_pct": 10.98,
-            "observed_at": 1791792672,
+            "basis_pct": -0.014166402768422959,
+            "change_24h_pct": 11.05,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ZECUSD",
             "pair": "ZEC:USD",
-            "bid": 1313.46,
-            "ask": 1313.47,
-            "volume_usd_24h": 32702712.0192,
-            "open_interest": 12464.21,
+            "bid": 1313.82,
+            "ask": 1313.83,
+            "volume_usd_24h": 32713602.7047,
+            "open_interest": 12457.22,
             "funding_rate_provider_units": -0.02381698545758169,
             "relative_funding_rate_provider_units": -1.8041879166667e-05,
-            "basis_pct": -0.012906007400370623,
-            "change_24h_pct": 7.2,
-            "observed_at": 1791792672,
+            "basis_pct": -0.001882528639385317,
+            "change_24h_pct": 7.36,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_AVAXUSD",
             "pair": "AVAX:USD",
-            "bid": 11.024,
-            "ask": 11.027,
-            "volume_usd_24h": 2570421.66459,
+            "bid": 11.033,
+            "ask": 11.037,
+            "volume_usd_24h": 2569821.56754,
             "open_interest": 352092.58,
             "funding_rate_provider_units": 3.5846224610837e-05,
             "relative_funding_rate_provider_units": 3.251741666667e-06,
-            "basis_pct": 0.012815030120494342,
-            "change_24h_pct": 6.89,
-            "observed_at": 1791792672,
+            "basis_pct": 0.011151636902595463,
+            "change_24h_pct": 6.86,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_FETUSD",
-            "pair": "FET:USD",
-            "bid": 0.23607,
-            "ask": 0.23636,
-            "volume_usd_24h": 2669536.81851,
-            "open_interest": 7197430.0,
-            "funding_rate_provider_units": -2.06433481875e-07,
-            "relative_funding_rate_provider_units": -8.689375e-07,
-            "basis_pct": 0.024925561904765026,
-            "change_24h_pct": 6.61,
-            "observed_at": 1791792672,
+            "instrument": "PF_ENAUSD",
+            "pair": "ENA:USD",
+            "bid": 0.23574,
+            "ask": 0.23597,
+            "volume_usd_24h": 2155570.95776,
+            "open_interest": 10504336.0,
+            "funding_rate_provider_units": 4.46353618312e-07,
+            "relative_funding_rate_provider_units": 1.8892875e-06,
+            "basis_pct": 0.00666374957070115,
+            "change_24h_pct": 6.78,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
         "selected": {
           "instrument": "PF_FILUSD",
           "pair": "FIL:USD",
-          "bid": 1.244,
-          "ask": 1.2453,
-          "volume_usd_24h": 4554340.90885,
-          "open_interest": 1669320.9,
+          "bid": 1.2405,
+          "ask": 1.2431,
+          "volume_usd_24h": 4548046.81134,
+          "open_interest": 1669052.6,
           "funding_rate_provider_units": 3.9292655888167e-05,
           "relative_funding_rate_provider_units": 3.1716016666667e-05,
-          "basis_pct": 0.07346406802830607,
-          "change_24h_pct": 12.82,
-          "observed_at": 1791792672,
+          "basis_pct": 0.04493053958833926,
+          "change_24h_pct": 12.57,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -10015,6 +10245,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -10046,70 +10281,70 @@
             "instrument": "PF_STRKUSD",
             "pair": "STRK:USD",
             "bid": 0.10145,
-            "ask": 0.10163,
-            "volume_usd_24h": 13053141.07958,
-            "open_interest": 7909080.0,
+            "ask": 0.10152,
+            "volume_usd_24h": 13042602.74349,
+            "open_interest": 7912045.0,
             "funding_rate_provider_units": 1.94449057701e-05,
             "relative_funding_rate_provider_units": 0.00019195745,
-            "basis_pct": 0.20579843974988243,
-            "change_24h_pct": -6.15,
-            "observed_at": 1791792672,
-            "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
-          },
-          {
-            "instrument": "PF_FILUSD",
-            "pair": "FIL:USD",
-            "bid": 1.244,
-            "ask": 1.2453,
-            "volume_usd_24h": 4554340.90885,
-            "open_interest": 1669320.9,
-            "funding_rate_provider_units": 3.9292655888167e-05,
-            "relative_funding_rate_provider_units": 3.1716016666667e-05,
-            "basis_pct": 0.07346406802830607,
-            "change_24h_pct": 12.82,
-            "observed_at": 1791792672,
+            "basis_pct": 0.17456908556550133,
+            "change_24h_pct": -6.11,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_MUBARAKUSD",
             "pair": "MUBARAK:USD",
-            "bid": 0.075431,
-            "ask": 0.07559,
+            "bid": 0.075417,
+            "ask": 0.075566,
             "volume_usd_24h": 1623932.211597,
             "open_interest": 1617303.0,
             "funding_rate_provider_units": 1.2954852669069e-05,
             "relative_funding_rate_provider_units": 0.000169303979166667,
-            "basis_pct": 0.06623504327272212,
+            "basis_pct": 0.0657314543461629,
             "change_24h_pct": 1.72,
-            "observed_at": 1791792672,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_TAOUSD",
-            "pair": "TAO:USD",
-            "bid": 296.86,
-            "ask": 297.09,
-            "volume_usd_24h": 5858997.9638,
-            "open_interest": 12496.29,
-            "funding_rate_provider_units": -0.014020651254475,
-            "relative_funding_rate_provider_units": -4.70273875e-05,
-            "basis_pct": -0.03852877794795484,
-            "change_24h_pct": 5.32,
-            "observed_at": 1791792672,
+            "instrument": "PF_ATOMUSD",
+            "pair": "ATOM:USD",
+            "bid": 1.866,
+            "ask": 1.868,
+            "volume_usd_24h": 1420918.2608,
+            "open_interest": 1663286.8,
+            "funding_rate_provider_units": -8.1495478666667e-05,
+            "relative_funding_rate_provider_units": -4.3510666666667e-05,
+            "basis_pct": -0.05167803689262174,
+            "change_24h_pct": -3.41,
+            "observed_at": 1791792750,
+            "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
+          },
+          {
+            "instrument": "PF_FILUSD",
+            "pair": "FIL:USD",
+            "bid": 1.2405,
+            "ask": 1.2431,
+            "volume_usd_24h": 4548046.81134,
+            "open_interest": 1669052.6,
+            "funding_rate_provider_units": 3.9292655888167e-05,
+            "relative_funding_rate_provider_units": 3.1716016666667e-05,
+            "basis_pct": 0.04493053958833926,
+            "change_24h_pct": 12.57,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_XMRUSD",
             "pair": "XMR:USD",
-            "bid": 536.18,
-            "ask": 536.8,
-            "volume_usd_24h": 1367661.0929,
+            "bid": 536.15,
+            "ask": 536.63,
+            "volume_usd_24h": 1367581.8149,
             "open_interest": 6096.66,
             "funding_rate_provider_units": 0.0381407397789,
             "relative_funding_rate_provider_units": 7.099095e-05,
-            "basis_pct": 0.028986339761516433,
-            "change_24h_pct": 1.56,
-            "observed_at": 1791792672,
+            "basis_pct": 0.03851376206651658,
+            "change_24h_pct": 1.59,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
@@ -10117,22 +10352,22 @@
           "instrument": "PF_STRKUSD",
           "pair": "STRK:USD",
           "bid": 0.10145,
-          "ask": 0.10163,
-          "volume_usd_24h": 13053141.07958,
-          "open_interest": 7909080.0,
+          "ask": 0.10152,
+          "volume_usd_24h": 13042602.74349,
+          "open_interest": 7912045.0,
           "funding_rate_provider_units": 1.94449057701e-05,
           "relative_funding_rate_provider_units": 0.00019195745,
-          "basis_pct": 0.20579843974988243,
-          "change_24h_pct": -6.15,
-          "observed_at": 1791792672,
+          "basis_pct": 0.17456908556550133,
+          "change_24h_pct": -6.11,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -10141,6 +10376,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -10172,70 +10412,70 @@
             "instrument": "PF_STRKUSD",
             "pair": "STRK:USD",
             "bid": 0.10145,
-            "ask": 0.10163,
-            "volume_usd_24h": 13053141.07958,
-            "open_interest": 7909080.0,
+            "ask": 0.10152,
+            "volume_usd_24h": 13042602.74349,
+            "open_interest": 7912045.0,
             "funding_rate_provider_units": 1.94449057701e-05,
             "relative_funding_rate_provider_units": 0.00019195745,
-            "basis_pct": 0.20579843974988243,
-            "change_24h_pct": -6.15,
-            "observed_at": 1791792672,
-            "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
-          },
-          {
-            "instrument": "PF_FILUSD",
-            "pair": "FIL:USD",
-            "bid": 1.244,
-            "ask": 1.2453,
-            "volume_usd_24h": 4554340.90885,
-            "open_interest": 1669320.9,
-            "funding_rate_provider_units": 3.9292655888167e-05,
-            "relative_funding_rate_provider_units": 3.1716016666667e-05,
-            "basis_pct": 0.07346406802830607,
-            "change_24h_pct": 12.82,
-            "observed_at": 1791792672,
+            "basis_pct": 0.17456908556550133,
+            "change_24h_pct": -6.11,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_MUBARAKUSD",
             "pair": "MUBARAK:USD",
-            "bid": 0.075431,
-            "ask": 0.07559,
+            "bid": 0.075417,
+            "ask": 0.075566,
             "volume_usd_24h": 1623932.211597,
             "open_interest": 1617303.0,
             "funding_rate_provider_units": 1.2954852669069e-05,
             "relative_funding_rate_provider_units": 0.000169303979166667,
-            "basis_pct": 0.06623504327272212,
+            "basis_pct": 0.0657314543461629,
             "change_24h_pct": 1.72,
-            "observed_at": 1791792672,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_TAOUSD",
-            "pair": "TAO:USD",
-            "bid": 296.86,
-            "ask": 297.09,
-            "volume_usd_24h": 5858997.9638,
-            "open_interest": 12496.29,
-            "funding_rate_provider_units": -0.014020651254475,
-            "relative_funding_rate_provider_units": -4.70273875e-05,
-            "basis_pct": -0.03852877794795484,
-            "change_24h_pct": 5.32,
-            "observed_at": 1791792672,
+            "instrument": "PF_ATOMUSD",
+            "pair": "ATOM:USD",
+            "bid": 1.866,
+            "ask": 1.868,
+            "volume_usd_24h": 1420918.2608,
+            "open_interest": 1663286.8,
+            "funding_rate_provider_units": -8.1495478666667e-05,
+            "relative_funding_rate_provider_units": -4.3510666666667e-05,
+            "basis_pct": -0.05167803689262174,
+            "change_24h_pct": -3.41,
+            "observed_at": 1791792750,
+            "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
+          },
+          {
+            "instrument": "PF_FILUSD",
+            "pair": "FIL:USD",
+            "bid": 1.2405,
+            "ask": 1.2431,
+            "volume_usd_24h": 4548046.81134,
+            "open_interest": 1669052.6,
+            "funding_rate_provider_units": 3.9292655888167e-05,
+            "relative_funding_rate_provider_units": 3.1716016666667e-05,
+            "basis_pct": 0.04493053958833926,
+            "change_24h_pct": 12.57,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_XMRUSD",
             "pair": "XMR:USD",
-            "bid": 536.18,
-            "ask": 536.8,
-            "volume_usd_24h": 1367661.0929,
+            "bid": 536.15,
+            "ask": 536.63,
+            "volume_usd_24h": 1367581.8149,
             "open_interest": 6096.66,
             "funding_rate_provider_units": 0.0381407397789,
             "relative_funding_rate_provider_units": 7.099095e-05,
-            "basis_pct": 0.028986339761516433,
-            "change_24h_pct": 1.56,
-            "observed_at": 1791792672,
+            "basis_pct": 0.03851376206651658,
+            "change_24h_pct": 1.59,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
@@ -10243,22 +10483,22 @@
           "instrument": "PF_STRKUSD",
           "pair": "STRK:USD",
           "bid": 0.10145,
-          "ask": 0.10163,
-          "volume_usd_24h": 13053141.07958,
-          "open_interest": 7909080.0,
+          "ask": 0.10152,
+          "volume_usd_24h": 13042602.74349,
+          "open_interest": 7912045.0,
           "funding_rate_provider_units": 1.94449057701e-05,
           "relative_funding_rate_provider_units": 0.00019195745,
-          "basis_pct": 0.20579843974988243,
-          "change_24h_pct": -6.15,
-          "observed_at": 1791792672,
+          "basis_pct": 0.17456908556550133,
+          "change_24h_pct": -6.11,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -10267,6 +10507,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -10298,70 +10543,70 @@
             "instrument": "PF_STRKUSD",
             "pair": "STRK:USD",
             "bid": 0.10145,
-            "ask": 0.10163,
-            "volume_usd_24h": 13053141.07958,
-            "open_interest": 7909080.0,
+            "ask": 0.10152,
+            "volume_usd_24h": 13042602.74349,
+            "open_interest": 7912045.0,
             "funding_rate_provider_units": 1.94449057701e-05,
             "relative_funding_rate_provider_units": 0.00019195745,
-            "basis_pct": 0.20579843974988243,
-            "change_24h_pct": -6.15,
-            "observed_at": 1791792672,
+            "basis_pct": 0.17456908556550133,
+            "change_24h_pct": -6.11,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ATOMUSD",
             "pair": "ATOM:USD",
-            "bid": 1.867,
-            "ask": 1.869,
+            "bid": 1.866,
+            "ask": 1.868,
             "volume_usd_24h": 1420918.2608,
             "open_interest": 1663286.8,
             "funding_rate_provider_units": -8.1495478666667e-05,
             "relative_funding_rate_provider_units": -4.3510666666667e-05,
-            "basis_pct": -0.008029885045168772,
+            "basis_pct": -0.05167803689262174,
             "change_24h_pct": -3.41,
-            "observed_at": 1791792672,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_TIAUSD",
             "pair": "TIA:USD",
-            "bid": 0.5971,
-            "ask": 0.5981,
-            "volume_usd_24h": 1306735.34202,
+            "bid": 0.597,
+            "ask": 0.5978,
+            "volume_usd_24h": 1306519.08642,
             "open_interest": 1102744.9,
             "funding_rate_provider_units": 3.39853059e-06,
             "relative_funding_rate_provider_units": 5.6930625e-06,
-            "basis_pct": 0.018121056950048953,
-            "change_24h_pct": -1.86,
-            "observed_at": 1791792672,
+            "basis_pct": 0.02373348956328236,
+            "change_24h_pct": -1.42,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
             "instrument": "PF_ARBUSD",
             "pair": "ARB:USD",
-            "bid": 0.19405,
-            "ask": 0.19421,
-            "volume_usd_24h": 2449230.7802,
-            "open_interest": 5559795.0,
+            "bid": 0.19415,
+            "ask": 0.19422,
+            "volume_usd_24h": 2449061.35053,
+            "open_interest": 5559787.0,
             "funding_rate_provider_units": 1.018686014667e-06,
             "relative_funding_rate_provider_units": 5.244470833333e-06,
-            "basis_pct": 0.0060335359571617175,
-            "change_24h_pct": -0.02,
-            "observed_at": 1791792672,
+            "basis_pct": 0.0016987946221513894,
+            "change_24h_pct": -0.08,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           },
           {
-            "instrument": "PF_AAVEUSD",
-            "pair": "AAVE:USD",
-            "bid": 168.47,
-            "ask": 168.55,
-            "volume_usd_24h": 1328098.6805,
-            "open_interest": 18551.52,
-            "funding_rate_provider_units": -0.00557417359995661,
-            "relative_funding_rate_provider_units": -3.2937358333333e-05,
-            "basis_pct": -0.01809445141442989,
-            "change_24h_pct": 0.86,
-            "observed_at": 1791792672,
+            "instrument": "PF_XBTUSD",
+            "pair": "XBT:USD",
+            "bid": 83723.0,
+            "ask": 83724.0,
+            "volume_usd_24h": 291761691.9397,
+            "open_interest": 2469.4398,
+            "funding_rate_provider_units": 1.455950675126972,
+            "relative_funding_rate_provider_units": 1.7351808333333e-05,
+            "basis_pct": 0.014671445633851476,
+            "change_24h_pct": 0.9,
+            "observed_at": 1791792750,
             "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
           }
         ],
@@ -10369,22 +10614,22 @@
           "instrument": "PF_STRKUSD",
           "pair": "STRK:USD",
           "bid": 0.10145,
-          "ask": 0.10163,
-          "volume_usd_24h": 13053141.07958,
-          "open_interest": 7909080.0,
+          "ask": 0.10152,
+          "volume_usd_24h": 13042602.74349,
+          "open_interest": 7912045.0,
           "funding_rate_provider_units": 1.94449057701e-05,
           "relative_funding_rate_provider_units": 0.00019195745,
-          "basis_pct": 0.20579843974988243,
-          "change_24h_pct": -6.15,
-          "observed_at": 1791792672,
+          "basis_pct": 0.17456908556550133,
+          "change_24h_pct": -6.11,
+          "observed_at": 1791792750,
           "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
         },
         "qualified": false,
-        "observed_at": 1791792672,
+        "observed_at": 1791792750,
         "reason": "Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
         "limitations": "Ticker statistics are not an entry strategy. No futures returns or fills are simulated."
       },
-      "research_at": 1791792672,
+      "research_at": 1791792750,
       "last_decision": "BLOCKED: Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.",
       "events": [],
       "orders": 0,
@@ -10393,6 +10638,11 @@
       "curve": [
         {
           "t": 1791792678,
+          "equity_chf": 100.0,
+          "liquidation_chf": 100.0
+        },
+        {
+          "t": 1791792751,
           "equity_chf": 100.0,
           "liquidation_chf": 100.0
         }
@@ -10418,11 +10668,11 @@
       "interval": 60,
       "asset": "ADA",
       "sector": "alts",
-      "bid": 0.252435,
-      "ask": 0.252517,
-      "quote_at": 1791792677,
-      "spread_pct": 0.03247833457436389,
-      "volume_usd_24h": 8938358.360717991,
+      "bid": 0.252311,
+      "ask": 0.252383,
+      "quote_at": 1791792750,
+      "spread_pct": 0.02853214026717833,
+      "volume_usd_24h": 8938387.047591798,
       "qty_step": 1e-08,
       "min_qty": 20.0,
       "min_cost": 0.5,
@@ -10435,11 +10685,11 @@
       "interval": 60,
       "asset": "ATOM",
       "sector": "alts",
-      "bid": 1.8664,
-      "ask": 1.8672,
-      "quote_at": 1791792677,
-      "spread_pct": 0.042854081851291616,
-      "volume_usd_24h": 1484825.7499043276,
+      "bid": 1.8648,
+      "ask": 1.8659,
+      "quote_at": 1791792750,
+      "spread_pct": 0.05897016645669065,
+      "volume_usd_24h": 1484871.3047226563,
       "qty_step": 1e-08,
       "min_qty": 3.0,
       "min_cost": 0.5,
@@ -10452,11 +10702,11 @@
       "interval": 60,
       "asset": "AVAX",
       "sector": "alts",
-      "bid": 11.019,
-      "ask": 11.021,
-      "quote_at": 1791792677,
-      "spread_pct": 0.018148820326684828,
-      "volume_usd_24h": 8625206.686915677,
+      "bid": 11.028,
+      "ask": 11.029,
+      "quote_at": 1791792750,
+      "spread_pct": 0.009067416239737459,
+      "volume_usd_24h": 8625531.4534911,
       "qty_step": 1e-08,
       "min_qty": 0.5,
       "min_cost": 0.5,
@@ -10469,11 +10719,11 @@
       "interval": 60,
       "asset": "BCH",
       "sector": "majors",
-      "bid": 286.03,
-      "ask": 286.13,
-      "quote_at": 1791792677,
-      "spread_pct": 0.034955257270701465,
-      "volume_usd_24h": 913009.9461878004,
+      "bid": 285.94,
+      "ask": 286.04,
+      "quote_at": 1791792750,
+      "spread_pct": 0.03496625756146115,
+      "volume_usd_24h": 913522.2401923914,
       "qty_step": 1e-08,
       "min_qty": 0.01,
       "min_cost": 0.5,
@@ -10486,10 +10736,10 @@
       "interval": 60,
       "asset": "BONK",
       "sector": "memes",
-      "bid": 3.456e-06,
-      "ask": 3.457e-06,
-      "quote_at": 1791792677,
-      "spread_pct": 0.02893099956603718,
+      "bid": 3.457e-06,
+      "ask": 3.458e-06,
+      "quote_at": 1791792750,
+      "spread_pct": 0.028922631959510486,
       "volume_usd_24h": 528563.1227183222,
       "qty_step": 1e-05,
       "min_qty": 1300000.0,
@@ -10503,11 +10753,11 @@
       "interval": 60,
       "asset": "DOT",
       "sector": "alts",
-      "bid": 1.2617,
-      "ask": 1.2622,
-      "quote_at": 1791792677,
-      "spread_pct": 0.03962122112603074,
-      "volume_usd_24h": 987429.9789559447,
+      "bid": 1.2641,
+      "ask": 1.2645,
+      "quote_at": 1791792750,
+      "spread_pct": 0.03163806058688254,
+      "volume_usd_24h": 987481.1811163214,
       "qty_step": 1e-08,
       "min_qty": 3.9,
       "min_cost": 0.5,
@@ -10520,10 +10770,10 @@
       "interval": 60,
       "asset": "FARTCOIN",
       "sector": "memes",
-      "bid": 0.1676,
-      "ask": 0.1677,
-      "quote_at": 1791792677,
-      "spread_pct": 0.05964807634953116,
+      "bid": 0.1677,
+      "ask": 0.1678,
+      "quote_at": 1791792750,
+      "spread_pct": 0.05961251862892205,
       "volume_usd_24h": 1157743.4824499507,
       "qty_step": 1e-05,
       "min_qty": 30.0,
@@ -10538,10 +10788,10 @@
       "asset": "FLOKI",
       "sector": "memes",
       "bid": 2.739e-05,
-      "ask": 2.743e-05,
-      "quote_at": 1791792677,
-      "spread_pct": 0.14593214155417591,
-      "volume_usd_24h": 31605.543801237705,
+      "ask": 2.744e-05,
+      "quote_at": 1791792751,
+      "spread_pct": 0.18238190771475912,
+      "volume_usd_24h": 27161.191387925403,
       "qty_step": 1e-08,
       "min_qty": 180000.0,
       "min_cost": 0.5,
@@ -10554,11 +10804,11 @@
       "interval": 60,
       "asset": "LINK",
       "sector": "alts",
-      "bid": 13.38505,
-      "ask": 13.3852,
-      "quote_at": 1791792677,
-      "spread_pct": 0.0011206469868578024,
-      "volume_usd_24h": 4126341.223340162,
+      "bid": 13.38236,
+      "ask": 13.38237,
+      "quote_at": 1791792751,
+      "spread_pct": 7.472520738764353e-05,
+      "volume_usd_24h": 4126248.0374100655,
       "qty_step": 1e-08,
       "min_qty": 0.55,
       "min_cost": 0.5,
@@ -10571,11 +10821,11 @@
       "interval": 60,
       "asset": "NEAR",
       "sector": "alts",
-      "bid": 5.7952,
-      "ask": 5.7981,
-      "quote_at": 1791792677,
-      "spread_pct": 0.050028896000266686,
-      "volume_usd_24h": 37967660.006122425,
+      "bid": 5.791,
+      "ask": 5.7936,
+      "quote_at": 1791792751,
+      "spread_pct": 0.0448871778050044,
+      "volume_usd_24h": 37942088.58319286,
       "qty_step": 1e-08,
       "min_qty": 4.0,
       "min_cost": 0.5,
@@ -10588,11 +10838,11 @@
       "interval": 60,
       "asset": "PEPE",
       "sector": "memes",
-      "bid": 4.25e-06,
-      "ask": 4.251e-06,
-      "quote_at": 1791792678,
-      "spread_pct": 0.023526643924236014,
-      "volume_usd_24h": 1148578.1430799896,
+      "bid": 4.251e-06,
+      "ask": 4.252e-06,
+      "quote_at": 1791792751,
+      "spread_pct": 0.023521110196413,
+      "volume_usd_24h": 1146882.260986716,
       "qty_step": 1e-05,
       "min_qty": 1500000.0,
       "min_cost": 0.5,
@@ -10605,11 +10855,11 @@
       "interval": 60,
       "asset": "SHIB",
       "sector": "memes",
-      "bid": 5.488e-06,
-      "ask": 5.49e-06,
-      "quote_at": 1791792678,
-      "spread_pct": 0.036436509382403906,
-      "volume_usd_24h": 264488.63634432125,
+      "bid": 5.49e-06,
+      "ask": 5.491e-06,
+      "quote_at": 1791792751,
+      "spread_pct": 0.018213277479276053,
+      "volume_usd_24h": 264354.1238448252,
       "qty_step": 1e-05,
       "min_qty": 770000.0,
       "min_cost": 0.5,
@@ -10622,11 +10872,11 @@
       "interval": 60,
       "asset": "SOL",
       "sector": "majors",
-      "bid": 112.2,
-      "ask": 112.21,
-      "quote_at": 1791792678,
-      "spread_pct": 0.008912258811987794,
-      "volume_usd_24h": 23699020.926563952,
+      "bid": 112.25,
+      "ask": 112.26,
+      "quote_at": 1791792751,
+      "spread_pct": 0.008908289163070791,
+      "volume_usd_24h": 23702661.32274003,
       "qty_step": 1e-08,
       "min_qty": 0.06,
       "min_cost": 0.5,
@@ -10639,11 +10889,11 @@
       "interval": 60,
       "asset": "TRUMP",
       "sector": "memes",
-      "bid": 1.937,
-      "ask": 1.938,
-      "quote_at": 1791792678,
-      "spread_pct": 0.05161290322580077,
-      "volume_usd_24h": 327376.0919160946,
+      "bid": 1.936,
+      "ask": 1.937,
+      "quote_at": 1791792751,
+      "spread_pct": 0.05163955589982504,
+      "volume_usd_24h": 327325.828172622,
       "qty_step": 1e-05,
       "min_qty": 2.5,
       "min_cost": 0.5,
@@ -10656,11 +10906,11 @@
       "interval": 60,
       "asset": "WIF",
       "sector": "memes",
-      "bid": 0.2212,
-      "ask": 0.2213,
-      "quote_at": 1791792678,
-      "spread_pct": 0.045197740112989375,
-      "volume_usd_24h": 239127.76693358467,
+      "bid": 0.2213,
+      "ask": 0.2214,
+      "quote_at": 1791792751,
+      "spread_pct": 0.04517732098487316,
+      "volume_usd_24h": 239344.46903453223,
       "qty_step": 1e-05,
       "min_qty": 20.0,
       "min_cost": 0.5,
@@ -10673,11 +10923,11 @@
       "interval": 60,
       "asset": "DOGE",
       "sector": "memes",
-      "bid": 0.0875021,
-      "ask": 0.0875067,
-      "quote_at": 1791792678,
-      "spread_pct": 0.005256878511260435,
-      "volume_usd_24h": 2361982.1285631326,
+      "bid": 0.0875338,
+      "ask": 0.0875348,
+      "quote_at": 1791792751,
+      "spread_pct": 0.0011424093184054709,
+      "volume_usd_24h": 2363042.475649402,
       "qty_step": 1e-08,
       "min_qty": 50.0,
       "min_cost": 0.5,
@@ -10690,11 +10940,11 @@
       "interval": 60,
       "asset": "ETH",
       "sector": "majors",
-      "bid": 2557.21,
-      "ask": 2557.22,
-      "quote_at": 1791792678,
-      "spread_pct": 0.00039105042007666664,
-      "volume_usd_24h": 57407701.34865159,
+      "bid": 2557.12,
+      "ask": 2557.13,
+      "quote_at": 1791792751,
+      "spread_pct": 0.0003910641834176381,
+      "volume_usd_24h": 57438456.901765265,
       "qty_step": 1e-08,
       "min_qty": 0.001,
       "min_cost": 0.5,
@@ -10707,11 +10957,11 @@
       "interval": 60,
       "asset": "LTC",
       "sector": "majors",
-      "bid": 65.51,
-      "ask": 65.52,
-      "quote_at": 1791792678,
-      "spread_pct": 0.015263680073251781,
-      "volume_usd_24h": 4053872.5235078116,
+      "bid": 65.53,
+      "ask": 65.54,
+      "quote_at": 1791792751,
+      "spread_pct": 0.01525902189670423,
+      "volume_usd_24h": 4055483.655836897,
       "qty_step": 1e-08,
       "min_qty": 0.1,
       "min_cost": 0.5,
@@ -10724,11 +10974,11 @@
       "interval": 60,
       "asset": "BTC",
       "sector": "majors",
-      "bid": 83700.1,
-      "ask": 83700.2,
-      "quote_at": 1791792678,
-      "spread_pct": 0.00011947409890098029,
-      "volume_usd_24h": 128573722.455166,
+      "bid": 83713.0,
+      "ask": 83713.1,
+      "quote_at": 1791792751,
+      "spread_pct": 0.00011945568821805054,
+      "volume_usd_24h": 128633221.23571242,
       "qty_step": 1e-08,
       "min_qty": 5e-05,
       "min_cost": 0.5,
@@ -10741,11 +10991,11 @@
       "interval": 60,
       "asset": "XRP",
       "sector": "majors",
-      "bid": 1.40899,
-      "ask": 1.40901,
-      "quote_at": 1791792678,
-      "spread_pct": 0.001419446415907099,
-      "volume_usd_24h": 17555162.49703181,
+      "bid": 1.40924,
+      "ask": 1.40925,
+      "quote_at": 1791792751,
+      "spread_pct": 0.0007095998211697376,
+      "volume_usd_24h": 17559312.935537525,
       "qty_step": 1e-08,
       "min_qty": 1.65,
       "min_cost": 0.5,
@@ -10758,11 +11008,11 @@
       "interval": 240,
       "asset": "BCH",
       "sector": "swing",
-      "bid": 286.03,
-      "ask": 286.13,
-      "quote_at": 1791792677,
-      "spread_pct": 0.034955257270701465,
-      "volume_usd_24h": 913009.9461878004,
+      "bid": 285.94,
+      "ask": 286.04,
+      "quote_at": 1791792750,
+      "spread_pct": 0.03496625756146115,
+      "volume_usd_24h": 913522.2401923914,
       "qty_step": 1e-08,
       "min_qty": 0.01,
       "min_cost": 0.5,
@@ -10775,11 +11025,11 @@
       "interval": 240,
       "asset": "SOL",
       "sector": "swing",
-      "bid": 112.2,
-      "ask": 112.21,
-      "quote_at": 1791792678,
-      "spread_pct": 0.008912258811987794,
-      "volume_usd_24h": 23699020.926563952,
+      "bid": 112.25,
+      "ask": 112.26,
+      "quote_at": 1791792751,
+      "spread_pct": 0.008908289163070791,
+      "volume_usd_24h": 23702661.32274003,
       "qty_step": 1e-08,
       "min_qty": 0.06,
       "min_cost": 0.5,
@@ -10792,11 +11042,11 @@
       "interval": 240,
       "asset": "ETH",
       "sector": "swing",
-      "bid": 2557.21,
-      "ask": 2557.22,
-      "quote_at": 1791792678,
-      "spread_pct": 0.00039105042007666664,
-      "volume_usd_24h": 57407701.34865159,
+      "bid": 2557.12,
+      "ask": 2557.13,
+      "quote_at": 1791792751,
+      "spread_pct": 0.0003910641834176381,
+      "volume_usd_24h": 57438456.901765265,
       "qty_step": 1e-08,
       "min_qty": 0.001,
       "min_cost": 0.5,
@@ -10809,11 +11059,11 @@
       "interval": 240,
       "asset": "LTC",
       "sector": "swing",
-      "bid": 65.51,
-      "ask": 65.52,
-      "quote_at": 1791792678,
-      "spread_pct": 0.015263680073251781,
-      "volume_usd_24h": 4053872.5235078116,
+      "bid": 65.53,
+      "ask": 65.54,
+      "quote_at": 1791792751,
+      "spread_pct": 0.01525902189670423,
+      "volume_usd_24h": 4055483.655836897,
       "qty_step": 1e-08,
       "min_qty": 0.1,
       "min_cost": 0.5,
@@ -10826,11 +11076,11 @@
       "interval": 240,
       "asset": "BTC",
       "sector": "swing",
-      "bid": 83700.1,
-      "ask": 83700.2,
-      "quote_at": 1791792678,
-      "spread_pct": 0.00011947409890098029,
-      "volume_usd_24h": 128573722.455166,
+      "bid": 83713.0,
+      "ask": 83713.1,
+      "quote_at": 1791792751,
+      "spread_pct": 0.00011945568821805054,
+      "volume_usd_24h": 128633221.23571242,
       "qty_step": 1e-08,
       "min_qty": 5e-05,
       "min_cost": 0.5,
@@ -10843,11 +11093,11 @@
       "interval": 240,
       "asset": "XRP",
       "sector": "swing",
-      "bid": 1.40899,
-      "ask": 1.40901,
-      "quote_at": 1791792678,
-      "spread_pct": 0.001419446415907099,
-      "volume_usd_24h": 17555162.49703181,
+      "bid": 1.40924,
+      "ask": 1.40925,
+      "quote_at": 1791792751,
+      "spread_pct": 0.0007095998211697376,
+      "volume_usd_24h": 17559312.935537525,
       "qty_step": 1e-08,
       "min_qty": 1.65,
       "min_cost": 0.5,
@@ -10859,421 +11109,421 @@
     {
       "instrument": "PF_XBTUSD",
       "pair": "XBT:USD",
-      "bid": 83706.0,
-      "ask": 83707.0,
-      "volume_usd_24h": 291659656.0231,
-      "open_interest": 2469.2475,
+      "bid": 83723.0,
+      "ask": 83724.0,
+      "volume_usd_24h": 291761691.9397,
+      "open_interest": 2469.4398,
       "funding_rate_provider_units": 1.455950675126972,
       "relative_funding_rate_provider_units": 1.7351808333333e-05,
-      "basis_pct": 0.013699092615948594,
-      "change_24h_pct": 0.88,
-      "observed_at": 1791792672,
+      "basis_pct": 0.014671445633851476,
+      "change_24h_pct": 0.9,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ETHUSD",
       "pair": "ETH:USD",
-      "bid": 2557.0,
-      "ask": 2557.1,
-      "volume_usd_24h": 79749574.1286,
-      "open_interest": 32166.449,
+      "bid": 2557.2,
+      "ask": 2557.3,
+      "volume_usd_24h": 79759156.7594,
+      "open_interest": 32167.87,
       "funding_rate_provider_units": 0.0262463327095,
       "relative_funding_rate_provider_units": 1.024715e-05,
-      "basis_pct": 0.00572420624080916,
-      "change_24h_pct": 2.3,
-      "observed_at": 1791792672,
+      "basis_pct": 0.007043906796333488,
+      "change_24h_pct": 2.33,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ZECUSD",
       "pair": "ZEC:USD",
-      "bid": 1313.46,
-      "ask": 1313.47,
-      "volume_usd_24h": 32702712.0192,
-      "open_interest": 12464.21,
+      "bid": 1313.82,
+      "ask": 1313.83,
+      "volume_usd_24h": 32713602.7047,
+      "open_interest": 12457.22,
       "funding_rate_provider_units": -0.02381698545758169,
       "relative_funding_rate_provider_units": -1.8041879166667e-05,
-      "basis_pct": -0.012906007400370623,
-      "change_24h_pct": 7.2,
-      "observed_at": 1791792672,
+      "basis_pct": -0.001882528639385317,
+      "change_24h_pct": 7.36,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_SOLUSD",
       "pair": "SOL:USD",
-      "bid": 112.24,
-      "ask": 112.25,
-      "volume_usd_24h": 32292371.2917,
-      "open_interest": 326954.41,
+      "bid": 112.28,
+      "ask": 112.29,
+      "volume_usd_24h": 32296712.2896,
+      "open_interest": 326951.38,
       "funding_rate_provider_units": 0.002724483998666704,
       "relative_funding_rate_provider_units": 2.4221941666667e-05,
-      "basis_pct": 0.01754950589021309,
-      "change_24h_pct": 2.72,
-      "observed_at": 1791792672,
+      "basis_pct": 0.016690127124530107,
+      "change_24h_pct": 2.75,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_XRPUSD",
       "pair": "XRP:USD",
-      "bid": 1.4095,
-      "ask": 1.4096,
-      "volume_usd_24h": 26656747.7026,
-      "open_interest": 10792674.0,
+      "bid": 1.4097,
+      "ask": 1.4098,
+      "volume_usd_24h": 26657062.341,
+      "open_interest": 10792071.0,
       "funding_rate_provider_units": -1.921716947225e-05,
       "relative_funding_rate_provider_units": -1.3611725e-05,
-      "basis_pct": -0.017841891163417056,
-      "change_24h_pct": 1.24,
-      "observed_at": 1791792672,
+      "basis_pct": -0.019622906410932117,
+      "change_24h_pct": 1.29,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_NEARUSD",
       "pair": "NEAR:USD",
-      "bid": 5.7945,
-      "ask": 5.8008,
-      "volume_usd_24h": 21338962.1265,
-      "open_interest": 1192478.0,
+      "bid": 5.7925,
+      "ask": 5.7954,
+      "volume_usd_24h": 21326706.8555,
+      "open_interest": 1191680.0,
       "funding_rate_provider_units": -0.000229260767853748,
       "relative_funding_rate_provider_units": -3.9207970833333e-05,
-      "basis_pct": -0.017849600206976124,
-      "change_24h_pct": 10.98,
-      "observed_at": 1791792672,
+      "basis_pct": -0.014166402768422959,
+      "change_24h_pct": 11.05,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_DOGEUSD",
       "pair": "DOGE:USD",
-      "bid": 0.08755,
-      "ask": 0.08756,
-      "volume_usd_24h": 19141957.34608,
-      "open_interest": 59906380.0,
+      "bid": 0.08757,
+      "ask": 0.08758,
+      "volume_usd_24h": 19145898.35779,
+      "open_interest": 59908644.0,
       "funding_rate_provider_units": 3.230405945212e-06,
       "relative_funding_rate_provider_units": 3.68141625e-05,
-      "basis_pct": 0.011047173582801051,
-      "change_24h_pct": 2.72,
-      "observed_at": 1791792672,
+      "basis_pct": 0.009093863846598715,
+      "change_24h_pct": 2.78,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_STRKUSD",
       "pair": "STRK:USD",
       "bid": 0.10145,
-      "ask": 0.10163,
-      "volume_usd_24h": 13053141.07958,
-      "open_interest": 7909080.0,
+      "ask": 0.10152,
+      "volume_usd_24h": 13042602.74349,
+      "open_interest": 7912045.0,
       "funding_rate_provider_units": 1.94449057701e-05,
       "relative_funding_rate_provider_units": 0.00019195745,
-      "basis_pct": 0.20579843974988243,
-      "change_24h_pct": -6.15,
-      "observed_at": 1791792672,
+      "basis_pct": 0.17456908556550133,
+      "change_24h_pct": -6.11,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_HYPEUSD",
       "pair": "HYPE:USD",
-      "bid": 87.45,
-      "ask": 87.475,
-      "volume_usd_24h": 9713821.2184,
-      "open_interest": 276042.8,
+      "bid": 87.42,
+      "ask": 87.421,
+      "volume_usd_24h": 9715307.424,
+      "open_interest": 276043.6,
       "funding_rate_provider_units": 0.00180402111058,
       "relative_funding_rate_provider_units": 2.05582e-05,
-      "basis_pct": 0.0005467479730514313,
-      "change_24h_pct": 3.14,
-      "observed_at": 1791792672,
+      "basis_pct": -0.002008782896734118,
+      "change_24h_pct": 3.11,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_TAOUSD",
       "pair": "TAO:USD",
-      "bid": 296.86,
-      "ask": 297.09,
-      "volume_usd_24h": 5858997.9638,
-      "open_interest": 12496.29,
+      "bid": 296.85,
+      "ask": 297.04,
+      "volume_usd_24h": 5867492.5376,
+      "open_interest": 12473.51,
       "funding_rate_provider_units": -0.014020651254475,
       "relative_funding_rate_provider_units": -4.70273875e-05,
-      "basis_pct": -0.03852877794795484,
-      "change_24h_pct": 5.32,
-      "observed_at": 1791792672,
+      "basis_pct": -0.030582703983617066,
+      "change_24h_pct": 5.26,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_SUIUSD",
       "pair": "SUI:USD",
-      "bid": 1.1236,
-      "ask": 1.1237,
-      "volume_usd_24h": 5228850.1524,
-      "open_interest": 6580420.0,
+      "bid": 1.1235,
+      "ask": 1.1236,
+      "volume_usd_24h": 5225793.9923,
+      "open_interest": 6580436.0,
       "funding_rate_provider_units": 2.3336487305862e-05,
       "relative_funding_rate_provider_units": 2.06787875e-05,
-      "basis_pct": -0.0012519502015528872,
-      "change_24h_pct": 2.44,
-      "observed_at": 1791792672,
+      "basis_pct": -0.015142299171211349,
+      "change_24h_pct": 2.63,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_FILUSD",
       "pair": "FIL:USD",
-      "bid": 1.244,
-      "ask": 1.2453,
-      "volume_usd_24h": 4554340.90885,
-      "open_interest": 1669320.9,
+      "bid": 1.2405,
+      "ask": 1.2431,
+      "volume_usd_24h": 4548046.81134,
+      "open_interest": 1669052.6,
       "funding_rate_provider_units": 3.9292655888167e-05,
       "relative_funding_rate_provider_units": 3.1716016666667e-05,
-      "basis_pct": 0.07346406802830607,
-      "change_24h_pct": 12.82,
-      "observed_at": 1791792672,
+      "basis_pct": 0.04493053958833926,
+      "change_24h_pct": 12.57,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ONDOUSD",
       "pair": "ONDO:USD",
-      "bid": 0.513,
-      "ask": 0.5131,
-      "volume_usd_24h": 4385642.4808,
-      "open_interest": 4888168.0,
+      "bid": 0.5125,
+      "ask": 0.5128,
+      "volume_usd_24h": 4386219.7058,
+      "open_interest": 4887401.0,
       "funding_rate_provider_units": 1.493812067417e-06,
       "relative_funding_rate_provider_units": 2.898416666667e-06,
-      "basis_pct": 0.008468489049318073,
-      "change_24h_pct": 5.86,
-      "observed_at": 1791792672,
+      "basis_pct": 0.015707525211827722,
+      "change_24h_pct": 5.74,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ADAUSD",
       "pair": "ADA:USD",
-      "bid": 0.25266,
-      "ask": 0.2527,
-      "volume_usd_24h": 3597300.9275,
-      "open_interest": 19547358.0,
+      "bid": 0.25245,
+      "ask": 0.25246,
+      "volume_usd_24h": 3597145.43263,
+      "open_interest": 19544399.0,
       "funding_rate_provider_units": 3.20839787917e-07,
       "relative_funding_rate_provider_units": 1.264916666667e-06,
-      "basis_pct": 0.01170165063530959,
-      "change_24h_pct": 2.0,
-      "observed_at": 1791792672,
+      "basis_pct": 0.021985466256291275,
+      "change_24h_pct": 2.09,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_PUMPUSD",
       "pair": "PUMP:USD",
-      "bid": 0.005816,
-      "ask": 0.005819,
-      "volume_usd_24h": 3587064.4382,
-      "open_interest": 154013700.0,
+      "bid": 0.005814,
+      "ask": 0.005817,
+      "volume_usd_24h": 3589931.7652,
+      "open_interest": 153712000.0,
       "funding_rate_provider_units": 1.50683345158e-07,
       "relative_funding_rate_provider_units": 2.57404125e-05,
-      "basis_pct": 0.017143938351438237,
-      "change_24h_pct": 6.31,
-      "observed_at": 1791792672,
+      "basis_pct": 0.035644942598356266,
+      "change_24h_pct": 6.42,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_FETUSD",
       "pair": "FET:USD",
-      "bid": 0.23607,
-      "ask": 0.23636,
-      "volume_usd_24h": 2669536.81851,
+      "bid": 0.23627,
+      "ask": 0.23657,
+      "volume_usd_24h": 2668628.51191,
       "open_interest": 7197430.0,
       "funding_rate_provider_units": -2.06433481875e-07,
       "relative_funding_rate_provider_units": -8.689375e-07,
-      "basis_pct": 0.024925561904765026,
-      "change_24h_pct": 6.61,
-      "observed_at": 1791792672,
+      "basis_pct": 0.018206193679404237,
+      "change_24h_pct": 6.66,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_AVAXUSD",
       "pair": "AVAX:USD",
-      "bid": 11.024,
-      "ask": 11.027,
-      "volume_usd_24h": 2570421.66459,
+      "bid": 11.033,
+      "ask": 11.037,
+      "volume_usd_24h": 2569821.56754,
       "open_interest": 352092.58,
       "funding_rate_provider_units": 3.5846224610837e-05,
       "relative_funding_rate_provider_units": 3.251741666667e-06,
-      "basis_pct": 0.012815030120494342,
-      "change_24h_pct": 6.89,
-      "observed_at": 1791792672,
+      "basis_pct": 0.011151636902595463,
+      "change_24h_pct": 6.86,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_LINKUSD",
       "pair": "LINK:USD",
-      "bid": 13.388,
-      "ask": 13.389,
-      "volume_usd_24h": 2464723.3812,
-      "open_interest": 478978.8,
+      "bid": 13.383,
+      "ask": 13.384,
+      "volume_usd_24h": 2465371.1165,
+      "open_interest": 478967.8,
       "funding_rate_provider_units": 9.7982169133329e-05,
       "relative_funding_rate_provider_units": 7.275183333333e-06,
-      "basis_pct": 0.012183366325535516,
-      "change_24h_pct": 4.27,
-      "observed_at": 1791792672,
+      "basis_pct": 0.011215965174504738,
+      "change_24h_pct": 4.21,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ARBUSD",
       "pair": "ARB:USD",
-      "bid": 0.19405,
-      "ask": 0.19421,
-      "volume_usd_24h": 2449230.7802,
-      "open_interest": 5559795.0,
+      "bid": 0.19415,
+      "ask": 0.19422,
+      "volume_usd_24h": 2449061.35053,
+      "open_interest": 5559787.0,
       "funding_rate_provider_units": 1.018686014667e-06,
       "relative_funding_rate_provider_units": 5.244470833333e-06,
-      "basis_pct": 0.0060335359571617175,
-      "change_24h_pct": -0.02,
-      "observed_at": 1791792672,
+      "basis_pct": 0.0016987946221513894,
+      "change_24h_pct": -0.08,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_CRVUSD",
       "pair": "CRV:USD",
-      "bid": 0.3698,
-      "ask": 0.3701,
+      "bid": 0.3696,
+      "ask": 0.37,
       "volume_usd_24h": 2382302.8073,
       "open_interest": 8367562.0,
       "funding_rate_provider_units": 8.510534691333e-06,
       "relative_funding_rate_provider_units": 2.2924616666667e-05,
-      "basis_pct": -0.011590531776917157,
+      "basis_pct": 0.003980531667480136,
       "change_24h_pct": 1.85,
-      "observed_at": 1791792672,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_UNIUSD",
       "pair": "UNI:USD",
-      "bid": 7.656,
-      "ask": 7.66,
-      "volume_usd_24h": 2157107.7644,
+      "bid": 7.66,
+      "ask": 7.661,
+      "volume_usd_24h": 2156259.0658,
       "open_interest": 413324.4,
       "funding_rate_provider_units": 6.3052270690997e-05,
       "relative_funding_rate_provider_units": 8.201633333333e-06,
-      "basis_pct": -0.0023681462918312413,
-      "change_24h_pct": 2.0,
-      "observed_at": 1791792672,
+      "basis_pct": 0.0023670653412910525,
+      "change_24h_pct": 1.96,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ENAUSD",
       "pair": "ENA:USD",
-      "bid": 0.23541,
-      "ask": 0.23561,
-      "volume_usd_24h": 2151900.63743,
-      "open_interest": 10519636.0,
+      "bid": 0.23574,
+      "ask": 0.23597,
+      "volume_usd_24h": 2155570.95776,
+      "open_interest": 10504336.0,
       "funding_rate_provider_units": 4.46353618312e-07,
       "relative_funding_rate_provider_units": 1.8892875e-06,
-      "basis_pct": 0.00013637695126522686,
-      "change_24h_pct": 6.49,
-      "observed_at": 1791792672,
+      "basis_pct": 0.00666374957070115,
+      "change_24h_pct": 6.78,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_QNTUSD",
       "pair": "QNT:USD",
-      "bid": 238.2,
-      "ask": 238.7,
-      "volume_usd_24h": 1935082.4067,
+      "bid": 238.45,
+      "ask": 238.8,
+      "volume_usd_24h": 1934108.7819,
       "open_interest": 4663.79,
       "funding_rate_provider_units": 0.03532369871350825,
       "relative_funding_rate_provider_units": 0.000146366208333333,
-      "basis_pct": -0.01705364139777954,
-      "change_24h_pct": 0.87,
-      "observed_at": 1791792672,
+      "basis_pct": 0.004033314754470219,
+      "change_24h_pct": 0.97,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_PEPEUSD",
       "pair": "PEPE:USD",
-      "bid": 4.2505e-06,
-      "ask": 4.254e-06,
+      "bid": 4.2508e-06,
+      "ask": 4.253e-06,
       "volume_usd_24h": 1762503.7062697,
       "open_interest": 614552115000.0,
       "funding_rate_provider_units": 7.3654472e-11,
       "relative_funding_rate_provider_units": 1.7274454166667e-05,
-      "basis_pct": 0.008466285370256621,
+      "basis_pct": 0.0014111139333472522,
       "change_24h_pct": 5.62,
-      "observed_at": 1791792672,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_MUBARAKUSD",
       "pair": "MUBARAK:USD",
-      "bid": 0.075431,
-      "ask": 0.07559,
+      "bid": 0.075417,
+      "ask": 0.075566,
       "volume_usd_24h": 1623932.211597,
       "open_interest": 1617303.0,
       "funding_rate_provider_units": 1.2954852669069e-05,
       "relative_funding_rate_provider_units": 0.000169303979166667,
-      "basis_pct": 0.06623504327272212,
+      "basis_pct": 0.0657314543461629,
       "change_24h_pct": 1.72,
-      "observed_at": 1791792672,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_ATOMUSD",
       "pair": "ATOM:USD",
-      "bid": 1.867,
-      "ask": 1.869,
+      "bid": 1.866,
+      "ask": 1.868,
       "volume_usd_24h": 1420918.2608,
       "open_interest": 1663286.8,
       "funding_rate_provider_units": -8.1495478666667e-05,
       "relative_funding_rate_provider_units": -4.3510666666667e-05,
-      "basis_pct": -0.008029885045168772,
+      "basis_pct": -0.05167803689262174,
       "change_24h_pct": -3.41,
-      "observed_at": 1791792672,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_XMRUSD",
       "pair": "XMR:USD",
-      "bid": 536.18,
-      "ask": 536.8,
-      "volume_usd_24h": 1367661.0929,
+      "bid": 536.15,
+      "ask": 536.63,
+      "volume_usd_24h": 1367581.8149,
       "open_interest": 6096.66,
       "funding_rate_provider_units": 0.0381407397789,
       "relative_funding_rate_provider_units": 7.099095e-05,
-      "basis_pct": 0.028986339761516433,
-      "change_24h_pct": 1.56,
-      "observed_at": 1791792672,
+      "basis_pct": 0.03851376206651658,
+      "change_24h_pct": 1.59,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_AAVEUSD",
       "pair": "AAVE:USD",
-      "bid": 168.47,
-      "ask": 168.55,
-      "volume_usd_24h": 1328098.6805,
-      "open_interest": 18551.52,
+      "bid": 168.58,
+      "ask": 168.68,
+      "volume_usd_24h": 1328176.4632,
+      "open_interest": 18555.73,
       "funding_rate_provider_units": -0.00557417359995661,
       "relative_funding_rate_provider_units": -3.2937358333333e-05,
-      "basis_pct": -0.01809445141442989,
-      "change_24h_pct": 0.86,
-      "observed_at": 1791792672,
+      "basis_pct": -0.017907292750451997,
+      "change_24h_pct": 0.95,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_INJUSD",
       "pair": "INJ:USD",
-      "bid": 7.925,
-      "ask": 7.93,
-      "volume_usd_24h": 1326969.9967,
-      "open_interest": 186110.7,
+      "bid": 7.917,
+      "ask": 7.925,
+      "volume_usd_24h": 1327628.5066,
+      "open_interest": 186057.4,
       "funding_rate_provider_units": 0.000214213555545,
       "relative_funding_rate_provider_units": 2.70021625e-05,
-      "basis_pct": 0.004101357041941256,
-      "change_24h_pct": 4.21,
-      "observed_at": 1791792672,
+      "basis_pct": 0.02804992499620962,
+      "change_24h_pct": 4.11,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     },
     {
       "instrument": "PF_TIAUSD",
       "pair": "TIA:USD",
-      "bid": 0.5971,
-      "ask": 0.5981,
-      "volume_usd_24h": 1306735.34202,
+      "bid": 0.597,
+      "ask": 0.5978,
+      "volume_usd_24h": 1306519.08642,
       "open_interest": 1102744.9,
       "funding_rate_provider_units": 3.39853059e-06,
       "relative_funding_rate_provider_units": 5.6930625e-06,
-      "basis_pct": 0.018121056950048953,
-      "change_24h_pct": -1.86,
-      "observed_at": 1791792672,
+      "basis_pct": 0.02373348956328236,
+      "change_24h_pct": -1.42,
+      "observed_at": 1791792750,
       "execution": "BLOCKED: historical funding, contract-specific margin/liquidation and fill model not validated"
     }
   ],
