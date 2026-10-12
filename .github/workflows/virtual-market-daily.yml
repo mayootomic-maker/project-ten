@@ -1,11 +1,10 @@
-name: Project Ten | cloud paper research
+name: Project Ten | 50 research-trading pairs
 
 on:
   workflow_dispatch:
   schedule:
-    # Six public-price observations per day; strategy entries run only once per newly
-    # completed UTC daily candle. GitHub schedules are approximate, not real-time.
-    - cron: '29 0,4,8,12,16,20 * * *'
+    # Hourly requested observations. Best-effort schedule, NOT continuous hosting.
+    - cron: '17 * * * *'
 
 concurrency:
   group: project-ten-virtual-ledger
@@ -30,10 +29,8 @@ jobs:
         run: python -m unittest discover -s tests -q
       - name: Fetch public market data and run virtual agents
         run: |
-          python -m project_ten live
-          python -m project_ten audit
-          python -m project_ten publish
-          python scripts/verify_cloud.py
+          python -m project_ten.paired
+          python scripts/verify_paired.py
       - name: Publish ledger changes to repository
         shell: bash
         run: |
