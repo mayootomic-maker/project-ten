@@ -1,6 +1,7 @@
 """Explicit entry/exit hypotheses. No LLM, learning, or proven edge is claimed."""
 from statistics import mean, pstdev
 import math
+from .paired_policies import entry_guard
 
 FAMILIES = {
     'sma_trend': 'Moving-average trend',
@@ -45,7 +46,7 @@ def feature_series(bars):
         _SERIES_CACHE[key]=[features(bars[:i+1]) if i>=129 else None for i in range(len(bars))]
     return _SERIES_CACHE[key]
 
-def decision(family, bars, holding=False, _features=None):
+def decision(family, bars, holding=False, _features=None, policy=None):
     if len(bars)<130:return False, 'Insufficient completed candles: need 130.'
     f=_features if _features is not None else features(bars); cur=f['close']; up=f['sma12']>f['sma48']
     if family=='sma_trend': enter=up; leave=not up
@@ -63,19 +64,22 @@ def decision(family, bars, holding=False, _features=None):
         width=f['high']-f['low']; enter=not up and width>0 and cur<f['low']+width*.2 and cur>f['previous']
         leave=width>0 and cur>f['low']+width*.7
     else:raise ValueError(family)
-    target=not leave if holding else enter
-    return target, f"{FAMILIES[family]}: close {cur:.6g}; fast/slow {f['sma12']:.6g}/{f['sma48']:.6g}; RSI {f['rsi']:.1f}; momentum {f['momentum']*100:+.2f}%; volume ratio {f['volume_ratio']:.2f}. {'Keep position' if holding and target else 'Exit' if holding else 'Entry condition met' if target else 'No entry'} ."
+    guard=entry_guard(policy,f,bars)
+    target=not leave if holding else enter and guard
+    context=f" Policy guard {policy['entry_guard']}: {'passed' if guard else 'failed'}." if policy else ''
+    return target, f"{FAMILIES[family]}: close {cur:.6g}; fast/slow {f['sma12']:.6g}/{f['sma48']:.6g}; RSI {f['rsi']:.1f}; momentum {f['momentum']*100:+.2f}%; volume ratio {f['volume_ratio']:.2f}.{context} {'Keep position' if holding and target else 'Exit' if holding else 'Entry condition met' if target else 'No entry'}."
 
-def screen(family, bars, start, end, fee=.008, friction=.001):
+def screen(family, bars, start, end, fee=.008, friction=.001, policy=None):
     """Past signals execute at the NEXT completed bar open; no same-close fills."""
     series=feature_series(bars)
-    cash=100.;qty=0.;fees=0.;trades=0;entries=0;peak=100.;drawdown=0.
+    cash=100.;qty=0.;fees=0.;trades=0;entries=0;peak=100.;drawdown=0.;entry_i=None
     for i in range(start,end):
-        target,_=decision(family,bars[:i],bool(qty),_features=series[i-1])
+        target,_=decision(family,bars[:i],bool(qty),_features=series[i-1],policy=policy)
+        if qty and policy and i-entry_i>=policy['max_holding_bars']:target=False
         b=bars[i]
         if target and not qty:
             price=b['o']*(1+friction); budget=cash*.25
-            qty=budget/(price*(1+fee)); cost=qty*price; cash-=cost*(1+fee);fees+=cost*fee;trades+=1;entries+=1
+            qty=budget/(price*(1+fee)); cost=qty*price; cash-=cost*(1+fee);fees+=cost*fee;trades+=1;entries+=1;entry_i=i
         elif not target and qty:
             gross=qty*b['o']*(1-friction);cash+=gross*(1-fee);fees+=gross*fee;qty=0.;trades+=1
         equity=cash+qty*b['c']*(1-friction)*(1-fee)
@@ -83,12 +87,12 @@ def screen(family, bars, start, end, fee=.008, friction=.001):
     equity=cash+qty*bars[end-1]['c']*(1-friction)*(1-fee)
     return {'net_pct':round(equity-100,4), 'entries':entries,'orders':trades,'drawdown_pct':round(100*drawdown,4),'fees_usd':round(fees,5)}
 
-def evaluate(family, bars):
+def evaluate(family, bars, policy=None):
     if len(bars)<400:raise ValueError('Need 400 complete candles for chronological screening')
     boundary=int(len(bars)*.7)
-    train=screen(family,bars,130,boundary)
-    holdout=screen(family,bars,boundary,len(bars))
-    stress=screen(family,bars,boundary,len(bars),fee=.016,friction=.002)
+    train=screen(family,bars,130,boundary,policy=policy)
+    holdout=screen(family,bars,boundary,len(bars),policy=policy)
+    stress=screen(family,bars,boundary,len(bars),fee=.016,friction=.002,policy=policy)
     qualified=train['net_pct']>0 and train['entries']>=2 and holdout['net_pct']>0 and holdout['entries']>=1 and stress['net_pct']>0 and holdout['drawdown_pct']<10
     return {'train':train,'holdout':holdout,'stress':stress,'qualified':qualified,
             'from':bars[0]['t'],'to':bars[-1]['t'],

@@ -6,7 +6,7 @@ Real public market prices; simulated money only. Fifty research workers and fift
 
 Forty pairs compare assets across major crypto (hourly and four-hour), liquid altcoins, and exchange-listed meme coins. Ten additional pairs observe perpetual futures liquidity, funding indicators, open interest and basis; their executions remain blocked until a funding/margin/liquidation simulator is validated. Unverified DEX tokens cannot trade.
 
-The GitHub schedule requests hourly runs at minute 17 UTC. Jobs may be delayed/skipped; this is not continuous hosting. Research snapshots are selected on training data and held for seven days. Holdout/cost-stress tests can veto a candidate; trading may remain in cash. New account performance starts at its actual creation timestamp.
+The GitHub schedule requests hourly runs at minute 17 UTC. Jobs may be delayed/skipped; this is not continuous hosting. Each job rescans opportunities using 50 distinct decision policies. Research ranks training evidence, not holdout winners; entry context and maximum holding periods vary by policy. Rolling validation is exploratory and overlaps across runs. Holdout/cost-stress tests can veto a candidate; trading may remain in cash. New account performance starts at its actual creation timestamp.
 
 ## Run and verify
 

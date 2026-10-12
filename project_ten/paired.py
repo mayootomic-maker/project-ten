@@ -9,6 +9,7 @@ from .paired_feeds import collect, refresh_quotes
 from .paired_signals import FAMILIES, evaluate, decision, features
 from .storage import save_json, ROOT
 from .engine import event_append, verify_chain
+from .paired_policies import policy_for, rank, futures_score
 
 FEE=.008
 SLIPPAGE=.0005
@@ -20,6 +21,7 @@ BOOK=ROOT/'state/paired_book.json'
 def registry():
     return [{'id':f'DUO-{i*10+j+1:03d}', 'researcher_id':f'R-{i*10+j+1:03d}',
         'trader_id':f'T-{i*10+j+1:03d}','desk':desk,'family':family,
+        'policy':policy_for(desk,j,family),
         'mandate':f'{DESKS[desk]} · {title}'}
         for i,desk in enumerate(DESKS) for j,(family,title) in enumerate(FAMILIES.items())]
 
@@ -38,26 +40,26 @@ def research_spot(account, snapshot, now):
     for key,m in snapshot['spot'].items():
         if m['sector']!=account['desk']:continue
         if m['volume_usd_24h']<1_000_000 or m['spread_pct']>.5:continue
-        e=evaluate(account['family'],m['bars'])
+        e=evaluate(account['family'],m['bars'],account.get('policy'))
         rows.append({'instrument':key,'asset':m['asset'],'interval':m['interval'],
             'volume_usd_24h':m['volume_usd_24h'],'spread_pct':m['spread_pct'],**e})
     # Never choose the best holdout performer. Training selects; later tests veto.
-    rows.sort(key=lambda x:x['train']['net_pct'],reverse=True)
+    policy=account.get('policy')
+    for row in rows:row['selection_score']=rank(row,policy) if policy else row['train']['net_pct']
+    rows.sort(key=lambda x:x['selection_score'],reverse=True)
     chosen=rows[0] if rows else None
     return {'kind':'chronological price/volume research','candidates':rows,'selected':chosen,
-        'selection':'Training-only rank; highest-ranked candidate must pass holdout and doubled-cost gates. No fallback shopping through holdout winners.',
+        'selection':f"Research objective: {policy['objective'] if policy else 'net return'}. Rank uses training evidence and, for liquidity specialists, current liquidity/friction. Holdout returns never enter the rank; the chosen candidate must pass holdout and doubled-cost gates.",
         'qualified':bool(chosen and chosen['qualified']), 'observed_at':now,
         'reason':'Selected candidate passed exploratory tests' if chosen and chosen['qualified'] else
             'No candidate passed all validation gates' if chosen else 'No sufficiently liquid instrument with verified history',
-        'limitations':'No news/sentiment, on-chain safety research, or LLM reasoning. Evidence is exploratory; repeated weekly screening can overfit.'}
+        'limitations':'No news/sentiment, on-chain safety research, or LLM reasoning. Rolling screens repeat each run and overlap: exploratory evidence, not fresh independent holdouts or proof of edge.'}
 
 def research_futures(account,snapshot,now):
     rows=snapshot['futures'][:]
     # Different research views; none translates unvalidated funding units into P&L.
-    family=account['family']
-    if family in ('momentum','channel','volume_breakout'):rows.sort(key=lambda r:float(r.get('change_24h_pct') or 0),reverse=True)
-    elif family in ('rsi','bands','range'):rows.sort(key=lambda r:float(r.get('change_24h_pct') or 0))
-    elif family in ('compression','pullback'):rows.sort(key=lambda r:abs(float(r.get('basis_pct') or 0)),reverse=True)
+    lens=account['policy']['objective']
+    rows.sort(key=lambda r:futures_score(r,lens),reverse=True)
     return {'kind':'futures liquidity / funding / basis observation','candidates':rows[:5],
         'selected':rows[0] if rows else None,'qualified':False,'observed_at':now,
         'reason':'Futures execution blocked: funding history, contract-specific margin, liquidation and fill model need validation.',
@@ -105,6 +107,7 @@ def buy(book,a,m,now):
     a['position']={'instrument':m['id'],'asset':m['asset'],'qty':qty,'entry_mid':mid,
         'entry_price':price,'entry_at':now,'stop':price*(1-stop_pct),'target':price*(1+target_pct),
         'risk_budget_usd':risk,'research_at':a['research_at']}
+    a['position']['entry_policy']=a.get('policy')
     record(book,a,{'kind':'paper_buy','asset':m['asset'],'instrument':m['id'],'qty':qty,'price':price,'fee':fee,
         'stop':a['position']['stop'],'target':a['position']['target'],'fill_model':'observed public ask + assumed slippage; no broker order'},now)
     return 'BUY: validated candidate and entry condition, modeled at current ask'
@@ -131,8 +134,10 @@ def act(book,a,snapshot,now,initial=False):
     if not valid_quote(m,now):a['last_decision']='BLOCKED: stale executable quote';return
     if m['spread_pct']>.5:a['last_decision']='BLOCKED: spread exceeds 0.5%';return
     # Risk exits may act on the current observation even without a new completed bar.
-    if p and (m['bid']<=p['stop'] or m['bid']>=p['target'] or a['blocked']):
-        reason='observed stop breach' if m['bid']<=p['stop'] else 'observed target reached' if m['bid']>=p['target'] else 'drawdown freeze'
+    entry_policy=(p.get('entry_policy') or a.get('policy')) if p else None
+    time_exit=bool(p and entry_policy and now-p['entry_at']>=entry_policy['max_holding_bars']*m['interval']*60)
+    if p and (m['bid']<=p['stop'] or m['bid']>=p['target'] or a['blocked'] or time_exit):
+        reason='observed stop breach' if m['bid']<=p['stop'] else 'observed target reached' if m['bid']>=p['target'] else 'drawdown freeze' if a['blocked'] else 'policy maximum holding time'
         a['last_decision']=sell(book,a,m,now,reason)
         if a['last_decision'].startswith('REJECT'):a['rejects']+=1
         mark(a,spot,now);a['last_bars'][key]=bar;return
@@ -143,7 +148,7 @@ def act(book,a,snapshot,now,initial=False):
         record(book,a,{'kind':'missed_observation','instrument':key,'bars_skipped':(bar-last)//(m['interval']*60)-1,
             'note':'No historical fills manufactured; current quote evaluation only'},now)
     a['last_bars'][key]=bar
-    target,why=decision(a['family'],m['bars'],bool(p));a['signal_reason']=why
+    target,why=decision(a['family'],m['bars'],bool(p),policy=entry_policy if p else a.get('policy'));a['signal_reason']=why
     if p:
         a['last_decision']='HOLD position: '+why if target else sell(book,a,m,now,'strategy exit')
     elif a['blocked']:a['last_decision']='BLOCKED: 10% observed drawdown freeze'
@@ -160,7 +165,7 @@ def public_report(book,snapshot):
     for a in book['accounts'].values():
         unreal=a.get('unrealized_market_pnl',0);gross_pnl=a['realized_market_pnl']+unreal
         exit_cost=max(0,a['equity']-a['liquidation_equity'])
-        duos.append({k:a[k] for k in ('id','researcher_id','trader_id','desk','family','mandate','research','research_at','last_decision','events','orders','rejects','position','curve')}|{
+        duos.append({k:a[k] for k in ('id','researcher_id','trader_id','desk','family','policy','mandate','research','research_at','last_decision','events','orders','rejects','position','curve')}|{
             'balance_chf':round(a['equity']/fx,4),'liquidation_chf':round(a['liquidation_equity']/fx,4),
             'net_pct':round((a['equity']/base-1)*100,4),'market_pnl_chf':round(gross_pnl/fx,5),
             'paid_fees_chf':round(a['fees']/fx,5),'execution_impact_chf':round(a['execution_impact']/fx,5),
@@ -191,6 +196,7 @@ def verify(book,report):
     assert len(book['accounts'])==len(report['duos'])==50
     assert len({d['researcher_id'] for d in report['duos']})==50
     assert len({d['trader_id'] for d in report['duos']})==50
+    assert len({d['policy']['fingerprint'] for d in report['duos']})==50
     for a in book['accounts'].values():
         assert math.isfinite(a['cash']) and a['cash']>=-1e-7
         if a['desk']=='futures':assert not a['position'] and a['orders']==0
@@ -214,14 +220,24 @@ def run():
                 time.sleep(.5*(attempt+1))
         book=create_book(fx,now)
     else:book=json.loads(BOOK.read_text());verify_chain(book['audit'])
+    for d in registry():
+        a=book['accounts'][d['id']]
+        if a.get('policy')!=d['policy']:
+            a['policy']=d['policy']
+            record(book,a,{'kind':'policy_revision','policy':d['policy'],
+                'note':'Decision mandate changed; balances, start time and prior orders preserved.'},now)
     for a in book['accounts'].values():
         if a['id'] in ('DUO-001','DUO-011','DUO-021','DUO-031','DUO-041'):
             print(f"Processing research desk: {a['desk']}",flush=True)
         if a['desk']=='futures':a['research']=research_futures(a,snapshot,now);a['research_at']=now
-        elif a['research'] is None or now-a['research_at']>=7*86400:
+        else:
             a['research']=research_spot(a,snapshot,now);a['research_at']=now
-            record(book,a,{'kind':'research_snapshot','chosen':a['research']['selected']['instrument'] if a['research']['selected'] else None,
-                'qualified':a['research']['qualified'],'note':a['research']['selection']},now)
+            selected=a['research']['selected']
+            fingerprint=(selected['instrument'],selected['to'],a['research']['qualified'],a['policy']['fingerprint']) if selected else (None,a['policy']['fingerprint'])
+            if a.get('research_fingerprint')!=list(fingerprint):
+                record(book,a,{'kind':'research_snapshot','chosen':selected['instrument'] if selected else None,
+                    'qualified':a['research']['qualified'],'note':a['research']['selection']},now)
+                a['research_fingerprint']=list(fingerprint)
     refresh_quotes(snapshot);now=int(time.time());snapshot['at']=now
     for a in book['accounts'].values():
         act(book,a,snapshot,now,initial)

@@ -3,6 +3,7 @@ from unittest.mock import patch
 from copy import deepcopy
 from project_ten.paired import registry, create_book, buy, sell, mark, act, public_report, verify, research_spot
 from project_ten.paired_signals import screen
+from project_ten.paired_policies import policy_for, entry_guard, rank
 
 def market(now=2000000000):
     bars=[]
@@ -105,5 +106,24 @@ class PairedTests(unittest.TestCase):
         act(self.book,self.a,self.s,self.now)
         self.assertEqual(self.a['orders'],0)
         self.assertIn('BLOCKED',self.a['last_decision'])
+
+    def test_unique_policies_change_decisions_on_same_evidence(self):
+        self.assertEqual(len({d['policy']['fingerprint'] for d in registry()}),50)
+        # A trending, noisy, low-volume market: trend-strength permits entry,
+        # quiet-volume vetoes it. This proves actual behavior, not just labels.
+        f={'sma12':110,'sma48':100,'volatility':.04,'volume_ratio':.7,'momentum':.03,
+            'rsi':50,'z':0,'short_range':.01,'long_range':.08}
+        bars=[{'c':100},{'c':101},{'c':102}]
+        self.assertTrue(entry_guard(policy_for('majors',0,'sma_trend'),f,bars))
+        self.assertFalse(entry_guard(policy_for('memes',0,'sma_trend'),f,bars))
+
+    def test_objectives_choose_different_candidates_without_holdout_ranking(self):
+        rows=[{'train':{'net_pct':8,'drawdown_pct':6,'orders':20,'fees_usd':2},'holdout':{'net_pct':-99}},
+              {'train':{'net_pct':5,'drawdown_pct':1,'orders':2,'fees_usd':.5},'holdout':{'net_pct':99}}]
+        growth=policy_for('majors',0,'sma_trend');defensive=policy_for('majors',1,'ema_trend')
+        self.assertIs(max(rows,key=lambda r:rank(r,growth)),rows[0])
+        self.assertIs(max(rows,key=lambda r:rank(r,defensive)),rows[1])
+        for r in rows:r['holdout']['net_pct']*=-1
+        self.assertIs(max(rows,key=lambda r:rank(r,growth)),rows[0])
 
 if __name__=='__main__':unittest.main()
