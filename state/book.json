@@ -5,50 +5,69 @@
     "fx_usd_per_chf": 1.2033,
     "fx_label": "Frozen reference CHF/USD 2026-10-09 (not executable rate)",
     "currency": "USD",
-    "last_bar": 1791590400,
-    "forward_days": 0,
-    "last_run": null,
+    "last_bar": 1791676800,
+    "forward_days": 1,
+    "last_run": "2026-10-12T06:13:03.898524+00:00",
     "initial_usd": 120.33,
     "feed": "Kraken historical OHLC, daily",
     "paper_only": true,
-    "quote_at": 1791762375,
+    "quote_at": 1791785583,
     "quotes": {
       "BTC": {
-        "bid": 83592.7,
-        "ask": 83592.8,
-        "at": 1791762375
+        "bid": 83808.9,
+        "ask": 83809.0,
+        "at": 1791785583
       },
       "ETH": {
-        "bid": 2532.71,
-        "ask": 2532.72,
-        "at": 1791762375
+        "bid": 2557.14,
+        "ask": 2557.15,
+        "at": 1791785583
       },
       "SOL": {
-        "bid": 111.05,
-        "ask": 111.06,
-        "at": 1791762375
+        "bid": 112.32,
+        "ask": 112.33,
+        "at": 1791785583
       }
     },
-    "observation_started_at": "2026-10-11T19:18:59.240470+00:00"
+    "observation_started_at": "2026-10-11T19:18:59.240470+00:00",
+    "execution_kind": "public bid/ask + assumed slippage; never confirmed fills"
   },
   "agents": {
     "BTC-sma-5-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-sma-5-30",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "5-day average 82,821.52 vs 30-day average 82,493.15; shorter is higher, LONG."
     },
     "ETH-sma-5-30": {
       "cash": 120.33,
@@ -56,17 +75,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "5-day average 2,513.85 vs 30-day average 2,615.00; shorter is not higher, CASH."
     },
     "SOL-sma-5-30": {
       "cash": 120.33,
@@ -74,17 +95,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "5-day average 111.20 vs 30-day average 113.39; shorter is not higher, CASH."
     },
     "BTC-breakout-12-5": {
       "cash": 120.33,
@@ -92,17 +115,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs channel threshold 84,097.10; not above threshold, CASH."
     },
     "ETH-breakout-12-5": {
       "cash": 120.33,
@@ -110,17 +135,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs channel threshold 2,599.69; not above threshold, CASH."
     },
     "SOL-breakout-12-5": {
       "cash": 120.33,
@@ -128,17 +155,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs channel threshold 115.31; not above threshold, CASH."
     },
     "BTC-momentum-7-0": {
       "cash": 120.33,
@@ -146,17 +175,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs 7 days prior 86,510.40; momentum not positive, CASH."
     },
     "ETH-momentum-7-0": {
       "cash": 120.33,
@@ -164,17 +195,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs 7 days prior 2,726.49; momentum not positive, CASH."
     },
     "SOL-momentum-7-0": {
       "cash": 120.33,
@@ -182,17 +215,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs 7 days prior 121.57; momentum not positive, CASH."
     },
     "BTC-rsi-8-25": {
       "cash": 120.33,
@@ -200,17 +235,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "8-period RSI 43.8, buy below 25; not oversold, CASH."
     },
     "ETH-rsi-8-25": {
       "cash": 120.33,
@@ -218,35 +255,55 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "8-period RSI 28.4, buy below 25; not oversold, CASH."
     },
     "SOL-rsi-8-25": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-rsi-8-25",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "8-period RSI 25.0, buy below 25; oversold signal, LONG."
     },
     "BTC-zscore-15-150": {
       "cash": 120.33,
@@ -254,17 +311,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -0.32 standard deviations; buy below -1.50; CASH."
     },
     "ETH-zscore-15-150": {
       "cash": 120.33,
@@ -272,17 +331,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -1.13 standard deviations; buy below -1.50; CASH."
     },
     "SOL-zscore-15-150": {
       "cash": 120.33,
@@ -290,35 +351,55 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -1.28 standard deviations; buy below -1.50; CASH."
     },
     "BTC-voltrend-5-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-voltrend-5-30",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 82,821.52 / 82,493.15; observed daily volatility 1.2%, limit 7.5%; LONG."
     },
     "ETH-voltrend-5-30": {
       "cash": 120.33,
@@ -326,17 +407,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Short/long averages 2,513.85 / 2,615.00; observed daily volatility 2.1%, limit 7.5%; CASH."
     },
     "SOL-voltrend-5-30": {
       "cash": 120.33,
@@ -344,71 +427,127 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Short/long averages 111.20 / 113.39; observed daily volatility 2.8%, limit 7.5%; CASH."
     },
     "BTC-sma-8-50": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-sma-8-50",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "8-day average 83,988.95 vs 50-day average 80,939.98; shorter is higher, LONG."
     },
     "ETH-sma-8-50": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-sma-8-50",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "8-day average 2,587.80 vs 50-day average 2,556.06; shorter is higher, LONG."
     },
     "SOL-sma-8-50": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-sma-8-50",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "8-day average 114.88 vs 50-day average 108.89; shorter is higher, LONG."
     },
     "BTC-breakout-20-7": {
       "cash": 120.33,
@@ -416,17 +555,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs channel threshold 84,138.80; not above threshold, CASH."
     },
     "ETH-breakout-20-7": {
       "cash": 120.33,
@@ -434,17 +575,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs channel threshold 2,624.37; not above threshold, CASH."
     },
     "SOL-breakout-20-7": {
       "cash": 120.33,
@@ -452,17 +595,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs channel threshold 115.59; not above threshold, CASH."
     },
     "BTC-momentum-14-0": {
       "cash": 120.33,
@@ -470,17 +615,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs 14 days prior 84,444.20; momentum not positive, CASH."
     },
     "ETH-momentum-14-0": {
       "cash": 120.33,
@@ -488,17 +635,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs 14 days prior 2,688.02; momentum not positive, CASH."
     },
     "SOL-momentum-14-0": {
       "cash": 120.33,
@@ -506,17 +655,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs 14 days prior 121.98; momentum not positive, CASH."
     },
     "BTC-rsi-10-30": {
       "cash": 120.33,
@@ -524,53 +675,91 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "10-period RSI 43.6, buy below 30; not oversold, CASH."
     },
     "ETH-rsi-10-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-rsi-10-30",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "10-period RSI 29.1, buy below 30; oversold signal, LONG."
     },
     "SOL-rsi-10-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-rsi-10-30",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "10-period RSI 30.0, buy below 30; oversold signal, LONG."
     },
     "BTC-zscore-20-175": {
       "cash": 120.33,
@@ -578,17 +767,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -0.47 standard deviations; buy below -1.75; CASH."
     },
     "ETH-zscore-20-175": {
       "cash": 120.33,
@@ -596,17 +787,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -1.40 standard deviations; buy below -1.75; CASH."
     },
     "SOL-zscore-20-175": {
       "cash": 120.33,
@@ -614,125 +807,235 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -1.48 standard deviations; buy below -1.75; CASH."
     },
     "BTC-voltrend-8-40": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-voltrend-8-40",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 83,988.95 / 81,569.90; observed daily volatility 1.3%, limit 7.5%; LONG."
     },
     "ETH-voltrend-8-40": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-voltrend-8-40",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 2,587.80 / 2,579.89; observed daily volatility 2.1%, limit 7.5%; LONG."
     },
     "SOL-voltrend-8-40": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-voltrend-8-40",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 114.88 / 110.69; observed daily volatility 2.4%, limit 7.5%; LONG."
     },
     "BTC-sma-10-70": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-sma-10-70",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "10-day average 84,115.53 vs 70-day average 76,685.52; shorter is higher, LONG."
     },
     "ETH-sma-10-70": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-sma-10-70",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "10-day average 2,605.75 vs 70-day average 2,393.88; shorter is higher, LONG."
     },
     "SOL-sma-10-70": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-sma-10-70",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "10-day average 115.72 vs 70-day average 100.09; shorter is higher, LONG."
     },
     "BTC-breakout-30-10": {
       "cash": 120.33,
@@ -740,17 +1043,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs channel threshold 84,138.80; not above threshold, CASH."
     },
     "ETH-breakout-30-10": {
       "cash": 120.33,
@@ -758,17 +1063,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs channel threshold 2,624.37; not above threshold, CASH."
     },
     "SOL-breakout-30-10": {
       "cash": 120.33,
@@ -776,35 +1083,55 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs channel threshold 115.59; not above threshold, CASH."
     },
     "BTC-momentum-21-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-momentum-21-0",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 83,675.60 vs 21 days prior 81,164.00; momentum positive, LONG."
     },
     "ETH-momentum-21-0": {
       "cash": 120.33,
@@ -812,35 +1139,55 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs 21 days prior 2,645.06; momentum not positive, CASH."
     },
     "SOL-momentum-21-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-momentum-21-0",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 111.22 vs 21 days prior 111.14; momentum positive, LONG."
     },
     "BTC-rsi-14-30": {
       "cash": 120.33,
@@ -848,17 +1195,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "14-period RSI 46.7, buy below 30; not oversold, CASH."
     },
     "ETH-rsi-14-30": {
       "cash": 120.33,
@@ -866,35 +1215,55 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "14-period RSI 32.9, buy below 30; not oversold, CASH."
     },
     "SOL-rsi-14-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-rsi-14-30",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "14-period RSI 26.3, buy below 30; oversold signal, LONG."
     },
     "BTC-zscore-25-200": {
       "cash": 120.33,
@@ -902,17 +1271,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation +0.02 standard deviations; buy below -2.00; CASH."
     },
     "ETH-zscore-25-200": {
       "cash": 120.33,
@@ -920,17 +1291,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -1.25 standard deviations; buy below -2.00; CASH."
     },
     "SOL-zscore-25-200": {
       "cash": 120.33,
@@ -938,125 +1311,235 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -0.95 standard deviations; buy below -2.00; CASH."
     },
     "BTC-voltrend-10-50": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-voltrend-10-50",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 84,115.53 / 80,939.98; observed daily volatility 1.4%, limit 7.5%; LONG."
     },
     "ETH-voltrend-10-50": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-voltrend-10-50",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 2,605.75 / 2,556.06; observed daily volatility 2.1%, limit 7.5%; LONG."
     },
     "SOL-voltrend-10-50": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-voltrend-10-50",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 115.72 / 108.89; observed daily volatility 2.3%, limit 7.5%; LONG."
     },
     "BTC-sma-15-90": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-sma-15-90",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "15-day average 84,073.96 vs 90-day average 73,963.27; shorter is higher, LONG."
     },
     "ETH-sma-15-90": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-sma-15-90",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "15-day average 2,633.29 vs 90-day average 2,281.86; shorter is higher, LONG."
     },
     "SOL-sma-15-90": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-sma-15-90",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "15-day average 116.91 vs 90-day average 94.58; shorter is higher, LONG."
     },
     "BTC-breakout-45-15": {
       "cash": 120.33,
@@ -1064,17 +1547,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs channel threshold 84,138.80; not above threshold, CASH."
     },
     "ETH-breakout-45-15": {
       "cash": 120.33,
@@ -1082,17 +1567,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs channel threshold 2,624.37; not above threshold, CASH."
     },
     "SOL-breakout-45-15": {
       "cash": 120.33,
@@ -1100,71 +1587,127 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs channel threshold 115.59; not above threshold, CASH."
     },
     "BTC-momentum-35-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-momentum-35-0",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 83,675.60 vs 35 days prior 80,334.30; momentum positive, LONG."
     },
     "ETH-momentum-35-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-momentum-35-0",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 2,534.19 vs 35 days prior 2,514.35; momentum positive, LONG."
     },
     "SOL-momentum-35-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-momentum-35-0",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 111.22 vs 35 days prior 106.54; momentum positive, LONG."
     },
     "BTC-rsi-14-35": {
       "cash": 120.33,
@@ -1172,53 +1715,91 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "14-period RSI 46.7, buy below 35; not oversold, CASH."
     },
     "ETH-rsi-14-35": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-rsi-14-35",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "14-period RSI 32.9, buy below 35; oversold signal, LONG."
     },
     "SOL-rsi-14-35": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-rsi-14-35",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "14-period RSI 26.3, buy below 35; oversold signal, LONG."
     },
     "BTC-zscore-35-175": {
       "cash": 120.33,
@@ -1226,17 +1807,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation +0.54 standard deviations; buy below -1.75; CASH."
     },
     "ETH-zscore-35-175": {
       "cash": 120.33,
@@ -1244,17 +1827,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -0.56 standard deviations; buy below -1.75; CASH."
     },
     "SOL-zscore-35-175": {
       "cash": 120.33,
@@ -1262,125 +1847,235 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -0.07 standard deviations; buy below -1.75; CASH."
     },
     "BTC-voltrend-15-60": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-voltrend-15-60",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 84,073.96 / 78,768.17; observed daily volatility 1.3%, limit 7.5%; LONG."
     },
     "ETH-voltrend-15-60": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-voltrend-15-60",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 2,633.29 / 2,477.80; observed daily volatility 1.7%, limit 7.5%; LONG."
     },
     "SOL-voltrend-15-60": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-voltrend-15-60",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 116.91 / 104.32; observed daily volatility 2.0%, limit 7.5%; LONG."
     },
     "BTC-sma-20-120": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-sma-20-120",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "20-day average 84,229.40 vs 120-day average 71,127.71; shorter is higher, LONG."
     },
     "ETH-sma-20-120": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-sma-20-120",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "20-day average 2,650.53 vs 120-day average 2,138.41; shorter is higher, LONG."
     },
     "SOL-sma-20-120": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-sma-20-120",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "20-day average 117.38 vs 120-day average 89.63; shorter is higher, LONG."
     },
     "BTC-breakout-60-20": {
       "cash": 120.33,
@@ -1388,17 +2083,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 83,675.60 vs channel threshold 84,138.80; not above threshold, CASH."
     },
     "ETH-breakout-60-20": {
       "cash": 120.33,
@@ -1406,17 +2103,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs channel threshold 2,624.37; not above threshold, CASH."
     },
     "SOL-breakout-60-20": {
       "cash": 120.33,
@@ -1424,71 +2123,127 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 111.22 vs channel threshold 115.59; not above threshold, CASH."
     },
     "BTC-momentum-60-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-momentum-60-0",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 83,675.60 vs 60 days prior 63,412.00; momentum positive, LONG."
     },
     "ETH-momentum-60-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-momentum-60-0",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 2,534.19 vs 60 days prior 1,878.32; momentum positive, LONG."
     },
     "SOL-momentum-60-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-momentum-60-0",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 111.22 vs 60 days prior 75.56; momentum positive, LONG."
     },
     "BTC-rsi-20-35": {
       "cash": 120.33,
@@ -1496,35 +2251,55 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "20-period RSI 40.0, buy below 35; not oversold, CASH."
     },
     "ETH-rsi-20-35": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-rsi-20-35",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "20-period RSI 28.5, buy below 35; oversold signal, LONG."
     },
     "SOL-rsi-20-35": {
       "cash": 120.33,
@@ -1532,17 +2307,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "20-period RSI 39.1, buy below 35; not oversold, CASH."
     },
     "BTC-zscore-45-150": {
       "cash": 120.33,
@@ -1550,17 +2327,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation +0.76 standard deviations; buy below -1.50; CASH."
     },
     "ETH-zscore-45-150": {
       "cash": 120.33,
@@ -1568,17 +2347,19 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation -0.26 standard deviations; buy below -1.50; CASH."
     },
     "SOL-zscore-45-150": {
       "cash": 120.33,
@@ -1586,143 +2367,271 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Price deviation +0.17 standard deviations; buy below -1.50; CASH."
     },
     "BTC-voltrend-20-80": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-voltrend-20-80",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 84,229.40 / 75,087.33; observed daily volatility 1.2%, limit 7.5%; LONG."
     },
     "ETH-voltrend-20-80": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-voltrend-20-80",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 2,650.53 / 2,331.02; observed daily volatility 1.6%, limit 7.5%; LONG."
     },
     "SOL-voltrend-20-80": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-voltrend-20-80",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Short/long averages 117.38 / 96.82; observed daily volatility 2.2%, limit 7.5%; LONG."
     },
     "BTC-sma-30-150": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-sma-30-150",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "30-day average 82,493.15 vs 150-day average 71,054.47; shorter is higher, LONG."
     },
     "ETH-sma-30-150": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-sma-30-150",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "30-day average 2,615.00 vs 150-day average 2,096.07; shorter is higher, LONG."
     },
     "SOL-sma-30-150": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-sma-30-150",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "30-day average 113.39 vs 150-day average 87.19; shorter is higher, LONG."
     },
     "BTC-breakout-90-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-breakout-90-30",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 83,675.60 vs channel threshold 81,089.45; above threshold, LONG."
     },
     "ETH-breakout-90-30": {
       "cash": 120.33,
@@ -1730,89 +2639,163 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "Last close 2,534.19 vs channel threshold 2,586.12; not above threshold, CASH."
     },
     "SOL-breakout-90-30": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-breakout-90-30",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 111.22 vs channel threshold 109.48; above threshold, LONG."
     },
     "BTC-momentum-100-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016920528412101,
+      "qty": 0.00135247,
+      "fees": 0.9072466624729199,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "BTC-momentum-100-0",
+          "asset": "BTC",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 83850.90449999999,
+          "qty": 0.00135247,
+          "gross": 113.40583280911498,
+          "fee": 0.9072466624729199,
+          "partial": true
+        }
+      ],
+      "equity": 118.40293021214852,
       "curve": [
-        120.33
+        120.33,
+        118.40293
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016014873995275347,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 83,675.60 vs 100 days prior 62,546.80; momentum positive, LONG."
     },
     "ETH-momentum-100-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.0165147185045385,
+      "qty": 0.04432652,
+      "fees": 0.9072498831864719,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "ETH-momentum-100-0",
+          "asset": "ETH",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 2558.428575,
+          "qty": 0.04432652,
+          "gross": 113.406235398309,
+          "fee": 0.9072498831864719,
+          "partial": false
+        }
+      ],
+      "equity": 118.40261797027514,
       "curve": [
-        120.33
+        120.33,
+        118.402618
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016017468874967578,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 2,534.19 vs 100 days prior 1,757.04; momentum positive, LONG."
     },
     "SOL-momentum-100-0": {
-      "cash": 120.33,
-      "qty": 0.0,
-      "fees": 0.0,
-      "trades": 0,
+      "cash": 6.016500740639103,
+      "qty": 1.0090766,
+      "fees": 0.9072499941219119,
+      "trades": 1,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "BUY filled (quote-model)",
       "last_side": null,
-      "events": [],
-      "equity": 120.33,
+      "events": [
+        {
+          "t": 1791785583,
+          "agent": "SOL-momentum-100-0",
+          "asset": "SOL",
+          "action": "buy",
+          "book": "individual",
+          "execution_model": "post-close quote, not broker-confirmed",
+          "status": "filled",
+          "side": "buy",
+          "price": 112.38616499999999,
+          "qty": 1.0090766,
+          "gross": 113.40624926523898,
+          "fee": 0.9072499941219119,
+          "partial": false
+        }
+      ],
+      "equity": 118.39305219902194,
       "curve": [
-        120.33
+        120.33,
+        118.393052
       ],
       "peak": 120.33,
-      "max_drawdown": 0.0,
+      "max_drawdown": 0.016096965021009435,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 1,
+      "reason": "Last close 111.22 vs 100 days prior 82.29; momentum positive, LONG."
     },
     "BTC-rsi-25-40": {
       "cash": 120.33,
@@ -1820,35 +2803,1110 @@
       "fees": 0.0,
       "trades": 0,
       "rejects": 0,
-      "last_action": "Not evaluated",
+      "last_action": "HOLD cash",
       "last_side": null,
       "events": [],
       "equity": 120.33,
       "curve": [
+        120.33,
         120.33
       ],
       "peak": 120.33,
       "max_drawdown": 0.0,
       "stopped": false,
-      "last_signal": 0
+      "last_signal": 0,
+      "reason": "25-period RSI 65.0, buy below 40; not oversold, CASH."
     }
   },
   "shared": {
-    "cash": 120.33,
-    "positions": {},
-    "fees": 0.0,
-    "trades": 0,
+    "cash": 86.63760053760723,
+    "positions": {
+      "ETH": {
+        "qty": 0.01306466,
+        "agent": "ETH-voltrend-15-60"
+      }
+    },
+    "fees": 0.267399995733276,
+    "trades": 1,
     "rejects": 0,
     "curve": [
-      120.33
+      120.33,
+      119.761929
     ],
-    "equity": 120.33,
+    "equity": 119.76192944295052,
     "peak": 120.33,
-    "max_drawdown": 0.0,
+    "max_drawdown": 0.0047209387272457715,
     "stopped": false,
-    "events": []
+    "events": [
+      {
+        "t": 1791785583,
+        "agent": "ETH-voltrend-15-60",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "shared",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.01306466,
+        "gross": 33.4249994666595,
+        "fee": 0.267399995733276,
+        "partial": false
+      }
+    ]
   },
-  "audit": [],
+  "audit": [
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-sma-5-30",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "GENESIS",
+      "hash": "7d27b407ae46543e26977ab6135a068b1489f595053a72f461ccfb5322e7d668"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-rsi-8-25",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "7d27b407ae46543e26977ab6135a068b1489f595053a72f461ccfb5322e7d668",
+      "hash": "597f7053019196d42ec0c359747a84e7131e15e726c151e3e44fa5bf4b5b7dbd"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-voltrend-5-30",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "597f7053019196d42ec0c359747a84e7131e15e726c151e3e44fa5bf4b5b7dbd",
+      "hash": "c44a306d085dc2b1434b07e6c688fc606ea1e4956ea3a958a5dbceaa22245715"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-sma-8-50",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "c44a306d085dc2b1434b07e6c688fc606ea1e4956ea3a958a5dbceaa22245715",
+      "hash": "b18825ccefe82f6126f2f0d29b21517439a7fdd0ef6c522197a74859e3b2475a"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-sma-8-50",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "b18825ccefe82f6126f2f0d29b21517439a7fdd0ef6c522197a74859e3b2475a",
+      "hash": "03b17cc0ac7e84e8eca94b71313e35942a9dfdf31438c5e1a79511ff9734ab11"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-sma-8-50",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "03b17cc0ac7e84e8eca94b71313e35942a9dfdf31438c5e1a79511ff9734ab11",
+      "hash": "74cab60c83d78b5a32de7a8352433e25756ac920e3e17594e9eaf87ba8fe93d5"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-rsi-10-30",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "74cab60c83d78b5a32de7a8352433e25756ac920e3e17594e9eaf87ba8fe93d5",
+      "hash": "6d2baa51a70af115a1531a405a79df9095d2b695ab317a09a810bb069dc365ba"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-rsi-10-30",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "6d2baa51a70af115a1531a405a79df9095d2b695ab317a09a810bb069dc365ba",
+      "hash": "6499d7737b73a2c99e432fdb1b82ac99e32a988e68791c3213c8f08b4380e714"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-voltrend-8-40",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "6499d7737b73a2c99e432fdb1b82ac99e32a988e68791c3213c8f08b4380e714",
+      "hash": "b5fe878f96e8e2ecc0a2a3e47a85142d4c650895740ad9e7a9856f69c30b4530"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-voltrend-8-40",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "b5fe878f96e8e2ecc0a2a3e47a85142d4c650895740ad9e7a9856f69c30b4530",
+      "hash": "60be38239f7f97b814097488a3b11477e3a55796eef8745b6791324838ee2066"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-voltrend-8-40",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "60be38239f7f97b814097488a3b11477e3a55796eef8745b6791324838ee2066",
+      "hash": "d21d60e01ec4133bf4aa37e98545289bfff880b7b2027e9fc920426950583449"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-sma-10-70",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "d21d60e01ec4133bf4aa37e98545289bfff880b7b2027e9fc920426950583449",
+      "hash": "282066dce7cbfe025a6ad59a401db0de200ee3d3103925d58a7e3ba8d2d2c2ca"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-sma-10-70",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "282066dce7cbfe025a6ad59a401db0de200ee3d3103925d58a7e3ba8d2d2c2ca",
+      "hash": "e9641c15983a052224230e053ceb254bf7b3839c8ea9c9490d2becf43b4a3a21"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-sma-10-70",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "e9641c15983a052224230e053ceb254bf7b3839c8ea9c9490d2becf43b4a3a21",
+      "hash": "e131b3bb0aa279a52ca5b00af9764cb264436d09e5eae1a6609df57c8a70936c"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-momentum-21-0",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "e131b3bb0aa279a52ca5b00af9764cb264436d09e5eae1a6609df57c8a70936c",
+      "hash": "e5e86e8d9f4008978a76b2b5a00e10c403f7b2e2099fbf39f3104c3fa638f638"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-momentum-21-0",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "e5e86e8d9f4008978a76b2b5a00e10c403f7b2e2099fbf39f3104c3fa638f638",
+      "hash": "187aa9817cff0e1078a8420dbcaf7ae798752ba1fe443f37eb1bb58541857ac4"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-rsi-14-30",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "187aa9817cff0e1078a8420dbcaf7ae798752ba1fe443f37eb1bb58541857ac4",
+      "hash": "2cd529d7a64adb148f3cf0e8594c290037d6e6408dabe9a2d5a6e6c7559781ee"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-voltrend-10-50",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "2cd529d7a64adb148f3cf0e8594c290037d6e6408dabe9a2d5a6e6c7559781ee",
+      "hash": "9b845e2ca27ff736b22d173a76b2cf3d495c701fb4bdf5b1d7188fe65285e4f2"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-voltrend-10-50",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "9b845e2ca27ff736b22d173a76b2cf3d495c701fb4bdf5b1d7188fe65285e4f2",
+      "hash": "4c9a14071646338abaaceeec0a569870aceddaa00c60b51024ad59c6404d9e29"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-voltrend-10-50",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "4c9a14071646338abaaceeec0a569870aceddaa00c60b51024ad59c6404d9e29",
+      "hash": "841d6c39791c1392db2bd2471577676a740a6ad0a67c995e282f97b35b59131c"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-sma-15-90",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "841d6c39791c1392db2bd2471577676a740a6ad0a67c995e282f97b35b59131c",
+      "hash": "1558fad1b27e72b73b7587c108a232743c6ca6444c1dfe13091d9cb9e1eab029"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-sma-15-90",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "1558fad1b27e72b73b7587c108a232743c6ca6444c1dfe13091d9cb9e1eab029",
+      "hash": "e06938ab0450e4270bc5a8883283c09759fa696fc9a49651789a7878ada68777"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-sma-15-90",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "e06938ab0450e4270bc5a8883283c09759fa696fc9a49651789a7878ada68777",
+      "hash": "ea5e95fd0395b547f828030ec2267ff8d99f6eaaa9dcd1156a5cbb83114768a2"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-momentum-35-0",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "ea5e95fd0395b547f828030ec2267ff8d99f6eaaa9dcd1156a5cbb83114768a2",
+      "hash": "a846fe2e7e482424f8915d23640c8e0f94ab91ebb70475a1c460fb21d95a6e77"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-momentum-35-0",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "a846fe2e7e482424f8915d23640c8e0f94ab91ebb70475a1c460fb21d95a6e77",
+      "hash": "7856f9dc580a1412543e753ad524030f5ebc6608f5edca670bfb96003b81955b"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-momentum-35-0",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "7856f9dc580a1412543e753ad524030f5ebc6608f5edca670bfb96003b81955b",
+      "hash": "0d0da6d1f29168e2b0077348288b07129a6f1a5666be99ffd4c0a8052d39142d"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-rsi-14-35",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "0d0da6d1f29168e2b0077348288b07129a6f1a5666be99ffd4c0a8052d39142d",
+      "hash": "99d80ef9bda2a5ceea7ac8c34c9383eabb5a3d0bfb5f9799c2208038c4f9d4f0"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-rsi-14-35",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "99d80ef9bda2a5ceea7ac8c34c9383eabb5a3d0bfb5f9799c2208038c4f9d4f0",
+      "hash": "e13181c3ad470aadd7161e98e56a3e48cedf89da7485543a363be2d9c91a5b15"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-voltrend-15-60",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "e13181c3ad470aadd7161e98e56a3e48cedf89da7485543a363be2d9c91a5b15",
+      "hash": "4cb3adbda11ef33c9656ae94b65849998f31daec492509b0555f98dbd79adf0c"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-voltrend-15-60",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "4cb3adbda11ef33c9656ae94b65849998f31daec492509b0555f98dbd79adf0c",
+      "hash": "91c32bb10eec9e31908ffbfcb600e4bbc5d14f9c5780f9b5f8bdd2ee2d49ea14"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-voltrend-15-60",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "91c32bb10eec9e31908ffbfcb600e4bbc5d14f9c5780f9b5f8bdd2ee2d49ea14",
+      "hash": "04a79c4017aece3532e0f67681ae196cbfef068dd0f08c6db27b6b418ad7a4d2"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-sma-20-120",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "04a79c4017aece3532e0f67681ae196cbfef068dd0f08c6db27b6b418ad7a4d2",
+      "hash": "e2895b91259680f0092ef146aaa93e68dc83d4b5912258bb3bcde2e94d7acf8e"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-sma-20-120",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "e2895b91259680f0092ef146aaa93e68dc83d4b5912258bb3bcde2e94d7acf8e",
+      "hash": "95c78b7124cbfd4ee26bdfd92fd36129d810492cd29c1a0b09c25b4c551fc928"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-sma-20-120",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "95c78b7124cbfd4ee26bdfd92fd36129d810492cd29c1a0b09c25b4c551fc928",
+      "hash": "3c7e6f632f12a84d3faba6bbecf48fc00d0fbc69cff1959bef0bf5a4f2f24264"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-momentum-60-0",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "3c7e6f632f12a84d3faba6bbecf48fc00d0fbc69cff1959bef0bf5a4f2f24264",
+      "hash": "0c486a116aa4e3377fa5ee01aa314edd1859d986f02ae05986a69277f75d046a"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-momentum-60-0",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "0c486a116aa4e3377fa5ee01aa314edd1859d986f02ae05986a69277f75d046a",
+      "hash": "287f99d20193c4a2caedf40060e6a047599ab196ed0903622ff20d30dfe51b3f"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-momentum-60-0",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "287f99d20193c4a2caedf40060e6a047599ab196ed0903622ff20d30dfe51b3f",
+      "hash": "16a8e56c3c26556a415b5a16e67a100c2ad5ccdb8f88ddf6bb7d361f33ac2702"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-rsi-20-35",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "16a8e56c3c26556a415b5a16e67a100c2ad5ccdb8f88ddf6bb7d361f33ac2702",
+      "hash": "0ced048a09fb684247c33ef14aade3814b0f77fa3760e3d152d0a270da7ad1fd"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-voltrend-20-80",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "0ced048a09fb684247c33ef14aade3814b0f77fa3760e3d152d0a270da7ad1fd",
+      "hash": "3b5c1901196260ecf10ec8f78aebd0ddcff090ead667890bd632918972d882c5"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-voltrend-20-80",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "3b5c1901196260ecf10ec8f78aebd0ddcff090ead667890bd632918972d882c5",
+      "hash": "e443009ba8f9a7562bb135ea0c767ea618e0184b935683074ad47d6d145fa67a"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-voltrend-20-80",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "e443009ba8f9a7562bb135ea0c767ea618e0184b935683074ad47d6d145fa67a",
+      "hash": "1b27b96a596548bf7f70deb2f310e4f251b201a777ab19ede41159769f384355"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-sma-30-150",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "1b27b96a596548bf7f70deb2f310e4f251b201a777ab19ede41159769f384355",
+      "hash": "7f83bafd1487f01ab2f1def187e64d4726fbf6a2e96d32c5ce67ca349dc0e558"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-sma-30-150",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "7f83bafd1487f01ab2f1def187e64d4726fbf6a2e96d32c5ce67ca349dc0e558",
+      "hash": "6fc54254449f45bfcc53edbf65f5428d9e2353688223e3c2e9edc094efd0ec28"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-sma-30-150",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "6fc54254449f45bfcc53edbf65f5428d9e2353688223e3c2e9edc094efd0ec28",
+      "hash": "132b050e776c5885c495c4c9f1d35a56ba8c405b8f1ad72f1838575825431870"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-breakout-90-30",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "132b050e776c5885c495c4c9f1d35a56ba8c405b8f1ad72f1838575825431870",
+      "hash": "05f4077142a1b7879de03f01d536dae4a80ea8e4b9336ec724642bfe3d46f512"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-breakout-90-30",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "05f4077142a1b7879de03f01d536dae4a80ea8e4b9336ec724642bfe3d46f512",
+      "hash": "537e611a47f3d103d34b4055dddf38474406020eb9fd48c8415b8270808f969b"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "BTC-momentum-100-0",
+        "asset": "BTC",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 83850.90449999999,
+        "qty": 0.00135247,
+        "gross": 113.40583280911498,
+        "fee": 0.9072466624729199,
+        "partial": true
+      },
+      "previous": "537e611a47f3d103d34b4055dddf38474406020eb9fd48c8415b8270808f969b",
+      "hash": "dd5f35346bbb6d01dc23187d4b5a0cce12572d871f173a65b1c62458453f869e"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-momentum-100-0",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.04432652,
+        "gross": 113.406235398309,
+        "fee": 0.9072498831864719,
+        "partial": false
+      },
+      "previous": "dd5f35346bbb6d01dc23187d4b5a0cce12572d871f173a65b1c62458453f869e",
+      "hash": "9d236a10f9ee9d97cee4b9f0c801e557792a5a419ccd414507e5c3ff25a0e4d9"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "SOL-momentum-100-0",
+        "asset": "SOL",
+        "action": "buy",
+        "book": "individual",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 112.38616499999999,
+        "qty": 1.0090766,
+        "gross": 113.40624926523898,
+        "fee": 0.9072499941219119,
+        "partial": false
+      },
+      "previous": "9d236a10f9ee9d97cee4b9f0c801e557792a5a419ccd414507e5c3ff25a0e4d9",
+      "hash": "44d427bd64623d277982fac19bd09dce778f4753f055302270d849e8e94a0b18"
+    },
+    {
+      "kind": "execution",
+      "ts": 1791785583,
+      "data": {
+        "t": 1791785583,
+        "agent": "ETH-voltrend-15-60",
+        "asset": "ETH",
+        "action": "buy",
+        "book": "shared",
+        "execution_model": "post-close quote, not broker-confirmed",
+        "status": "filled",
+        "side": "buy",
+        "price": 2558.428575,
+        "qty": 0.01306466,
+        "gross": 33.4249994666595,
+        "fee": 0.267399995733276,
+        "partial": false
+      },
+      "previous": "44d427bd64623d277982fac19bd09dce778f4753f055302270d849e8e94a0b18",
+      "hash": "59f95a36bf11729a360f878c49ee0ce58a76c8d2e35f8b34a678f86a068f3a81"
+    }
+  ],
   "shortlist": [
     "ETH-voltrend-15-60"
   ]

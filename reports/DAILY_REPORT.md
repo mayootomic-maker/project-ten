@@ -1,10 +1,10 @@
-# Project Ten | 2026-10-10
+# Project Ten | 2026-10-11
 
 **Data:** KRAKEN REAL PRICES / VIRTUAL MONEY | **Capital:** CHF 100 (simulated)
 
-Shared portfolio: **CHF 100.00** (+0.00%) after modeled execution costs.
+Shared portfolio: **CHF 99.53** (-0.47%) after modeled execution costs.
 
-Fees: CHF 0.000; executed orders: 0; maximum drawdown: 0.00%.
+Fees: CHF 0.222; executed orders: 1; maximum drawdown: 0.47%.
 
 Candidates: 100; passed screen: 5; qualified: 1; deployed: 1.
 
