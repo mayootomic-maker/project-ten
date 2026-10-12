@@ -1,5 +1,5 @@
 {
-  "at": 1791809541,
+  "at": 1791813641,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -21619,7 +21619,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 430000,
-      "short_position_limit": 420000
+      "short_position_limit": 370000
     },
     "ONDOUSD": {
       "altname": "ONDOUSD",
@@ -28981,7 +28981,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 4200000,
+      "long_position_limit": 4700000,
       "short_position_limit": 3400000
     },
     "STUSD": {
@@ -34084,7 +34084,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 260000,
-      "short_position_limit": 140000
+      "short_position_limit": 160000
     },
     "VIRTUALUSDC": {
       "altname": "VIRTUALUSDC",
@@ -37224,7 +37224,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 270000,
-      "short_position_limit": 270000
+      "short_position_limit": 300000
     },
     "XRPRLUSD": {
       "altname": "XRPRLUSD",
