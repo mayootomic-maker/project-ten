@@ -2,6 +2,7 @@
 import argparse
 import json
 import math
+import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -185,8 +186,8 @@ def public_report(book,snapshot):
     instruments=[{k:v for k,v in m.items() if k!='bars'} for m in snapshot['spot'].values()]
     return {'meta':{'schema':2,'paper_only':True,'mode':book['mode'],'started_at':book['started_at'],
         'observed_at':now,'initial_chf_per_duo':100,'research_workers':50,'trading_workers':50,
-        'runtime':'GitHub Actions monitoring requested every 5 minutes; research recomputed for new closed candles. Best effort, not continuous hosting.',
-        'monitor_interval_seconds':300,'pipeline_metrics':snapshot.get('pipeline_metrics',{}),
+        'runtime':('Continuous paper runner; polling public quotes; research updates on completed candles.' if os.environ.get('PROJECT_TEN_CONTINUOUS')=='1' else 'GitHub Actions monitoring requested every 5 minutes; research recomputed for new closed candles. Best effort, not continuous hosting.'),
+        'monitor_interval_seconds':int(os.environ.get('PROJECT_TEN_INTERVAL','300')),'pipeline_metrics':snapshot.get('pipeline_metrics',{}),
         'llm_status':snapshot['llm_status'],'fx':book['fx'],'fee_per_side':FEE,'slippage_per_side':SLIPPAGE,
         'risk':'1% sizing budget, max 25% position (10% listed memes), 10% drawdown entry freeze. Stops checked only when a job observes quotes; gaps may exceed budget.'},
         'stats':{'duos':50,'positions':sum(bool(a['position']) for a in duos),

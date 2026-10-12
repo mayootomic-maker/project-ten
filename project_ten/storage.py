@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from .engine import verify_chain
 
-ROOT=Path(__file__).resolve().parent.parent
+ROOT=Path(os.environ.get('PROJECT_TEN_ROOT',Path(__file__).resolve().parent.parent)).resolve()
 DATA=ROOT/'data'
 STATE=ROOT/'state'
 REPORTS=ROOT/'reports'

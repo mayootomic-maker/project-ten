@@ -2,6 +2,11 @@ name: Project Ten | 50 research-trading pairs
 
 on:
   workflow_dispatch:
+    inputs:
+      notification_test:
+        description: 'Send a clearly labeled setup notification (no trade)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -48,6 +53,16 @@ jobs:
               summary.write(f"Trigger: {os.environ['RUN_TRIGGER']}\n\nObservation UTC: {observed}\n\n")
               summary.write(f"Paper-only: {report['meta']['paper_only']}\n\nStats: {report['stats']}\n")
           PYREPORT
+      - name: Deliver recorded paper trade alerts
+        continue-on-error: true
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python -m project_ten.notifications
+      - name: Optional phone setup test
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.notification_test }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python -m project_ten.notifications --test
       - name: Publish ledger changes to repository
         shell: bash
         run: |
