@@ -10,6 +10,7 @@ from .paired_signals import FAMILIES, evaluate, decision, features
 from .storage import save_json, ROOT
 from .engine import event_append, verify_chain
 from .paired_policies import policy_for, rank, futures_score
+from .paired_learning import learn, summary as learning_summary, rank_adjustment
 
 FEE=.008
 SLIPPAGE=.0005
@@ -37,15 +38,23 @@ def create_book(fx, now):
 
 def research_spot(account, snapshot, now):
     rows=[]
+    prior={r['instrument']:r for r in (account.get('research') or {}).get('candidates',[])}
     for key,m in snapshot['spot'].items():
         if m['sector']!=account['desk']:continue
         if m['volume_usd_24h']<1_000_000 or m['spread_pct']>.5:continue
-        e=evaluate(account['family'],m['bars'],account.get('policy'))
+        old=prior.get(key)
+        if old and old.get('to')==m['bars'][-1]['t'] and old.get('validation_version')==3 and old.get('policy_fingerprint')==account['policy']['fingerprint']:
+            e={k:v for k,v in old.items() if k not in ('instrument','asset','interval','volume_usd_24h','spread_pct','selection_score','learning_adjustment')}
+        else:e=evaluate(account['family'],m['bars'],account.get('policy'),{**m,'capital':account.get('initial_capital',100.)})
+        e['policy_fingerprint']=account.get('policy',{}).get('fingerprint')
         rows.append({'instrument':key,'asset':m['asset'],'interval':m['interval'],
             'volume_usd_24h':m['volume_usd_24h'],'spread_pct':m['spread_pct'],**e})
     # Never choose the best holdout performer. Training selects; later tests veto.
     policy=account.get('policy')
-    for row in rows:row['selection_score']=rank(row,policy) if policy else row['train']['net_pct']
+    for row in rows:
+        adjustment=rank_adjustment(account,row['instrument']) if policy else 0.
+        row['learning_adjustment']=adjustment
+        row['selection_score']=(rank(row,policy) if policy else row['train']['net_pct'])+adjustment
     rows.sort(key=lambda x:x['selection_score'],reverse=True)
     chosen=rows[0] if rows else None
     return {'kind':'chronological price/volume research','candidates':rows,'selected':chosen,
@@ -172,16 +181,21 @@ def public_report(book,snapshot):
             'estimated_exit_cost_chf':round(exit_cost/fx,5),'cash_chf':round(a['cash']/fx,4),
             'drawdown_pct':round(a['drawdown']*100,4),'stale_mark':a.get('mark_stale',False),
             'signal_reason':a.get('signal_reason'),'blocked':a['blocked']})
+        duos[-1]['learning']=learning_summary(a)
     instruments=[{k:v for k,v in m.items() if k!='bars'} for m in snapshot['spot'].values()]
     return {'meta':{'schema':2,'paper_only':True,'mode':book['mode'],'started_at':book['started_at'],
         'observed_at':now,'initial_chf_per_duo':100,'research_workers':50,'trading_workers':50,
-        'runtime':'Periodic GitHub Actions, hourly requested; no continuous process or timing guarantee',
+        'runtime':'GitHub Actions monitoring requested every 5 minutes; research recomputed for new closed candles. Best effort, not continuous hosting.',
+        'monitor_interval_seconds':300,'pipeline_metrics':snapshot.get('pipeline_metrics',{}),
         'llm_status':snapshot['llm_status'],'fx':book['fx'],'fee_per_side':FEE,'slippage_per_side':SLIPPAGE,
         'risk':'1% sizing budget, max 25% position (10% listed memes), 10% drawdown entry freeze. Stops checked only when a job observes quotes; gaps may exceed budget.'},
         'stats':{'duos':50,'positions':sum(bool(a['position']) for a in duos),
             'qualified':sum(bool(a['research']['qualified']) for a in duos),'orders':sum(a['orders'] for a in duos),
             'rejected':sum(a['rejects'] for a in duos),'spot_instruments':len({m['pair'] for m in instruments}),
             'futures_observed':len(snapshot['futures']),'research_only_duos':10},
+        'learning_stats':{'pending':sum(d['learning']['pending'] for d in duos),
+            'completed_usable':sum(d['learning']['samples'] for d in duos),
+            'late_excluded':sum(d['learning']['late_outcomes'] for d in duos)},
         'duos':duos,'spot_universe':instruments,'futures':snapshot['futures'],
         'feed_failures':snapshot['failures'],'dex_status':snapshot['dex_status'],'news_status':snapshot['news_status'],
         'audit_events':len(book['audit']),'notes':['No real-money credentials or order endpoints.',
@@ -207,8 +221,10 @@ def verify(book,report):
     assert report['stats']['orders']==sum(a['orders'] for a in book['accounts'].values())
 
 def run():
+    clock=time.perf_counter()
     print('Collecting verified public spot histories and futures observations...',flush=True)
     snapshot=collect();now=snapshot['at'];initial=not BOOK.exists()
+    collected=time.perf_counter()
     print(f"Collected {len(snapshot['spot'])} instrument/timeframe histories; {len(snapshot['futures'])} futures observations.",flush=True)
     if initial:
         from .data import usd_per_chf
@@ -222,6 +238,7 @@ def run():
     else:book=json.loads(BOOK.read_text());verify_chain(book['audit'])
     for d in registry():
         a=book['accounts'][d['id']]
+        a.setdefault('initial_capital',book['initial_usd'])
         if a.get('policy')!=d['policy']:
             a['policy']=d['policy']
             record(book,a,{'kind':'policy_revision','policy':d['policy'],
@@ -238,13 +255,20 @@ def run():
                 record(book,a,{'kind':'research_snapshot','chosen':selected['instrument'] if selected else None,
                     'qualified':a['research']['qualified'],'note':a['research']['selection']},now)
                 a['research_fingerprint']=list(fingerprint)
+    researched=time.perf_counter()
     refresh_quotes(snapshot);now=int(time.time());snapshot['at']=now
+    snapshot['pipeline_metrics']={'fetch_seconds':round(collected-clock,3),
+        'research_seconds':round(researched-collected,3),
+        'quote_refresh_seconds':round(time.perf_counter()-researched,3),
+        'history_cache_hits':snapshot.get('history_cache_hits',0)}
     for a in book['accounts'].values():
+        learn(a,snapshot,now,FEE,SLIPPAGE)
         act(book,a,snapshot,now,initial)
         if not a.get('mark_stale'):
             a['curve'].append({'t':now,'equity_chf':round(a['equity']/book['fx']['rate'],5),
                 'liquidation_chf':round(a['liquidation_equity']/book['fx']['rate'],5)})
             a['curve']=a['curve'][-500:]
+    snapshot['pipeline_metrics']['processing_seconds']=round(time.perf_counter()-clock,3)
     report=public_report(book,snapshot);verify(book,report)
     # Persist only after all research, accounting and audit checks pass.
     save_json(BOOK,book);save_json(ROOT/'reports/paired_dashboard.json',report)

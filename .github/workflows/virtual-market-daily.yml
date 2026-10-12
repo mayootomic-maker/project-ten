@@ -3,8 +3,8 @@ name: Project Ten | 50 research-trading pairs
 on:
   workflow_dispatch:
   schedule:
-    # Hourly requested observations. Best-effort schedule, NOT continuous hosting.
-    - cron: '17 * * * *'
+    # Fast monitoring requested every five minutes. Best effort, NOT continuous hosting.
+    - cron: '2-57/5 * * * *'
 
 concurrency:
   group: project-ten-virtual-ledger

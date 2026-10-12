@@ -3,7 +3,10 @@ import concurrent.futures
 import math
 import time
 import urllib.parse
+import copy
+import json
 from .data import get_json as raw_get_json, candle_from_row
+from .storage import ROOT, save_json
 
 def get_json(url, timeout=15):
     error=None
@@ -23,11 +26,21 @@ MAJORS={'XBT','ETH','SOL','XRP','LTC','BCH'}
 ALTS={'ADA','LINK','AVAX','DOT','ATOM','NEAR'}
 MEMES={'XDG','DOGE','SHIB','PEPE','BONK','WIF','FLOKI','TRUMP','FARTCOIN'}
 
-def fetch_spot_one(pair, spec, ticker_row, now, interval=60):
+def fetch_spot_one(pair, spec, ticker_row, now, interval=60, cached=None):
     step=interval*60
-    result=kraken('OHLC',pair=pair,interval=interval)
-    rows=next(v for k,v in result.items() if k!='last')
-    bars=[candle_from_row(r) for r in rows if int(r[0])+step<=now]
+    expected=now//step*step-step
+    if cached and cached['bars'][-1]['t']==expected:
+        bars=cached['bars']
+    else:
+        result=kraken('OHLC',pair=pair,interval=interval)
+        rows=next(v for k,v in result.items() if k!='last')
+        incoming=[candle_from_row(r) for r in rows if int(r[0])+step<=now]
+        merged={b['t']:b for b in cached['bars']} if cached else {}
+        for b in incoming:
+            if b['t'] in merged and b!=merged[b['t']]:
+                raise ValueError('Provider revised a completed candle; manual review required')
+            merged[b['t']]=b
+        bars=sorted(merged.values(),key=lambda b:b['t'])[-2000:]
     if len(bars)<400:raise ValueError('fewer than 400 completed hourly candles')
     if not step<=now-bars[-1]['t']<step*2:raise ValueError('stale history')
     for i,b in enumerate(bars):
@@ -44,17 +57,27 @@ def fetch_spot_one(pair, spec, ticker_row, now, interval=60):
         'min_cost':float(spec.get('costmin',10)),'status':spec.get('status'),
         'source':'Kraken public OHLC / Ticker / AssetPairs'}
 
-def collect():
+def collect(cache=None):
     now=int(time.time()); failures=[]
-    specs=kraken('AssetPairs');wanted=MAJORS|ALTS|MEMES
+    meta_path=ROOT/'data/paired_metadata.json'
+    meta=json.loads(meta_path.read_text()) if meta_path.exists() else None
+    if not meta or now-meta['at']>=3600:
+        specs=kraken('AssetPairs');save_json(meta_path,{'at':now,'pairs':specs})
+    else:specs=meta['pairs']
+    if cache is None:
+        path=ROOT/'data/paired_market.json'
+        cache=json.loads(path.read_text()) if path.exists() else {}
+    wanted=MAJORS|ALTS|MEMES
     selected={k:v for k,v in specs.items() if v.get('wsname','').endswith('/USD') and v['wsname'].split('/')[0] in wanted and v.get('status')=='online'}
     # One quote request per pair, obtained AFTER historical research downloads below.
     jobs=[(k,s,60) for k,s in selected.items()]+[(k,s,240) for k,s in selected.items() if s['wsname'].split('/')[0] in MAJORS]
+    quotes=kraken('Ticker',pair=','.join(selected))
     def one(item):
         k,s,interval=item
         try:
-            t=kraken('Ticker',pair=k);row=next(iter(t.values()))
-            data=fetch_spot_one(k,s,row,int(time.time()),interval)
+            key=k if interval==60 else k+'@240'
+            row=quotes[k]
+            data=fetch_spot_one(k,s,row,int(time.time()),interval,cache.get('spot',{}).get(key))
             return data['id'],data,None
         except Exception as e:return k,None,str(e)
     spot={}
@@ -80,20 +103,21 @@ def collect():
         futures.sort(key=lambda r:float(r.get('volume_usd_24h') or 0),reverse=True)
     except Exception as e:failures.append({'source':'Kraken futures','error':str(e)})
     return {'at':int(time.time()),'spot':spot,'futures':futures[:30],'failures':failures,
+        'history_cache_hits':sum(1 for k,m in spot.items() if cache.get('spot',{}).get(k,{}).get('bars',[{}])[-1].get('t')==m['bars'][-1]['t']),
         'dex_status':'BLOCKED: no validated contract/holder/sellability/on-chain execution checks. Listed meme coins are a separate spot universe.',
         'llm_status':'DISABLED: zero-budget deterministic research; no unattended LLM reasoning or web/news interpretation',
         'news_status':'NOT IMPLEMENTED: no sentiment or news-based trade decisions'}
 
 def refresh_quotes(snapshot):
     """Do not execute against quotes captured before expensive research."""
-    refreshed={}
+    pairs={m['pair'] for m in snapshot['spot'].values()}
+    rows=kraken('Ticker',pair=','.join(sorted(pairs)))
+    received=int(time.time())
     for key in list(snapshot['spot']):
         try:
             pair=snapshot['spot'][key]['pair']
-            if pair not in refreshed:
-                row=next(iter(kraken('Ticker',pair=pair).values()))
-                refreshed[pair]=(float(row['b'][0]),float(row['a'][0]),int(time.time()))
-            bid,ask,at=refreshed[pair]
+            row=rows[pair]
+            bid,ask,at=float(row['b'][0]),float(row['a'][0]),received
             if not 0<bid<=ask or not math.isfinite(bid+ask):raise ValueError('invalid quote')
             m=snapshot['spot'][key];m.update(bid=bid,ask=ask,quote_at=at,spread_pct=100*(ask-bid)/((ask+bid)/2))
         except Exception as e:
