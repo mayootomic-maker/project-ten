@@ -2,9 +2,13 @@ name: Project Ten | 50 research-trading pairs
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/virtual-market-daily.yml'
   schedule:
     # Fast monitoring requested every five minutes. Best effort, NOT continuous hosting.
-    - cron: '2-57/5 * * * *'
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
 
 concurrency:
   group: project-ten-virtual-ledger
@@ -31,6 +35,19 @@ jobs:
         run: |
           python -m project_ten.paired
           python scripts/verify_paired.py
+      - name: Record trigger and observation health
+        env:
+          RUN_TRIGGER: ${{ github.event_name }}
+        run: |
+          python - <<'PYREPORT'
+          import json, os
+          from datetime import datetime, timezone
+          report = json.load(open('docs/paired_dashboard.json'))
+          observed = datetime.fromtimestamp(report['meta']['observed_at'], timezone.utc).isoformat()
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write(f"Trigger: {os.environ['RUN_TRIGGER']}\n\nObservation UTC: {observed}\n\n")
+              summary.write(f"Paper-only: {report['meta']['paper_only']}\n\nStats: {report['stats']}\n")
+          PYREPORT
       - name: Publish ledger changes to repository
         shell: bash
         run: |
