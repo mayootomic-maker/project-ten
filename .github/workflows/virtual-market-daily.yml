@@ -29,6 +29,7 @@ jobs:
       - name: Checkout persistent paper ledger
         uses: actions/checkout@v4
         with:
+          ref: main
           persist-credentials: true
       - name: Python 3.13
         uses: actions/setup-python@v5
