@@ -1,5 +1,5 @@
 {
-  "at": 1791938586,
+  "at": 1791955714,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -8357,7 +8357,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 420000,
+      "long_position_limit": 470000,
       "short_position_limit": 320000
     },
     "CRVUSD": {
@@ -9568,7 +9568,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 310000,
-      "short_position_limit": 240000
+      "short_position_limit": 210000
     },
     "DOTGBP": {
       "altname": "DOTGBP",
@@ -9721,7 +9721,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 71000,
-      "short_position_limit": 49000
+      "short_position_limit": 54000
     },
     "DOTXBT": {
       "altname": "DOTXBT",
@@ -15184,7 +15184,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 53000,
+      "long_position_limit": 59000,
       "short_position_limit": 52000
     },
     "ICPUSD": {
@@ -16190,7 +16190,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 160000,
+      "long_position_limit": 140000,
       "short_position_limit": 44000
     },
     "KASEUR": {
@@ -17351,7 +17351,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 98000,
-      "short_position_limit": 46000
+      "short_position_limit": 51000
     },
     "LDOUSD": {
       "altname": "LDOUSD",
@@ -17710,7 +17710,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 24000,
-      "short_position_limit": 24000
+      "short_position_limit": 21000
     },
     "LINKUSDT": {
       "altname": "LINKUSDT",
@@ -17756,7 +17756,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 17000,
+      "long_position_limit": 15000,
       "short_position_limit": 15000
     },
     "LINKXBT": {
@@ -20452,7 +20452,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2400,
+      "long_position_limit": 2100,
       "short_position_limit": 2400
     },
     "NANOUSD": {
@@ -21656,7 +21656,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1300000,
-      "short_position_limit": 980000
+      "short_position_limit": 880000
     },
     "ONEUSD": {
       "altname": "ONEUSD",
@@ -28982,7 +28982,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5800000,
-      "short_position_limit": 4200000
+      "short_position_limit": 4700000
     },
     "STUSD": {
       "altname": "STUSD",
@@ -30417,7 +30417,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 410000,
-      "short_position_limit": 210000
+      "short_position_limit": 240000
     },
     "TLMEUR": {
       "altname": "TLMEUR",
@@ -33448,7 +33448,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 650000,
+      "long_position_limit": 720000,
       "short_position_limit": 0
     },
     "USEUR": {
@@ -34083,8 +34083,8 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 360000,
-      "short_position_limit": 230000
+      "long_position_limit": 400000,
+      "short_position_limit": 260000
     },
     "VIRTUALUSDC": {
       "altname": "VIRTUALUSDC",
@@ -36211,7 +36211,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 4900000,
-      "short_position_limit": 3900000
+      "short_position_limit": 4300000
     },
     "XDPUSD": {
       "altname": "XDPUSD",
