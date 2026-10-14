@@ -1,5 +1,5 @@
 {
-  "at": 1791928282,
+  "at": 1791938586,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -19573,7 +19573,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 530000,
-      "short_position_limit": 300000
+      "short_position_limit": 340000
     },
     "MINAGBP": {
       "altname": "MINAGBP",
@@ -26032,7 +26032,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 520000,
+      "long_position_limit": 460000,
       "short_position_limit": 390000
     },
     "SAHARAEUR": {
@@ -28095,7 +28095,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 9600,
+      "long_position_limit": 11000,
       "short_position_limit": 11000
     },
     "SOLUSDT": {
@@ -32161,7 +32161,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 950000,
-      "short_position_limit": 1100000
+      "short_position_limit": 1300000
     },
     "USDCCHF": {
       "altname": "USDCCHF",
@@ -36360,7 +36360,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 29000,
-      "short_position_limit": 13000
+      "short_position_limit": 15000
     },
     "XETHXXBT": {
       "altname": "ETHXBT",
