@@ -1,5 +1,5 @@
 {
-  "at": 1791991525,
+  "at": 1792006553,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2668,7 +2668,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 120000,
-      "short_position_limit": 98000
+      "short_position_limit": 110000
     },
     "APTUSD": {
       "altname": "APTUSD",
@@ -9567,7 +9567,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 310000,
+      "long_position_limit": 270000,
       "short_position_limit": 210000
     },
     "DOTGBP": {
@@ -10036,7 +10036,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 350000,
+      "long_position_limit": 390000,
       "short_position_limit": 500000
     },
     "DYMEUR": {
@@ -14469,7 +14469,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2300000,
+      "long_position_limit": 2000000,
       "short_position_limit": 2100000
     },
     "HBARUSD": {
@@ -17519,7 +17519,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1700,
-      "short_position_limit": 1300
+      "short_position_limit": 1100
     },
     "LINKEUR": {
       "altname": "LINKEUR",
@@ -19412,7 +19412,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 19000000,
+      "long_position_limit": 21000000,
       "short_position_limit": 11000000
     },
     "MEZOUSD": {
@@ -26032,7 +26032,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 460000,
+      "long_position_limit": 410000,
       "short_position_limit": 350000
     },
     "SAHARAEUR": {
@@ -28611,7 +28611,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 210000,
-      "short_position_limit": 240000
+      "short_position_limit": 270000
     },
     "SRMEUR": {
       "altname": "SRMEUR",
@@ -28949,7 +28949,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 940000,
-      "short_position_limit": 720000
+      "short_position_limit": 800000
     },
     "STRKUSD": {
       "altname": "STRKUSD",
@@ -33296,7 +33296,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 9300,
+      "long_position_limit": 11000,
       "short_position_limit": 6400
     },
     "USDTZUSD": {
