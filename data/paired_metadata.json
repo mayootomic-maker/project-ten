@@ -1,5 +1,5 @@
 {
-  "at": 1792006553,
+  "at": 1792017389,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -4981,7 +4981,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 620,
+      "long_position_limit": 690,
       "short_position_limit": 400
     },
     "BDXNEUR": {
@@ -20029,7 +20029,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5000000,
-      "short_position_limit": 2700000
+      "short_position_limit": 3000000
     },
     "MOODENGEUR": {
       "altname": "MOODENGEUR",
@@ -20485,7 +20485,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7100,
+      "long_position_limit": 7900,
       "short_position_limit": 4200
     },
     "NEAREUR": {
@@ -21619,7 +21619,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 430000,
-      "short_position_limit": 370000
+      "short_position_limit": 410000
     },
     "ONDOUSD": {
       "altname": "ONDOUSD",
@@ -24115,7 +24115,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 170000000,
+      "long_position_limit": 190000000,
       "short_position_limit": 150000000
     },
     "PUPSEUR": {
@@ -28982,7 +28982,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6400000,
-      "short_position_limit": 4700000
+      "short_position_limit": 5200000
     },
     "STUSD": {
       "altname": "STUSD",
@@ -34083,7 +34083,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 400000,
+      "long_position_limit": 450000,
       "short_position_limit": 290000
     },
     "VIRTUALUSDC": {
@@ -37224,7 +37224,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 300000,
-      "short_position_limit": 300000
+      "short_position_limit": 340000
     },
     "XRPRLUSD": {
       "altname": "XRPRLUSD",
@@ -37754,7 +37754,7 @@
       "tick_size": "0.1",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 14,
+      "long_position_limit": 16,
       "short_position_limit": 16
     },
     "XXBTZJPY": {
@@ -38020,7 +38020,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 430,
+      "long_position_limit": 480,
       "short_position_limit": 420
     },
     "XXMRZEUR": {
