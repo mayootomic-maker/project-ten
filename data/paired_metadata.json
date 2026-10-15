@@ -1,5 +1,5 @@
 {
-  "at": 1792017389,
+  "at": 1792025433,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -9654,7 +9654,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 420000,
+      "long_position_limit": 470000,
       "short_position_limit": 320000
     },
     "DOTUSDC": {
@@ -9721,7 +9721,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 79000,
-      "short_position_limit": 54000
+      "short_position_limit": 60000
     },
     "DOTXBT": {
       "altname": "DOTXBT",
@@ -10036,7 +10036,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 390000,
+      "long_position_limit": 430000,
       "short_position_limit": 500000
     },
     "DYMEUR": {
@@ -13965,7 +13965,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 310000,
+      "long_position_limit": 270000,
       "short_position_limit": 400000
     },
     "GOMININGEUR": {
@@ -14507,7 +14507,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 7600000,
-      "short_position_limit": 7200000
+      "short_position_limit": 6400000
     },
     "HDXEUR": {
       "altname": "HDXEUR",
@@ -15524,7 +15524,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 72000,
+      "long_position_limit": 80000,
       "short_position_limit": 48000
     },
     "INUSD": {
@@ -25012,7 +25012,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 200000,
-      "short_position_limit": 130000
+      "short_position_limit": 150000
     },
     "RENEUR": {
       "altname": "RENEUR",
@@ -28981,7 +28981,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 6400000,
+      "long_position_limit": 7100000,
       "short_position_limit": 5200000
     },
     "STUSD": {
@@ -34084,7 +34084,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 450000,
-      "short_position_limit": 290000
+      "short_position_limit": 320000
     },
     "VIRTUALUSDC": {
       "altname": "VIRTUALUSDC",
