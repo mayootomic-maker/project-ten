@@ -1,5 +1,5 @@
 {
-  "at": 1792090925,
+  "at": 1792102199,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -1057,7 +1057,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 130000,
+      "long_position_limit": 150000,
       "short_position_limit": 0
     },
     "AEUR": {
@@ -10738,7 +10738,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 7600,
-      "short_position_limit": 1100
+      "short_position_limit": 1300
     },
     "EPTEUR": {
       "altname": "EPTEUR",
@@ -15248,7 +15248,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 160000,
+      "long_position_limit": 140000,
       "short_position_limit": 130000
     },
     "IDEXEUR": {
@@ -17378,7 +17378,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 98000,
-      "short_position_limit": 51000
+      "short_position_limit": 57000
     },
     "LDOUSD": {
       "altname": "LDOUSD",
@@ -26059,7 +26059,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 410000,
+      "long_position_limit": 360000,
       "short_position_limit": 310000
     },
     "SAHARAEUR": {
@@ -30444,7 +30444,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 410000,
-      "short_position_limit": 240000
+      "short_position_limit": 270000
     },
     "TLMEUR": {
       "altname": "TLMEUR",
@@ -30688,7 +30688,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 210000,
+      "long_position_limit": 240000,
       "short_position_limit": 65000
     },
     "TONUSDC": {
