@@ -1,5 +1,5 @@
 {
-  "at": 1792076363,
+  "at": 1792090925,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -9320,6 +9320,33 @@
       "status": "online",
       "execution_venue": "international"
     },
+    "DNAUSD": {
+      "altname": "DNAUSD",
+      "wsname": "DNA/USD",
+      "aclass_base": "currency",
+      "base": "DNA",
+      "aclass_quote": "currency",
+      "quote": "ZUSD",
+      "lot": "unit5",
+      "cost_decimals": 5,
+      "pair_decimals": 5,
+      "lot_decimals": 5,
+      "lot_multiplier": 1,
+      "leverage_buy": [],
+      "leverage_sell": [],
+      "fees": [],
+      "fees_maker": [],
+      "fee_volume_currency": "ZUSD",
+      "margin_call": 80,
+      "margin_stop": 40,
+      "ordermin": "130",
+      "costmin": "0.5",
+      "tick_size": "0.00001",
+      "status": "post_only",
+      "execution_venue": "international",
+      "long_position_limit": 0,
+      "short_position_limit": 0
+    },
     "DOGEUR": {
       "altname": "DOGEUR",
       "wsname": "DOG/EUR",
@@ -9720,7 +9747,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 87000,
+      "long_position_limit": 96000,
       "short_position_limit": 67000
     },
     "DOTXBT": {
@@ -10036,7 +10063,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 480000,
+      "long_position_limit": 530000,
       "short_position_limit": 500000
     },
     "DYMEUR": {
@@ -10945,7 +10972,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 88,
+      "long_position_limit": 79,
       "short_position_limit": 63
     },
     "ETHCHF": {
@@ -14153,7 +14180,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2700000,
+      "long_position_limit": 3000000,
       "short_position_limit": 1900000
     },
     "GRTGBP": {
@@ -14506,8 +14533,8 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 6800000,
-      "short_position_limit": 6400000
+      "long_position_limit": 6100000,
+      "short_position_limit": 5700000
     },
     "HDXEUR": {
       "altname": "HDXEUR",
@@ -19633,7 +19660,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1300000,
-      "short_position_limit": 920000
+      "short_position_limit": 1100000
     },
     "MINAXBT": {
       "altname": "MINAXBT",
@@ -19862,7 +19889,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 270000,
+      "long_position_limit": 300000,
       "short_position_limit": 0
     },
     "MOCAEUR": {
@@ -19971,7 +19998,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 310000000000,
-      "short_position_limit": 220000000000
+      "short_position_limit": 190000000000
     },
     "MONEUR": {
       "altname": "MONEUR",
@@ -20028,7 +20055,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 5000000,
+      "long_position_limit": 5600000,
       "short_position_limit": 3000000
     },
     "MOODENGEUR": {
@@ -24249,7 +24276,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 560000,
-      "short_position_limit": 360000
+      "short_position_limit": 400000
     },
     "PYUSDUSD": {
       "altname": "PYUSDUSD",
@@ -25339,7 +25366,7 @@
       "ordermin": "1300",
       "costmin": "0.5",
       "tick_size": "0.000001",
-      "status": "reduce_only",
+      "status": "cancel_only",
       "execution_venue": "international",
       "long_position_limit": 150000,
       "short_position_limit": 0
@@ -26165,7 +26192,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 500000,
+      "long_position_limit": 440000,
       "short_position_limit": 290000
     },
     "SANDGBP": {
@@ -27847,7 +27874,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3300,
-      "short_position_limit": 2000
+      "short_position_limit": 1700
     },
     "SOLEUR": {
       "altname": "SOLEUR",
@@ -34083,8 +34110,8 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 450000,
-      "short_position_limit": 320000
+      "long_position_limit": 500000,
+      "short_position_limit": 360000
     },
     "VIRTUALUSDC": {
       "altname": "VIRTUALUSDC",
