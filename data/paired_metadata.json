@@ -1,5 +1,5 @@
 {
-  "at": 1792110268,
+  "at": 1792126124,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -5955,7 +5955,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 420,
+      "long_position_limit": 470,
       "short_position_limit": 120
     },
     "BNBUSD": {
@@ -9747,8 +9747,8 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 96000,
-      "short_position_limit": 67000
+      "long_position_limit": 110000,
+      "short_position_limit": 74000
     },
     "DOTXBT": {
       "altname": "DOTXBT",
@@ -10063,7 +10063,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 530000,
+      "long_position_limit": 590000,
       "short_position_limit": 500000
     },
     "DYMEUR": {
@@ -15249,7 +15249,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 140000,
-      "short_position_limit": 130000
+      "short_position_limit": 110000
     },
     "IDEXEUR": {
       "altname": "IDEXEUR",
@@ -17690,7 +17690,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 110000,
-      "short_position_limit": 79000
+      "short_position_limit": 87000
     },
     "LINKUSDC": {
       "altname": "LINKUSDC",
@@ -28638,7 +28638,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 210000,
-      "short_position_limit": 270000
+      "short_position_limit": 300000
     },
     "SRMEUR": {
       "altname": "SRMEUR",
@@ -29222,7 +29222,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1700000,
+      "long_position_limit": 1900000,
       "short_position_limit": 1500000
     },
     "SUKUEUR": {
@@ -33475,7 +33475,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 720000,
+      "long_position_limit": 800000,
       "short_position_limit": 0
     },
     "USEUR": {
@@ -35354,7 +35354,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 10000000,
+      "long_position_limit": 8900000,
       "short_position_limit": 0
     },
     "XANEUR": {
@@ -36750,7 +36750,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3600,
-      "short_position_limit": 1300
+      "short_position_limit": 1500
     },
     "XLTCZEUR": {
       "altname": "LTCEUR",
