@@ -1,5 +1,5 @@
 {
-  "at": 1792159483,
+  "at": 1792173552,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -1724,7 +1724,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1900000,
-      "short_position_limit": 1100000
+      "short_position_limit": 1300000
     },
     "ALGOGBP": {
       "altname": "ALGOGBP",
@@ -2484,7 +2484,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 770000,
+      "long_position_limit": 850000,
       "short_position_limit": 580000
     },
     "APEUSDC": {
@@ -4898,7 +4898,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2000,
+      "long_position_limit": 2300,
       "short_position_limit": 1100
     },
     "BCHUSDC": {
@@ -10063,7 +10063,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 590000,
+      "long_position_limit": 650000,
       "short_position_limit": 500000
     },
     "DYMEUR": {
@@ -13334,7 +13334,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 47000000,
+      "long_position_limit": 52000000,
       "short_position_limit": 24000000
     },
     "GAME2EUR": {
@@ -13992,7 +13992,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 240000,
+      "long_position_limit": 270000,
       "short_position_limit": 450000
     },
     "GOMININGEUR": {
@@ -14533,7 +14533,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 6100000,
+      "long_position_limit": 5400000,
       "short_position_limit": 5100000
     },
     "HDXEUR": {
@@ -15515,7 +15515,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 14000,
-      "short_position_limit": 8000
+      "short_position_limit": 8900
     },
     "INJUSD": {
       "altname": "INJUSD",
@@ -26059,7 +26059,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 360000,
+      "long_position_limit": 320000,
       "short_position_limit": 240000
     },
     "SAHARAEUR": {
@@ -26483,7 +26483,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1300000,
+      "long_position_limit": 1100000,
       "short_position_limit": 1500000
     },
     "SCOREUR": {
