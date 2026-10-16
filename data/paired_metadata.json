@@ -1,5 +1,5 @@
 {
-  "at": 1792184095,
+  "at": 1792192504,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -3941,7 +3941,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 87000,
-      "short_position_limit": 52000
+      "short_position_limit": 58000
     },
     "AVAXUSD": {
       "altname": "AVAXUSD",
@@ -14181,7 +14181,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3000000,
-      "short_position_limit": 1900000
+      "short_position_limit": 2100000
     },
     "GRTGBP": {
       "altname": "GRTGBP",
@@ -39404,7 +39404,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 170000,
+      "long_position_limit": 190000,
       "short_position_limit": 150000
     },
     "ZRXEUR": {
