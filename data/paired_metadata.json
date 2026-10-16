@@ -1,5 +1,5 @@
 {
-  "at": 1792126124,
+  "at": 1792142481,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -14534,7 +14534,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6100000,
-      "short_position_limit": 5700000
+      "short_position_limit": 5100000
     },
     "HDXEUR": {
       "altname": "HDXEUR",
@@ -18232,7 +18232,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 190000,
+      "long_position_limit": 210000,
       "short_position_limit": 210000
     },
     "LSETHETH": {
@@ -19600,7 +19600,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 590000,
-      "short_position_limit": 380000
+      "short_position_limit": 420000
     },
     "MINAGBP": {
       "altname": "MINAGBP",
@@ -20815,7 +20815,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 9100000,
+      "long_position_limit": 8100000,
       "short_position_limit": 8700000
     },
     "NILEUR": {
@@ -22668,7 +22668,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 37000000000,
-      "short_position_limit": 21000000000
+      "short_position_limit": 24000000000
     },
     "PEPEGBP": {
       "altname": "PEPEGBP",
@@ -33290,7 +33290,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3400000,
+      "long_position_limit": 3000000,
       "short_position_limit": 3800000
     },
     "USDTJPY": {
@@ -36349,7 +36349,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 19000,
+      "long_position_limit": 21000,
       "short_position_limit": 5500
     },
     "XETCZUSD": {
@@ -37185,7 +37185,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 110000,
-      "short_position_limit": 78000
+      "short_position_limit": 86000
     },
     "XRPETH": {
       "altname": "XRPETH",
