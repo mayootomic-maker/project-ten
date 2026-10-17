@@ -1,5 +1,5 @@
 {
-  "at": 1792270961,
+  "at": 1792278189,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -274,7 +274,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 4400,
-      "short_position_limit": 3200
+      "short_position_limit": 3600
     },
     "AAVEXBT": {
       "altname": "AAVEXBT",
@@ -12476,7 +12476,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 480000,
+      "long_position_limit": 530000,
       "short_position_limit": 360000
     },
     "FILXBT": {
