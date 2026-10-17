@@ -1,5 +1,5 @@
 {
-  "at": 1792192504,
+  "at": 1792200082,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -10738,7 +10738,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 7600,
-      "short_position_limit": 1300
+      "short_position_limit": 1500
     },
     "EPTEUR": {
       "altname": "EPTEUR",
@@ -15515,7 +15515,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 14000,
-      "short_position_limit": 8900
+      "short_position_limit": 9800
     },
     "INJUSD": {
       "altname": "INJUSD",
@@ -19997,7 +19997,7 @@
       "tick_size": "0.0000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 310000000000,
+      "long_position_limit": 350000000000,
       "short_position_limit": 170000000000
     },
     "MONEUR": {
@@ -20056,7 +20056,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5600000,
-      "short_position_limit": 3000000
+      "short_position_limit": 3400000
     },
     "MOODENGEUR": {
       "altname": "MOODENGEUR",
@@ -20480,7 +20480,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2000,
-      "short_position_limit": 2400
+      "short_position_limit": 2100
     },
     "NANOUSD": {
       "altname": "NANOUSD",
@@ -26250,7 +26250,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1900000,
+      "long_position_limit": 2100000,
       "short_position_limit": 1300000
     },
     "SANDXBT": {
@@ -36544,7 +36544,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 340,
+      "long_position_limit": 380,
       "short_position_limit": 320
     },
     "XETHZJPY": {
