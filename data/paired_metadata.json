@@ -1,5 +1,5 @@
 {
-  "at": 1792200082,
+  "at": 1792215928,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -7631,7 +7631,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3200000,
+      "long_position_limit": 3600000,
       "short_position_limit": 2600000
     },
     "CLANKEREUR": {
@@ -11281,7 +11281,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1700,
+      "long_position_limit": 1900,
       "short_position_limit": 1900
     },
     "ETHUSDT": {
@@ -14496,8 +14496,8 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2000000,
-      "short_position_limit": 1800000
+      "long_position_limit": 1700000,
+      "short_position_limit": 1600000
     },
     "HBARUSD": {
       "altname": "HBARUSD",
@@ -18199,7 +18199,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 34000,
+      "long_position_limit": 30000,
       "short_position_limit": 34000
     },
     "LRCUSD": {
@@ -24435,7 +24435,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 6300,
+      "long_position_limit": 5600,
       "short_position_limit": 5200
     },
     "QTUMEUR": {
@@ -26193,7 +26193,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 440000,
-      "short_position_limit": 290000
+      "short_position_limit": 320000
     },
     "SANDGBP": {
       "altname": "SANDGBP",
@@ -29176,7 +29176,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 110000,
-      "short_position_limit": 79000
+      "short_position_limit": 71000
     },
     "SUIUSD": {
       "altname": "SUIUSD",
@@ -30688,7 +30688,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 240000,
+      "long_position_limit": 270000,
       "short_position_limit": 65000
     },
     "TONUSDC": {
@@ -31307,7 +31307,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1600000,
+      "long_position_limit": 1800000,
       "short_position_limit": 1500000
     },
     "TRXUSDD": {
@@ -34873,7 +34873,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 8800000,
+      "long_position_limit": 7900000,
       "short_position_limit": 0
     },
     "WFBEUR": {
@@ -35354,7 +35354,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 8900000,
+      "long_position_limit": 8000000,
       "short_position_limit": 0
     },
     "XANEUR": {
@@ -36190,7 +36190,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7100000,
+      "long_position_limit": 6300000,
       "short_position_limit": 5600000
     },
     "XDGUSDT": {
@@ -36237,7 +36237,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 4900000,
+      "long_position_limit": 5400000,
       "short_position_limit": 4300000
     },
     "XDPUSD": {
@@ -37322,7 +37322,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1900000,
+      "long_position_limit": 1700000,
       "short_position_limit": 1700000
     },
     "XRPUSDT": {
@@ -38015,7 +38015,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5300000,
-      "short_position_limit": 3400000
+      "short_position_limit": 3800000
     },
     "XXMRXXBT": {
       "altname": "XMRXBT",
