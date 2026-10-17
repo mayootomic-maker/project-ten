@@ -1,5 +1,5 @@
 {
-  "at": 1792254610,
+  "at": 1792262764,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -24276,7 +24276,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 560000,
-      "short_position_limit": 400000
+      "short_position_limit": 450000
     },
     "PYUSDUSD": {
       "altname": "PYUSDUSD",
@@ -27874,7 +27874,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3300,
-      "short_position_limit": 1700
+      "short_position_limit": 1500
     },
     "SOLEUR": {
       "altname": "SOLEUR",
@@ -28637,7 +28637,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 210000,
+      "long_position_limit": 240000,
       "short_position_limit": 300000
     },
     "SRMEUR": {
@@ -29095,7 +29095,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 380000,
+      "long_position_limit": 420000,
       "short_position_limit": 280000
     },
     "SUIEUR": {
@@ -29964,7 +29964,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 320000,
-      "short_position_limit": 250000
+      "short_position_limit": 220000
     },
     "TACUSD": {
       "altname": "TACUSD",
@@ -30109,7 +30109,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5400,
-      "short_position_limit": 5300
+      "short_position_limit": 4700
     },
     "TBTCEUR": {
       "altname": "TBTCEUR",
@@ -30444,7 +30444,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 460000,
-      "short_position_limit": 270000
+      "short_position_limit": 300000
     },
     "TLMEUR": {
       "altname": "TLMEUR",
@@ -36072,7 +36072,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 14000000,
-      "short_position_limit": 6300000
+      "short_position_limit": 7000000
     },
     "XDGGBP": {
       "altname": "XDGGBP",
@@ -39247,7 +39247,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1500000,
-      "short_position_limit": 390000
+      "short_position_limit": 430000
     },
     "ZORAEUR": {
       "altname": "ZORAEUR",
