@@ -1,5 +1,5 @@
 {
-  "at": 1792242962,
+  "at": 1792254610,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -211,7 +211,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2900,
+      "long_position_limit": 2600,
       "short_position_limit": 1700
     },
     "AAVEGBP": {
@@ -15406,7 +15406,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 260000,
+      "long_position_limit": 290000,
       "short_position_limit": 170000
     },
     "INEUR": {
@@ -17736,7 +17736,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 24000,
+      "long_position_limit": 21000,
       "short_position_limit": 21000
     },
     "LINKUSDT": {
@@ -24142,7 +24142,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 190000000,
+      "long_position_limit": 170000000,
       "short_position_limit": 150000000
     },
     "PUPSEUR": {
@@ -26484,7 +26484,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1100000,
-      "short_position_limit": 1500000
+      "short_position_limit": 1300000
     },
     "SCOREUR": {
       "altname": "SCOREUR",
@@ -33291,7 +33291,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3000000,
-      "short_position_limit": 3800000
+      "short_position_limit": 3400000
     },
     "USDTJPY": {
       "altname": "USDTJPY",
@@ -37323,7 +37323,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1700000,
-      "short_position_limit": 1700000
+      "short_position_limit": 1500000
     },
     "XRPUSDT": {
       "altname": "XRPUSDT",
