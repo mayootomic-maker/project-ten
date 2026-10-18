@@ -1,5 +1,5 @@
 {
-  "at": 1792359273,
+  "at": 1792366631,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -17593,7 +17593,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 70000,
-      "short_position_limit": 35000
+      "short_position_limit": 31000
     },
     "LINKGBP": {
       "altname": "LINKGBP",
@@ -17737,7 +17737,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 21000,
-      "short_position_limit": 21000
+      "short_position_limit": 18000
     },
     "LINKUSDT": {
       "altname": "LINKUSDT",
@@ -27979,7 +27979,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2400,
-      "short_position_limit": 2400
+      "short_position_limit": 2700
     },
     "SOLSOFID": {
       "altname": "SOLSOFID",
