@@ -1,5 +1,5 @@
 {
-  "at": 1792350928,
+  "at": 1792359273,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -273,7 +273,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 4400,
+      "long_position_limit": 4900,
       "short_position_limit": 3600
     },
     "AAVEXBT": {
@@ -3370,7 +3370,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 130000,
-      "short_position_limit": 69000
+      "short_position_limit": 76000
     },
     "ATOMGBP": {
       "altname": "ATOMGBP",
@@ -17412,8 +17412,8 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 520000,
-      "short_position_limit": 280000
+      "long_position_limit": 460000,
+      "short_position_limit": 250000
     },
     "LIGHTERUSD": {
       "altname": "LIGHTERUSD",
@@ -27978,7 +27978,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2100,
+      "long_position_limit": 2400,
       "short_position_limit": 2400
     },
     "SOLSOFID": {
@@ -29175,7 +29175,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 110000,
+      "long_position_limit": 98000,
       "short_position_limit": 63000
     },
     "SUIUSD": {
