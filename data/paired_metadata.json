@@ -1,5 +1,5 @@
 {
-  "at": 1792330716,
+  "at": 1792342534,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -5822,7 +5822,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1500000,
+      "long_position_limit": 1300000,
       "short_position_limit": 850000
     },
     "BLZUSD": {
@@ -8357,7 +8357,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 470000,
+      "long_position_limit": 520000,
       "short_position_limit": 360000
     },
     "CRVUSD": {
@@ -12667,7 +12667,7 @@
       "tick_size": "0.00000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1900000000,
+      "long_position_limit": 1700000000,
       "short_position_limit": 1300000000
     },
     "FLOWEUR": {
@@ -13335,7 +13335,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 52000000,
-      "short_position_limit": 24000000
+      "short_position_limit": 27000000
     },
     "GAME2EUR": {
       "altname": "GAME2EUR",
@@ -14238,7 +14238,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 5700000,
+      "long_position_limit": 6300000,
       "short_position_limit": 4200000
     },
     "GRTXBT": {
@@ -15551,7 +15551,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 98000,
+      "long_position_limit": 110000,
       "short_position_limit": 65000
     },
     "INUSD": {
@@ -15809,7 +15809,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 8700000,
+      "long_position_limit": 9600000,
       "short_position_limit": 3900000
     },
     "JITOSOLEUR": {
@@ -18669,7 +18669,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1300000,
-      "short_position_limit": 1300000
+      "short_position_limit": 1100000
     },
     "MANAUSDC": {
       "altname": "MANAUSDC",
@@ -24851,7 +24851,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 71000,
+      "long_position_limit": 79000,
       "short_position_limit": 30000
     },
     "RBCUSD": {
@@ -30071,7 +30071,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 980,
+      "long_position_limit": 1100,
       "short_position_limit": 620
     },
     "TAOUSD": {
