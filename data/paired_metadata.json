@@ -1,5 +1,5 @@
 {
-  "at": 1792342534,
+  "at": 1792350928,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2401,7 +2401,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 580000,
+      "long_position_limit": 640000,
       "short_position_limit": 470000
     },
     "APENFTEUR": {
@@ -10064,7 +10064,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 720000,
-      "short_position_limit": 500000
+      "short_position_limit": 440000
     },
     "DYMEUR": {
       "altname": "DYMEUR",
@@ -12700,7 +12700,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 340000,
+      "long_position_limit": 380000,
       "short_position_limit": 200000
     },
     "FLOWUSD": {
@@ -13992,7 +13992,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 300000,
+      "long_position_limit": 340000,
       "short_position_limit": 500000
     },
     "GOMININGEUR": {
@@ -15514,7 +15514,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 18000,
+      "long_position_limit": 20000,
       "short_position_limit": 13000
     },
     "INJUSD": {
@@ -17784,7 +17784,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 11000,
-      "short_position_limit": 11000
+      "short_position_limit": 9800
     },
     "LINKXBT": {
       "altname": "LINKXBT",
@@ -20815,7 +20815,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7200000,
+      "long_position_limit": 6400000,
       "short_position_limit": 6200000
     },
     "NILEUR": {
@@ -30444,7 +30444,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 510000,
-      "short_position_limit": 300000
+      "short_position_limit": 340000
     },
     "TLMEUR": {
       "altname": "TLMEUR",
@@ -33324,7 +33324,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 15000,
-      "short_position_limit": 8700
+      "short_position_limit": 9600
     },
     "USDTZUSD": {
       "altname": "USDTUSD",
@@ -34110,8 +34110,8 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 690000,
-      "short_position_limit": 500000
+      "long_position_limit": 760000,
+      "short_position_limit": 560000
     },
     "VIRTUALUSDC": {
       "altname": "VIRTUALUSDC",
