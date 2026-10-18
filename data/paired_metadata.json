@@ -1,5 +1,5 @@
 {
-  "at": 1792278189,
+  "at": 1792284963,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -3432,7 +3432,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 180000,
-      "short_position_limit": 98000
+      "short_position_limit": 110000
     },
     "ATOMUSDC": {
       "altname": "ATOMUSDC",
@@ -9449,7 +9449,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 4200000,
+      "long_position_limit": 4700000,
       "short_position_limit": 0
     },
     "DOLOEUR": {
@@ -15514,7 +15514,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 16000,
+      "long_position_limit": 18000,
       "short_position_limit": 11000
     },
     "INJUSD": {
@@ -15809,7 +15809,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7900000,
+      "long_position_limit": 8700000,
       "short_position_limit": 3500000
     },
     "JITOSOLEUR": {
@@ -24275,7 +24275,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 560000,
+      "long_position_limit": 620000,
       "short_position_limit": 450000
     },
     "PYUSDUSD": {
@@ -33324,7 +33324,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 13000,
-      "short_position_limit": 7900
+      "short_position_limit": 8700
     },
     "USDTZUSD": {
       "altname": "USDTUSD",
