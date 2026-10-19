@@ -1,5 +1,5 @@
 {
-  "at": 1792366631,
+  "at": 1792374029,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -16218,7 +16218,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 140000,
-      "short_position_limit": 44000
+      "short_position_limit": 39000
     },
     "KASEUR": {
       "altname": "KASEUR",
@@ -22754,7 +22754,7 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 140000000000,
+      "long_position_limit": 120000000000,
       "short_position_limit": 98000000000
     },
     "PEPUSD": {
@@ -33475,7 +33475,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 800000,
+      "long_position_limit": 890000,
       "short_position_limit": 0
     },
     "USEUR": {
@@ -35354,7 +35354,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7100000,
+      "long_position_limit": 6300000,
       "short_position_limit": 0
     },
     "XANEUR": {
@@ -38559,7 +38559,7 @@
       "tick_size": "0.1",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 8,
+      "long_position_limit": 7,
       "short_position_limit": 3
     },
     "YGGEUR": {
