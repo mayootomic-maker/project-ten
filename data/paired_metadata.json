@@ -1,5 +1,5 @@
 {
-  "at": 1792529600,
+  "at": 1792539318,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -12477,7 +12477,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 470000,
-      "short_position_limit": 360000
+      "short_position_limit": 320000
     },
     "FILXBT": {
       "altname": "FILXBT",
@@ -15212,7 +15212,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 59000,
-      "short_position_limit": 58000
+      "short_position_limit": 52000
     },
     "ICPUSD": {
       "altname": "ICPUSD",
@@ -17378,7 +17378,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 110000,
-      "short_position_limit": 70000
+      "short_position_limit": 78000
     },
     "LDOUSD": {
       "altname": "LDOUSD",
@@ -18549,7 +18549,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2600,
-      "short_position_limit": 980
+      "short_position_limit": 1100
     },
     "LUNAEUR": {
       "altname": "LUNAEUR",
@@ -35354,7 +35354,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 5600000,
+      "long_position_limit": 5000000,
       "short_position_limit": 0
     },
     "XANEUR": {
