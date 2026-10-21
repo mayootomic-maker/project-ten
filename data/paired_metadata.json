@@ -1,5 +1,5 @@
 {
-  "at": 1792539318,
+  "at": 1792547972,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -5993,7 +5993,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1100,
-      "short_position_limit": 540
+      "short_position_limit": 480
     },
     "BNBUSDC": {
       "altname": "BNBUSDC",
@@ -7599,7 +7599,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1400000,
-      "short_position_limit": 1200000
+      "short_position_limit": 1000000
     },
     "CHZUSD": {
       "altname": "CHZUSD",
@@ -12734,7 +12734,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 570000,
-      "short_position_limit": 260000
+      "short_position_limit": 290000
     },
     "FLREUR": {
       "altname": "FLREUR",
@@ -13993,7 +13993,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 340000,
-      "short_position_limit": 500000
+      "short_position_limit": 560000
     },
     "GOMININGEUR": {
       "altname": "GOMININGEUR",
@@ -15515,7 +15515,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 23000,
-      "short_position_limit": 15000
+      "short_position_limit": 17000
     },
     "INJUSD": {
       "altname": "INJUSD",
@@ -20816,7 +20816,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5100000,
-      "short_position_limit": 4900000
+      "short_position_limit": 4400000
     },
     "NILEUR": {
       "altname": "NILEUR",
@@ -30688,7 +30688,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 340000,
+      "long_position_limit": 380000,
       "short_position_limit": 72000
     },
     "TONUSDC": {
@@ -34110,7 +34110,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 840000,
+      "long_position_limit": 930000,
       "short_position_limit": 620000
     },
     "VIRTUALUSDC": {
