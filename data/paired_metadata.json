@@ -1,5 +1,5 @@
 {
-  "at": 1792588020,
+  "at": 1792605608,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -822,7 +822,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2800000,
+      "long_position_limit": 3100000,
       "short_position_limit": 2300000
     },
     "ADAUSDT": {
@@ -1868,7 +1868,7 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 300000,
+      "long_position_limit": 340000,
       "short_position_limit": 140000
     },
     "ALICEEUR": {
@@ -2667,7 +2667,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 140000,
+      "long_position_limit": 160000,
       "short_position_limit": 130000
     },
     "APTUSD": {
@@ -17413,7 +17413,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 410000,
-      "short_position_limit": 170000
+      "short_position_limit": 150000
     },
     "LIGHTERUSD": {
       "altname": "LIGHTERUSD",
@@ -18549,7 +18549,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2900,
-      "short_position_limit": 1100
+      "short_position_limit": 1300
     },
     "LUNAEUR": {
       "altname": "LUNAEUR",
@@ -19599,7 +19599,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 650000,
+      "long_position_limit": 720000,
       "short_position_limit": 470000
     },
     "MINAGBP": {
@@ -19889,7 +19889,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 300000,
+      "long_position_limit": 340000,
       "short_position_limit": 0
     },
     "MOCAEUR": {
@@ -20055,7 +20055,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 5600000,
+      "long_position_limit": 6200000,
       "short_position_limit": 3400000
     },
     "MOODENGEUR": {
@@ -20734,6 +20734,33 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international"
+    },
+    "NEXOUSD": {
+      "altname": "NEXOUSD",
+      "wsname": "NEXO/USD",
+      "aclass_base": "currency",
+      "base": "NEXO",
+      "aclass_quote": "currency",
+      "quote": "ZUSD",
+      "lot": "unit5",
+      "cost_decimals": 5,
+      "pair_decimals": 4,
+      "lot_decimals": 5,
+      "lot_multiplier": 1,
+      "leverage_buy": [],
+      "leverage_sell": [],
+      "fees": [],
+      "fees_maker": [],
+      "fee_volume_currency": "ZUSD",
+      "margin_call": 80,
+      "margin_stop": 40,
+      "ordermin": "4",
+      "costmin": "0.5",
+      "tick_size": "0.0001",
+      "status": "post_only",
+      "execution_venue": "international",
+      "long_position_limit": 0,
+      "short_position_limit": 0
     },
     "NEXUSD": {
       "altname": "NEXUSD",
@@ -26251,7 +26278,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1600000,
-      "short_position_limit": 1100000
+      "short_position_limit": 980000
     },
     "SANDXBT": {
       "altname": "SANDXBT",
@@ -31919,7 +31946,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 98000,
-      "short_position_limit": 88000
+      "short_position_limit": 79000
     },
     "UNIXBT": {
       "altname": "UNIXBT",
@@ -36545,7 +36572,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 380,
-      "short_position_limit": 360
+      "short_position_limit": 400
     },
     "XETHZJPY": {
       "altname": "ETHJPY",

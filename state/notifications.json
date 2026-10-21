@@ -1,7 +1,10 @@
 {
   "_persist": true,
   "initialized": true,
-  "seen": [],
+  "seen": [
+    "590d297bef961b5d46158f710fbee94b29a90e22c4909b447c5ed23554244b31"
+  ],
   "status": "armed",
-  "activated_at": 1791813649
+  "activated_at": 1791813649,
+  "last_sent_at": 1792605623
 }
