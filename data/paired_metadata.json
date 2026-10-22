@@ -1,5 +1,5 @@
 {
-  "at": 1792618413,
+  "at": 1792627792,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -7599,7 +7599,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1000000,
-      "short_position_limit": 890000
+      "short_position_limit": 790000
     },
     "CHZUSD": {
       "altname": "CHZUSD",
@@ -9595,7 +9595,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 300000,
-      "short_position_limit": 210000
+      "short_position_limit": 240000
     },
     "DOTGBP": {
       "altname": "DOTGBP",
@@ -10063,7 +10063,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 890000,
+      "long_position_limit": 980000,
       "short_position_limit": 440000
     },
     "DYMEUR": {
@@ -15406,7 +15406,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 260000,
+      "long_position_limit": 230000,
       "short_position_limit": 150000
     },
     "INEUR": {
@@ -15809,7 +15809,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 11000000,
+      "long_position_limit": 13000000,
       "short_position_limit": 4800000
     },
     "JITOSOLEUR": {
@@ -17784,7 +17784,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 11000,
-      "short_position_limit": 9700
+      "short_position_limit": 11000
     },
     "LINKXBT": {
       "altname": "LINKXBT",
@@ -19440,7 +19440,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 21000000,
-      "short_position_limit": 11000000
+      "short_position_limit": 9800000
     },
     "MEZOUSD": {
       "altname": "MEZOUSD",
@@ -19659,7 +19659,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1500000,
+      "long_position_limit": 1700000,
       "short_position_limit": 1100000
     },
     "MINAXBT": {
@@ -30471,7 +30471,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 570000,
-      "short_position_limit": 380000
+      "short_position_limit": 420000
     },
     "TLMEUR": {
       "altname": "TLMEUR",
