@@ -2,9 +2,10 @@
   "_persist": true,
   "initialized": true,
   "seen": [
-    "590d297bef961b5d46158f710fbee94b29a90e22c4909b447c5ed23554244b31"
+    "590d297bef961b5d46158f710fbee94b29a90e22c4909b447c5ed23554244b31",
+    "88bc4e6cd2aaa77e4580ef94ecc06b8a6342ef86d37a8086a1d1ff30ab7bbe8e"
   ],
   "status": "armed",
   "activated_at": 1791813649,
-  "last_sent_at": 1792605623
+  "last_sent_at": 1792662038
 }
