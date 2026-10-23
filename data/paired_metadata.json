@@ -1,5 +1,5 @@
 {
-  "at": 1792782580,
+  "at": 1792793394,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -7848,7 +7848,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5600,
-      "short_position_limit": 2300
+      "short_position_limit": 2600
     },
     "COMPXBT": {
       "altname": "COMPXBT",
@@ -12700,7 +12700,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 470000,
+      "long_position_limit": 520000,
       "short_position_limit": 200000
     },
     "FLOWUSD": {
@@ -13335,7 +13335,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 71000000,
-      "short_position_limit": 34000000
+      "short_position_limit": 38000000
     },
     "GAME2EUR": {
       "altname": "GAME2EUR",
@@ -15212,7 +15212,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 59000,
-      "short_position_limit": 52000
+      "short_position_limit": 58000
     },
     "ICPUSD": {
       "altname": "ICPUSD",
@@ -18515,7 +18515,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2000,
+      "long_position_limit": 2300,
       "short_position_limit": 2000
     },
     "LTCUSDT": {
@@ -19659,7 +19659,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1900000,
+      "long_position_limit": 2100000,
       "short_position_limit": 1100000
     },
     "MINAXBT": {
@@ -20171,7 +20171,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 54000,
+      "long_position_limit": 60000,
       "short_position_limit": 35000
     },
     "MOVREUR": {
@@ -22695,7 +22695,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 41000000000,
-      "short_position_limit": 27000000000
+      "short_position_limit": 30000000000
     },
     "PEPEGBP": {
       "altname": "PEPEGBP",
@@ -23242,7 +23242,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 960000,
-      "short_position_limit": 490000
+      "short_position_limit": 540000
     },
     "POLISEUR": {
       "altname": "POLISEUR",
@@ -29149,7 +29149,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 470000,
+      "long_position_limit": 520000,
       "short_position_limit": 310000
     },
     "SUIEUR": {
