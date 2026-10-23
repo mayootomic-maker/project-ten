@@ -1,5 +1,5 @@
 {
-  "at": 1792706287,
+  "at": 1792715451,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -902,7 +902,7 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 840000,
+      "long_position_limit": 930000,
       "short_position_limit": 290000
     },
     "ADIEUR": {
@@ -4725,7 +4725,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1500000,
-      "short_position_limit": 700000
+      "short_position_limit": 780000
     },
     "BCHAUD": {
       "altname": "BCHAUD",
@@ -5790,7 +5790,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 980000,
-      "short_position_limit": 490000
+      "short_position_limit": 440000
     },
     "BLURUSD": {
       "altname": "BLURUSD",
@@ -17546,7 +17546,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1700,
-      "short_position_limit": 980
+      "short_position_limit": 1100
     },
     "LINKEUR": {
       "altname": "LINKEUR",
@@ -24302,7 +24302,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 690000,
+      "long_position_limit": 760000,
       "short_position_limit": 560000
     },
     "PYUSDUSD": {
@@ -26087,7 +26087,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 400000,
-      "short_position_limit": 180000
+      "short_position_limit": 200000
     },
     "SAHARAEUR": {
       "altname": "SAHARAEUR",
@@ -31102,7 +31102,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 35000,
+      "long_position_limit": 39000,
       "short_position_limit": 26000
     },
     "TRUMPUSD": {
@@ -31136,7 +31136,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 140000,
-      "short_position_limit": 98000
+      "short_position_limit": 88000
     },
     "TRUMPUSDC": {
       "altname": "TRUMPUSDC",
@@ -35408,7 +35408,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 4400000,
+      "long_position_limit": 3900000,
       "short_position_limit": 0
     },
     "XANEUR": {
