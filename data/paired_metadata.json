@@ -1,5 +1,5 @@
 {
-  "at": 1792793394,
+  "at": 1792802508,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -6707,7 +6707,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 23000,
+      "long_position_limit": 26000,
       "short_position_limit": 0
     },
     "CAMPEUR": {
@@ -18633,7 +18633,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 430000,
+      "long_position_limit": 480000,
       "short_position_limit": 350000
     },
     "MANAUSD": {
@@ -22536,7 +22536,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 62000000,
+      "long_position_limit": 55000000,
       "short_position_limit": 34000000
     },
     "PENGUUSDC": {
@@ -24521,7 +24521,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 65000,
-      "short_position_limit": 12000
+      "short_position_limit": 14000
     },
     "QUAIEUR": {
       "altname": "QUAIEUR",
@@ -37941,7 +37941,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 4700000,
-      "short_position_limit": 3000000
+      "short_position_limit": 3400000
     },
     "XXLMXXBT": {
       "altname": "XLMXBT",
@@ -39301,7 +39301,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1500000,
-      "short_position_limit": 720000
+      "short_position_limit": 800000
     },
     "ZORAEUR": {
       "altname": "ZORAEUR",
