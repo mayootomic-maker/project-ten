@@ -1,5 +1,5 @@
 {
-  "at": 1792877923,
+  "at": 1792885406,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -15248,7 +15248,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 160000,
+      "long_position_limit": 180000,
       "short_position_limit": 130000
     },
     "IDEXEUR": {
@@ -19599,7 +19599,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 800000,
+      "long_position_limit": 890000,
       "short_position_limit": 520000
     },
     "MINAGBP": {
@@ -20171,7 +20171,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 67000,
+      "long_position_limit": 74000,
       "short_position_limit": 43000
     },
     "MOVREUR": {
@@ -26643,7 +26643,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3400000,
+      "long_position_limit": 3000000,
       "short_position_limit": 2300000
     },
     "SCXBT": {
@@ -26701,7 +26701,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1300000,
+      "long_position_limit": 1500000,
       "short_position_limit": 960000
     },
     "SEIUSD": {
@@ -27719,8 +27719,8 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 59000,
-      "short_position_limit": 20000
+      "long_position_limit": 65000,
+      "short_position_limit": 23000
     },
     "SNXXBT": {
       "altname": "SNXXBT",
@@ -33377,7 +33377,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 15000,
+      "long_position_limit": 17000,
       "short_position_limit": 17000
     },
     "USDTZUSD": {
@@ -36850,7 +36850,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 18000,
+      "long_position_limit": 20000,
       "short_position_limit": 7600
     },
     "XLTCZJPY": {
