@@ -1,5 +1,5 @@
 {
-  "at": 1792946301,
+  "at": 1792955760,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2668,7 +2668,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 200000,
-      "short_position_limit": 150000
+      "short_position_limit": 170000
     },
     "APTUSD": {
       "altname": "APTUSD",
@@ -10738,7 +10738,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 7600,
-      "short_position_limit": 1900
+      "short_position_limit": 2100
     },
     "EPTEUR": {
       "altname": "EPTEUR",
@@ -16417,7 +16417,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 590000,
-      "short_position_limit": 170000
+      "short_position_limit": 190000
     },
     "KEEPUSD": {
       "altname": "KEEPUSD",
@@ -17593,7 +17593,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 78000,
-      "short_position_limit": 31000
+      "short_position_limit": 35000
     },
     "LINKGBP": {
       "altname": "LINKGBP",
@@ -27720,7 +27720,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 80000,
-      "short_position_limit": 26000
+      "short_position_limit": 29000
     },
     "SNXXBT": {
       "altname": "SNXXBT",
@@ -36599,7 +36599,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 420,
-      "short_position_limit": 400
+      "short_position_limit": 350
     },
     "XETHZJPY": {
       "altname": "ETHJPY",
@@ -36851,7 +36851,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 20000,
-      "short_position_limit": 7600
+      "short_position_limit": 8400
     },
     "XLTCZJPY": {
       "altname": "LTCJPY",
@@ -37305,7 +37305,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 300000,
-      "short_position_limit": 300000
+      "short_position_limit": 260000
     },
     "XRPRLUSD": {
       "altname": "XRPRLUSD",
