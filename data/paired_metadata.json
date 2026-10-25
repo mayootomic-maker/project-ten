@@ -1,5 +1,5 @@
 {
-  "at": 1792955760,
+  "at": 1792965197,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -4899,7 +4899,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2900,
-      "short_position_limit": 1300
+      "short_position_limit": 1500
     },
     "BCHUSDC": {
       "altname": "BCHUSDC",
@@ -9681,7 +9681,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 580000,
+      "long_position_limit": 640000,
       "short_position_limit": 450000
     },
     "DOTUSDC": {
@@ -18516,7 +18516,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2600,
-      "short_position_limit": 2000
+      "short_position_limit": 2300
     },
     "LTCUSDT": {
       "altname": "LTCUSDT",
@@ -20480,7 +20480,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 4100,
-      "short_position_limit": 1400
+      "short_position_limit": 1200
     },
     "NANOUSD": {
       "altname": "NANOUSD",
@@ -23242,7 +23242,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1100000,
-      "short_position_limit": 600000
+      "short_position_limit": 670000
     },
     "POLISEUR": {
       "altname": "POLISEUR",
@@ -27719,7 +27719,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 80000,
+      "long_position_limit": 90000,
       "short_position_limit": 29000
     },
     "SNXXBT": {
@@ -28176,8 +28176,8 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 15000,
-      "short_position_limit": 15000
+      "long_position_limit": 17000,
+      "short_position_limit": 17000
     },
     "SOLUSDT": {
       "altname": "SOLUSDT",
@@ -32242,7 +32242,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 950000,
-      "short_position_limit": 1300000
+      "short_position_limit": 1100000
     },
     "USDCCHF": {
       "altname": "USDCCHF",
@@ -37377,7 +37377,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1100000,
-      "short_position_limit": 980000
+      "short_position_limit": 880000
     },
     "XRPUSDT": {
       "altname": "XRPUSDT",
