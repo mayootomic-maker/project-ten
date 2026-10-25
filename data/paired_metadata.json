@@ -1,5 +1,5 @@
 {
-  "at": 1792885406,
+  "at": 1792892558,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -823,7 +823,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2700000,
-      "short_position_limit": 2300000
+      "short_position_limit": 2000000
     },
     "ADAUSDT": {
       "altname": "ADAUSDT",
@@ -14497,7 +14497,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2400000,
-      "short_position_limit": 2000000
+      "short_position_limit": 2300000
     },
     "HBARUSD": {
       "altname": "HBARUSD",
@@ -16935,7 +16935,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 9800,
-      "short_position_limit": 5400
+      "short_position_limit": 6000
     },
     "KSMGBP": {
       "altname": "KSMGBP",
@@ -20172,7 +20172,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 74000,
-      "short_position_limit": 43000
+      "short_position_limit": 48000
     },
     "MOVREUR": {
       "altname": "MOVREUR",
@@ -24462,7 +24462,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 5600,
+      "long_position_limit": 5000,
       "short_position_limit": 4100
     },
     "QTUMEUR": {
@@ -26219,7 +26219,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 540000,
+      "long_position_limit": 600000,
       "short_position_limit": 310000
     },
     "SANDGBP": {
@@ -26511,7 +26511,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 980000,
-      "short_position_limit": 1100000
+      "short_position_limit": 980000
     },
     "SCOREUR": {
       "altname": "SCOREUR",
@@ -26702,7 +26702,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1500000,
-      "short_position_limit": 960000
+      "short_position_limit": 1100000
     },
     "SEIUSD": {
       "altname": "SEIUSD",
@@ -31102,7 +31102,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 39000,
+      "long_position_limit": 43000,
       "short_position_limit": 29000
     },
     "TRUMPUSD": {
