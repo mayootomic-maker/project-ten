@@ -1,5 +1,5 @@
 {
-  "at": 1792965197,
+  "at": 1792971758,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -4691,7 +4691,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 570000,
+      "long_position_limit": 630000,
       "short_position_limit": 380000
     },
     "BATUSD": {
@@ -9715,7 +9715,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 130000,
-      "short_position_limit": 87000
+      "short_position_limit": 96000
     },
     "DOTUSDT": {
       "altname": "DOTUSDT",
@@ -18199,7 +18199,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 30000,
+      "long_position_limit": 26000,
       "short_position_limit": 34000
     },
     "LRCUSD": {
@@ -19440,7 +19440,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 21000000,
-      "short_position_limit": 7900000
+      "short_position_limit": 7100000
     },
     "MEZOUSD": {
       "altname": "MEZOUSD",
@@ -19599,7 +19599,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 890000,
+      "long_position_limit": 980000,
       "short_position_limit": 580000
     },
     "MINAGBP": {
@@ -26510,7 +26510,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 980000,
+      "long_position_limit": 880000,
       "short_position_limit": 980000
     },
     "SCOREUR": {
