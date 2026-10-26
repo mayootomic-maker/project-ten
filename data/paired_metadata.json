@@ -1,5 +1,5 @@
 {
-  "at": 1793023831,
+  "at": 1793044622,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -1057,7 +1057,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 270000,
+      "long_position_limit": 300000,
       "short_position_limit": 0
     },
     "AEUR": {
@@ -10737,7 +10737,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7600,
+      "long_position_limit": 8400,
       "short_position_limit": 2100
     },
     "EPTEUR": {
@@ -18199,7 +18199,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 26000,
+      "long_position_limit": 23000,
       "short_position_limit": 30000
     },
     "LRCUSD": {
@@ -19440,7 +19440,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 21000000,
-      "short_position_limit": 7100000
+      "short_position_limit": 6300000
     },
     "MEZOUSD": {
       "altname": "MEZOUSD",
@@ -20843,7 +20843,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5100000,
-      "short_position_limit": 3500000
+      "short_position_limit": 3100000
     },
     "NILEUR": {
       "altname": "NILEUR",
@@ -28033,7 +28033,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5200,
-      "short_position_limit": 5200
+      "short_position_limit": 5800
     },
     "SOLSOFID": {
       "altname": "SOLSOFID",
@@ -28176,7 +28176,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 19000,
+      "long_position_limit": 21000,
       "short_position_limit": 19000
     },
     "SOLUSDT": {
