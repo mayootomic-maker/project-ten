@@ -1,5 +1,5 @@
 {
-  "at": 1792971758,
+  "at": 1792979220,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -5790,7 +5790,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 980000,
-      "short_position_limit": 390000
+      "short_position_limit": 350000
     },
     "BLURUSD": {
       "altname": "BLURUSD",
@@ -16160,7 +16160,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1300000,
-      "short_position_limit": 780000
+      "short_position_limit": 700000
     },
     "KAITOEUR": {
       "altname": "KAITOEUR",
@@ -20056,7 +20056,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6200000,
-      "short_position_limit": 3000000
+      "short_position_limit": 2600000
     },
     "MOODENGEUR": {
       "altname": "MOODENGEUR",
@@ -20545,7 +20545,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 100000,
+      "long_position_limit": 120000,
       "short_position_limit": 56000
     },
     "NEARUSD": {
@@ -22695,7 +22695,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 63000000000,
-      "short_position_limit": 38000000000
+      "short_position_limit": 42000000000
     },
     "PEPEGBP": {
       "altname": "PEPEGBP",
@@ -36441,7 +36441,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 36000,
-      "short_position_limit": 17000
+      "short_position_limit": 15000
     },
     "XETHXXBT": {
       "altname": "ETHXBT",
@@ -36803,7 +36803,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3600,
+      "long_position_limit": 3200,
       "short_position_limit": 1500
     },
     "XLTCZEUR": {
@@ -37376,7 +37376,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1100000,
+      "long_position_limit": 980000,
       "short_position_limit": 880000
     },
     "XRPUSDT": {
