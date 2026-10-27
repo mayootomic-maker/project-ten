@@ -1,5 +1,5 @@
 {
-  "at": 1793067959,
+  "at": 1793088901,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2401,7 +2401,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 710000,
+      "long_position_limit": 630000,
       "short_position_limit": 460000
     },
     "APENFTEUR": {
@@ -7815,7 +7815,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5800,
-      "short_position_limit": 3800
+      "short_position_limit": 4200
     },
     "COMPUSD": {
       "altname": "COMPUSD",
@@ -9449,7 +9449,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 9500000,
+      "long_position_limit": 11000000,
       "short_position_limit": 0
     },
     "DOLOEUR": {
@@ -11962,7 +11962,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 420000,
-      "short_position_limit": 310000
+      "short_position_limit": 350000
     },
     "FARTCOINUSD": {
       "altname": "FARTCOINUSD",
@@ -13993,7 +13993,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 520000,
-      "short_position_limit": 500000
+      "short_position_limit": 440000
     },
     "GOMININGEUR": {
       "altname": "GOMININGEUR",
@@ -16417,7 +16417,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 650000,
-      "short_position_limit": 190000
+      "short_position_limit": 210000
     },
     "KEEPUSD": {
       "altname": "KEEPUSD",
@@ -17736,7 +17736,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 30000,
+      "long_position_limit": 34000,
       "short_position_limit": 26000
     },
     "LINKUSDT": {
@@ -24520,7 +24520,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 65000,
+      "long_position_limit": 72000,
       "short_position_limit": 16000
     },
     "QUAIEUR": {
@@ -29196,8 +29196,8 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 710000,
-      "short_position_limit": 560000
+      "long_position_limit": 790000,
+      "short_position_limit": 620000
     },
     "SUIGBP": {
       "altname": "SUIGBP",
@@ -33228,7 +33228,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1100000,
+      "long_position_limit": 980000,
       "short_position_limit": 930000
     },
     "USDTCHF": {
@@ -33402,7 +33402,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 17000,
+      "long_position_limit": 19000,
       "short_position_limit": 17000
     },
     "USDTZUSD": {
