@@ -1,5 +1,5 @@
 {
-  "at": 1793111857,
+  "at": 1793129877,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -274,7 +274,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5400,
-      "short_position_limit": 3600
+      "short_position_limit": 4000
     },
     "AAVEXBT": {
       "altname": "AAVEXBT",
@@ -4724,7 +4724,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1500000,
+      "long_position_limit": 1700000,
       "short_position_limit": 860000
     },
     "BCHAUD": {
@@ -9780,7 +9780,7 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 42000,
+      "long_position_limit": 47000,
       "short_position_limit": 15000
     },
     "DOVUUSD": {
@@ -16218,7 +16218,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 180000,
-      "short_position_limit": 23000
+      "short_position_limit": 20000
     },
     "KASEUR": {
       "altname": "KASEUR",
@@ -17783,7 +17783,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 11000,
+      "long_position_limit": 13000,
       "short_position_limit": 11000
     },
     "LINKXBT": {
@@ -20512,7 +20512,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 15000,
+      "long_position_limit": 17000,
       "short_position_limit": 4200
     },
     "NEAREUR": {
@@ -26278,7 +26278,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1400000,
-      "short_position_limit": 710000
+      "short_position_limit": 630000
     },
     "SANDXBT": {
       "altname": "SANDXBT",
@@ -26510,7 +26510,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 880000,
+      "long_position_limit": 790000,
       "short_position_limit": 880000
     },
     "SCOREUR": {
@@ -26735,7 +26735,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3500000,
-      "short_position_limit": 2300000
+      "short_position_limit": 2600000
     },
     "SENTEUR": {
       "altname": "SENTEUR",
@@ -29029,7 +29029,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2700000,
+      "long_position_limit": 3000000,
       "short_position_limit": 2100000
     },
     "STRKUSD": {
@@ -37401,7 +37401,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 980000,
+      "long_position_limit": 880000,
       "short_position_limit": 880000
     },
     "XRPUSDT": {
