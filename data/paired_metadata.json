@@ -1,5 +1,5 @@
 {
-  "at": 1793057956,
+  "at": 1793067959,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -822,7 +822,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2700000,
+      "long_position_limit": 2400000,
       "short_position_limit": 2000000
     },
     "ADAUSDT": {
@@ -1786,7 +1786,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6100000,
-      "short_position_limit": 4500000
+      "short_position_limit": 4000000
     },
     "ALGOUSDC": {
       "altname": "ALGOUSDC",
@@ -7814,7 +7814,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 5200,
+      "long_position_limit": 5800,
       "short_position_limit": 3800
     },
     "COMPUSD": {
@@ -8925,7 +8925,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 96000,
-      "short_position_limit": 130000
+      "short_position_limit": 150000
     },
     "DASHEUR": {
       "altname": "DASHEUR",
@@ -18200,7 +18200,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 23000,
-      "short_position_limit": 30000
+      "short_position_limit": 26000
     },
     "LRCUSD": {
       "altname": "LRCUSD",
@@ -22353,7 +22353,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 73,
+      "long_position_limit": 65,
       "short_position_limit": 55
     },
     "PEAQEUR": {
@@ -27720,7 +27720,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 100000,
-      "short_position_limit": 29000
+      "short_position_limit": 32000
     },
     "SNXXBT": {
       "altname": "SNXXBT",
@@ -28177,7 +28177,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 21000,
-      "short_position_limit": 19000
+      "short_position_limit": 21000
     },
     "SOLUSDT": {
       "altname": "SOLUSDT",
@@ -36876,7 +36876,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 20000,
-      "short_position_limit": 8400
+      "short_position_limit": 9300
     },
     "XLTCZJPY": {
       "altname": "LTCJPY",
