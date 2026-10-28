@@ -1,5 +1,5 @@
 {
-  "at": 1793142660,
+  "at": 1793153772,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -4725,7 +4725,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1700000,
-      "short_position_limit": 860000
+      "short_position_limit": 950000
     },
     "BCHAUD": {
       "altname": "BCHAUD",
@@ -5822,7 +5822,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 980000,
+      "long_position_limit": 1100000,
       "short_position_limit": 480000
     },
     "BLZUSD": {
@@ -18515,7 +18515,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2900,
+      "long_position_limit": 3200,
       "short_position_limit": 2300
     },
     "LTCUSDT": {
@@ -20056,7 +20056,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6900000,
-      "short_position_limit": 2600000
+      "short_position_limit": 2300000
     },
     "MOODENGEUR": {
       "altname": "MOODENGEUR",
@@ -26734,7 +26734,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3500000,
+      "long_position_limit": 3900000,
       "short_position_limit": 2600000
     },
     "SENTEUR": {
@@ -37402,7 +37402,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 880000,
-      "short_position_limit": 880000
+      "short_position_limit": 790000
     },
     "XRPUSDT": {
       "altname": "XRPUSDT",
