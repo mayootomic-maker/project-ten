@@ -1,5 +1,5 @@
 {
-  "at": 1793299352,
+  "at": 1793314767,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -7631,7 +7631,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 4000000,
+      "long_position_limit": 3500000,
       "short_position_limit": 2000000
     },
     "CLANKEREUR": {
@@ -18549,7 +18549,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 4500,
-      "short_position_limit": 2400
+      "short_position_limit": 2700
     },
     "LUNAEUR": {
       "altname": "LUNAEUR",
@@ -20843,7 +20843,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 5700000,
-      "short_position_limit": 3100000
+      "short_position_limit": 2700000
     },
     "NILEUR": {
       "altname": "NILEUR",
@@ -22782,7 +22782,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 120000000000,
-      "short_position_limit": 88000000000
+      "short_position_limit": 79000000000
     },
     "PEPUSD": {
       "altname": "PEPUSD",
@@ -33370,7 +33370,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3400000,
-      "short_position_limit": 3400000
+      "short_position_limit": 3800000
     },
     "USDTJPY": {
       "altname": "USDTJPY",
