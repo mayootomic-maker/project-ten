@@ -1,5 +1,5 @@
 {
-  "at": 1793474257,
+  "at": 1793486160,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2485,7 +2485,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1300000,
-      "short_position_limit": 460000
+      "short_position_limit": 410000
     },
     "APEUSDC": {
       "altname": "APEUSDC",
@@ -5993,7 +5993,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1100,
-      "short_position_limit": 430
+      "short_position_limit": 480
     },
     "BNBUSDC": {
       "altname": "BNBUSDC",
@@ -7815,7 +7815,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6400,
-      "short_position_limit": 4700
+      "short_position_limit": 4200
     },
     "COMPUSD": {
       "altname": "COMPUSD",
@@ -12510,7 +12510,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 24000,
-      "short_position_limit": 4800
+      "short_position_limit": 4300
     },
     "FISEUR": {
       "altname": "FISEUR",
@@ -13992,7 +13992,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 520000,
+      "long_position_limit": 460000,
       "short_position_limit": 310000
     },
     "GOMININGEUR": {
@@ -26510,7 +26510,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 790000,
+      "long_position_limit": 710000,
       "short_position_limit": 630000
     },
     "SCOREUR": {
@@ -37449,7 +37449,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 930000,
-      "short_position_limit": 830000
+      "short_position_limit": 920000
     },
     "XTEREUR": {
       "altname": "XTEREUR",
@@ -37998,7 +37998,7 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 260000,
+      "long_position_limit": 230000,
       "short_position_limit": 230000
     },
     "XXLMZEUR": {
