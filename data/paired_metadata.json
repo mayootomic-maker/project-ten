@@ -1,5 +1,5 @@
 {
-  "at": 1793403761,
+  "at": 1793414677,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2402,7 +2402,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 560000,
-      "short_position_limit": 360000
+      "short_position_limit": 320000
     },
     "APENFTEUR": {
       "altname": "APENFTEUR",
@@ -17736,7 +17736,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 38000,
+      "long_position_limit": 42000,
       "short_position_limit": 32000
     },
     "LINKUSDT": {
@@ -18233,7 +18233,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 120000,
-      "short_position_limit": 160000
+      "short_position_limit": 140000
     },
     "LSETHETH": {
       "altname": "LSETHETH",
@@ -29063,7 +29063,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 8600000,
-      "short_position_limit": 5100000
+      "short_position_limit": 4500000
     },
     "STUSD": {
       "altname": "STUSD",
