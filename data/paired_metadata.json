@@ -1,5 +1,5 @@
 {
-  "at": 1793573710,
+  "at": 1793585240,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -3515,7 +3515,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 30000,
-      "short_position_limit": 5500
+      "short_position_limit": 4900
     },
     "AUCTIONEUR": {
       "altname": "AUCTIONEUR",
@@ -6707,7 +6707,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 29000,
+      "long_position_limit": 26000,
       "short_position_limit": 0
     },
     "CAMPEUR": {
@@ -8957,8 +8957,8 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1200,
-      "short_position_limit": 980
+      "long_position_limit": 1000,
+      "short_position_limit": 880
     },
     "DASHUSD": {
       "altname": "DASHUSD",
@@ -12415,7 +12415,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 240000,
-      "short_position_limit": 170000
+      "short_position_limit": 150000
     },
     "FILGBP": {
       "altname": "FILGBP",
@@ -14180,7 +14180,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3700000,
+      "long_position_limit": 3300000,
       "short_position_limit": 2600000
     },
     "GRTGBP": {
@@ -18233,7 +18233,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 100000,
-      "short_position_limit": 140000
+      "short_position_limit": 120000
     },
     "LSETHETH": {
       "altname": "LSETHETH",
@@ -20546,7 +20546,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 120000,
-      "short_position_limit": 56000
+      "short_position_limit": 62000
     },
     "NEARUSD": {
       "altname": "NEARUSD",
@@ -35218,7 +35218,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 750000,
+      "long_position_limit": 830000,
       "short_position_limit": 550000
     },
     "WLFIEUR": {
@@ -36624,7 +36624,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 330,
-      "short_position_limit": 310
+      "short_position_limit": 270
     },
     "XETHZJPY": {
       "altname": "ETHJPY",
@@ -37448,7 +37448,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 930000,
+      "long_position_limit": 1100000,
       "short_position_limit": 920000
     },
     "XTEREUR": {
