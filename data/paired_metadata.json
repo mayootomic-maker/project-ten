@@ -1,5 +1,5 @@
 {
-  "at": 1793987799,
+  "at": 1794005509,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -211,8 +211,8 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 2600,
-      "short_position_limit": 1900
+      "long_position_limit": 2900,
+      "short_position_limit": 2100
     },
     "AAVEGBP": {
       "altname": "AAVEGBP",
@@ -2702,7 +2702,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 690000,
+      "long_position_limit": 620000,
       "short_position_limit": 340000
     },
     "APUEUR": {
@@ -3514,7 +3514,7 @@
       "tick_size": "0.00000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 26000,
+      "long_position_limit": 23000,
       "short_position_limit": 2700
     },
     "AUCTIONEUR": {
@@ -4184,7 +4184,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 87000,
-      "short_position_limit": 16000
+      "short_position_limit": 18000
     },
     "AZTECEUR": {
       "altname": "AZTECEUR",
@@ -5789,7 +5789,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1100000,
+      "long_position_limit": 1300000,
       "short_position_limit": 390000
     },
     "BLURUSD": {
@@ -5822,7 +5822,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1100000,
+      "long_position_limit": 1300000,
       "short_position_limit": 340000
     },
     "BLZUSD": {
@@ -12522,7 +12522,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 240000,
+      "long_position_limit": 210000,
       "short_position_limit": 150000
     },
     "FILGBP": {
@@ -12808,7 +12808,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 410000,
+      "long_position_limit": 360000,
       "short_position_limit": 150000
     },
     "FLOWUSD": {
@@ -13443,7 +13443,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 87000000,
-      "short_position_limit": 33000000
+      "short_position_limit": 29000000
     },
     "GAME2EUR": {
       "altname": "GAME2EUR",
@@ -18334,7 +18334,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 9800,
+      "long_position_limit": 8600,
       "short_position_limit": 14000
     },
     "LRCUSD": {
@@ -20306,7 +20306,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 110000,
+      "long_position_limit": 98000,
       "short_position_limit": 65000
     },
     "MOVREUR": {
@@ -23514,7 +23514,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2600000,
-      "short_position_limit": 1500000
+      "short_position_limit": 1300000
     },
     "PONDEUR": {
       "altname": "PONDEUR",
@@ -26354,7 +26354,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1100000,
+      "long_position_limit": 980000,
       "short_position_limit": 300000
     },
     "SANDGBP": {
@@ -26412,7 +26412,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1600000,
+      "long_position_limit": 1400000,
       "short_position_limit": 560000
     },
     "SANDXBT": {
@@ -26836,7 +26836,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1900000,
+      "long_position_limit": 1700000,
       "short_position_limit": 1300000
     },
     "SEIUSD": {
@@ -27855,7 +27855,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 180000,
-      "short_position_limit": 36000
+      "short_position_limit": 32000
     },
     "SNXXBT": {
       "altname": "SNXXBT",
@@ -29285,7 +29285,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 570000,
-      "short_position_limit": 310000
+      "short_position_limit": 270000
     },
     "SUIEUR": {
       "altname": "SUIEUR",
@@ -30632,7 +30632,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 620000,
+      "long_position_limit": 550000,
       "short_position_limit": 290000
     },
     "TLMEUR": {
@@ -32020,7 +32020,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 49000,
+      "long_position_limit": 54000,
       "short_position_limit": 39000
     },
     "UNITASUSD": {
@@ -33316,7 +33316,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1100000,
+      "long_position_limit": 980000,
       "short_position_limit": 1100000
     },
     "USDTCAD": {
@@ -35170,7 +35170,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 700000,
+      "long_position_limit": 780000,
       "short_position_limit": 470000
     },
     "WINEUR": {
@@ -36541,7 +36541,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 21000,
-      "short_position_limit": 4900
+      "short_position_limit": 4400
     },
     "XETCZUSD": {
       "altname": "ETCUSD",
@@ -38111,7 +38111,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 170000,
-      "short_position_limit": 200000
+      "short_position_limit": 170000
     },
     "XXLMZEUR": {
       "altname": "XLMEUR",
@@ -38374,7 +38374,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 120000,
+      "long_position_limit": 140000,
       "short_position_limit": 130000
     },
     "XXRPZEUR": {
