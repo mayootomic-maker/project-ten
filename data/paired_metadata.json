@@ -1,5 +1,5 @@
 {
-  "at": 1793963321,
+  "at": 1793987799,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -703,7 +703,7 @@
       "tick_size": "0.000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 6600000,
+      "long_position_limit": 7300000,
       "short_position_limit": 4300000
     },
     "ADAGBP": {
@@ -1724,7 +1724,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2100000,
-      "short_position_limit": 1500000
+      "short_position_limit": 1300000
     },
     "ALGOGBP": {
       "altname": "ALGOGBP",
@@ -2838,7 +2838,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1500000,
-      "short_position_limit": 790000
+      "short_position_limit": 870000
     },
     "ARBUSD": {
       "altname": "ARBUSD",
@@ -3515,7 +3515,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 26000,
-      "short_position_limit": 3100
+      "short_position_limit": 2700
     },
     "AUCTIONEUR": {
       "altname": "AUCTIONEUR",
@@ -7814,7 +7814,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3500,
+      "long_position_limit": 3100,
       "short_position_limit": 2000
     },
     "COMPUSD": {
@@ -8357,7 +8357,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 460000,
+      "long_position_limit": 510000,
       "short_position_limit": 310000
     },
     "CRVUSD": {
@@ -14641,7 +14641,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 7400000,
+      "long_position_limit": 8200000,
       "short_position_limit": 5600000
     },
     "HDXEUR": {
@@ -15622,7 +15622,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 32000,
+      "long_position_limit": 28000,
       "short_position_limit": 23000
     },
     "INJUSD": {
@@ -16325,7 +16325,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 160000,
+      "long_position_limit": 140000,
       "short_position_limit": 15000
     },
     "KASEUR": {
@@ -18335,7 +18335,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 9800,
-      "short_position_limit": 17000
+      "short_position_limit": 14000
     },
     "LRCUSD": {
       "altname": "LRCUSD",
@@ -20191,7 +20191,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6900000,
-      "short_position_limit": 2100000
+      "short_position_limit": 2400000
     },
     "MOODENGEUR": {
       "altname": "MOODENGEUR",
@@ -20615,7 +20615,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1700,
-      "short_position_limit": 480
+      "short_position_limit": 430
     },
     "NANOUSD": {
       "altname": "NANOUSD",
@@ -20648,7 +20648,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 8600,
-      "short_position_limit": 5200
+      "short_position_limit": 5800
     },
     "NEAREUR": {
       "altname": "NEAREUR",
@@ -22672,7 +22672,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 55000000,
-      "short_position_limit": 34000000
+      "short_position_limit": 30000000
     },
     "PENGUUSDC": {
       "altname": "PENGUUSDC",
@@ -30633,7 +30633,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 620000,
-      "short_position_limit": 330000
+      "short_position_limit": 290000
     },
     "TLMEUR": {
       "altname": "TLMEUR",
@@ -31460,7 +31460,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1900000,
-      "short_position_limit": 1300000
+      "short_position_limit": 1500000
     },
     "TRXUSD": {
       "altname": "TRXUSD",
@@ -33364,7 +33364,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 790000,
-      "short_position_limit": 740000
+      "short_position_limit": 660000
     },
     "USDTCHF": {
       "altname": "USDTCHF",
@@ -33538,7 +33538,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 19000,
-      "short_position_limit": 24000
+      "short_position_limit": 27000
     },
     "USDTZUSD": {
       "altname": "USDTUSD",
@@ -33914,56 +33914,6 @@
       "margin_call": 80,
       "margin_stop": 40,
       "ordermin": "9000",
-      "costmin": "0.5",
-      "tick_size": "0.00001",
-      "status": "cancel_only",
-      "execution_venue": "international"
-    },
-    "VELODROMEEUR": {
-      "altname": "VELODROMEEUR",
-      "wsname": "VELODROME/EUR",
-      "aclass_base": "currency",
-      "base": "VELODROME",
-      "aclass_quote": "currency",
-      "quote": "ZEUR",
-      "lot": "unit5",
-      "cost_decimals": 5,
-      "pair_decimals": 5,
-      "lot_decimals": 5,
-      "lot_multiplier": 1,
-      "leverage_buy": [],
-      "leverage_sell": [],
-      "fees": [],
-      "fees_maker": [],
-      "fee_volume_currency": "ZUSD",
-      "margin_call": 80,
-      "margin_stop": 40,
-      "ordermin": "150",
-      "costmin": "0.45",
-      "tick_size": "0.00001",
-      "status": "cancel_only",
-      "execution_venue": "international"
-    },
-    "VELODROMEUSD": {
-      "altname": "VELODROMEUSD",
-      "wsname": "VELODROME/USD",
-      "aclass_base": "currency",
-      "base": "VELODROME",
-      "aclass_quote": "currency",
-      "quote": "ZUSD",
-      "lot": "unit5",
-      "cost_decimals": 5,
-      "pair_decimals": 5,
-      "lot_decimals": 5,
-      "lot_multiplier": 1,
-      "leverage_buy": [],
-      "leverage_sell": [],
-      "fees": [],
-      "fees_maker": [],
-      "fee_volume_currency": "ZUSD",
-      "margin_call": 80,
-      "margin_stop": 40,
-      "ordermin": "150",
       "costmin": "0.5",
       "tick_size": "0.00001",
       "status": "cancel_only",
@@ -36479,7 +36429,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 6700000,
-      "short_position_limit": 5800000
+      "short_position_limit": 5200000
     },
     "XDPUSD": {
       "altname": "XDPUSD",
@@ -37037,7 +36987,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 20000,
+      "long_position_limit": 17000,
       "short_position_limit": 9300
     },
     "XLTCZJPY": {
@@ -37425,7 +37375,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 110000,
+      "long_position_limit": 98000,
       "short_position_limit": 110000
     },
     "XRPETH": {
