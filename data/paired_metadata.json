@@ -1,5 +1,5 @@
 {
-  "at": 1794080218,
+  "at": 1794092356,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -3515,7 +3515,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 23000,
-      "short_position_limit": 2400
+      "short_position_limit": 2100
     },
     "AUCTIONEUR": {
       "altname": "AUCTIONEUR",
@@ -4812,7 +4812,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2100,
-      "short_position_limit": 1100
+      "short_position_limit": 1300
     },
     "BCHGBP": {
       "altname": "BCHGBP",
@@ -8891,7 +8891,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 170000,
+      "long_position_limit": 150000,
       "short_position_limit": 85000
     },
     "DAIUSDT": {
@@ -9781,7 +9781,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 42000,
-      "short_position_limit": 13000
+      "short_position_limit": 11000
     },
     "DOVUUSD": {
       "altname": "DOVUUSD",
@@ -10737,7 +10737,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 8400,
+      "long_position_limit": 7500,
       "short_position_limit": 1600
     },
     "EPTEUR": {
@@ -20306,7 +20306,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 98000,
+      "long_position_limit": 88000,
       "short_position_limit": 58000
     },
     "MOVREUR": {
@@ -33538,7 +33538,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 19000,
-      "short_position_limit": 27000
+      "short_position_limit": 30000
     },
     "USDTZUSD": {
       "altname": "USDTUSD",
