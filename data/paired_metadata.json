@@ -1,5 +1,5 @@
 {
-  "at": 1794169426,
+  "at": 1794181932,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -212,7 +212,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 2900,
-      "short_position_limit": 2100
+      "short_position_limit": 2400
     },
     "AAVEGBP": {
       "altname": "AAVEGBP",
@@ -1868,7 +1868,7 @@
       "tick_size": "0.000000001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 340000,
+      "long_position_limit": 380000,
       "short_position_limit": 140000
     },
     "ALICEEUR": {
@@ -4725,7 +4725,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1700000,
-      "short_position_limit": 950000
+      "short_position_limit": 850000
     },
     "BCHAUD": {
       "altname": "BCHAUD",
@@ -6707,7 +6707,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 23000,
+      "long_position_limit": 20000,
       "short_position_limit": 0
     },
     "CAMPEUR": {
@@ -8924,7 +8924,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 110000,
+      "long_position_limit": 98000,
       "short_position_limit": 130000
     },
     "DASHEUR": {
@@ -25200,7 +25200,7 @@
       "tick_size": "0.001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 230000,
+      "long_position_limit": 200000,
       "short_position_limit": 130000
     },
     "RENEUR": {
@@ -29332,7 +29332,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 790000,
-      "short_position_limit": 620000
+      "short_position_limit": 550000
     },
     "SUIGBP": {
       "altname": "SUIGBP",
@@ -37059,7 +37059,7 @@
       "tick_size": "0.01",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 34000,
+      "long_position_limit": 30000,
       "short_position_limit": 23000
     },
     "XMLNXXBT": {
@@ -38078,7 +38078,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 4700000,
-      "short_position_limit": 3000000
+      "short_position_limit": 2600000
     },
     "XXLMXXBT": {
       "altname": "XLMXBT",
