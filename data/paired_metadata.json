@@ -1,5 +1,5 @@
 {
-  "at": 1794777001,
+  "at": 1794790892,
   "pairs": {
     "0GEUR": {
       "altname": "0GEUR",
@@ -2774,7 +2774,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 3200000,
+      "long_position_limit": 3600000,
       "short_position_limit": 1700000
     },
     "ARCEUR": {
@@ -3415,7 +3415,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 26000,
-      "short_position_limit": 2600
+      "short_position_limit": 2900
     },
     "AUCTIONEUR": {
       "altname": "AUCTIONEUR",
@@ -4625,7 +4625,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 1500000,
-      "short_position_limit": 760000
+      "short_position_limit": 840000
     },
     "BCHAUD": {
       "altname": "BCHAUD",
@@ -10296,7 +10296,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 170000,
+      "long_position_limit": 190000,
       "short_position_limit": 170000
     },
     "ELIZAOSEUR": {
@@ -10455,7 +10455,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 3500000,
-      "short_position_limit": 2100000
+      "short_position_limit": 2400000
     },
     "ENJEUR": {
       "altname": "ENJEUR",
@@ -17013,7 +17013,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 130000,
-      "short_position_limit": 76000
+      "short_position_limit": 84000
     },
     "LDOUSD": {
       "altname": "LDOUSD",
@@ -19590,7 +19590,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 6200000,
+      "long_position_limit": 5500000,
       "short_position_limit": 4200000
     },
     "MOODENGEUR": {
@@ -21169,7 +21169,7 @@
       "tick_size": "0.00001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 1500000,
+      "long_position_limit": 1700000,
       "short_position_limit": 1100000
     },
     "ONEUSD": {
@@ -27081,7 +27081,7 @@
       "tick_size": "0.0001",
       "status": "online",
       "execution_venue": "international",
-      "long_position_limit": 56000,
+      "long_position_limit": 50000,
       "short_position_limit": 19000
     },
     "SNXXBT": {
@@ -28592,7 +28592,7 @@
       "status": "online",
       "execution_venue": "international",
       "long_position_limit": 71000,
-      "short_position_limit": 31000
+      "short_position_limit": 27000
     },
     "SUIUSD": {
       "altname": "SUIUSD",
@@ -36061,6 +36061,33 @@
       "tick_size": "0.0000001",
       "status": "online",
       "execution_venue": "international"
+    },
+    "XLAUSD": {
+      "altname": "XLAUSD",
+      "wsname": "XLA/USD",
+      "aclass_base": "currency",
+      "base": "XLA",
+      "aclass_quote": "currency",
+      "quote": "ZUSD",
+      "lot": "unit5",
+      "cost_decimals": 5,
+      "pair_decimals": 4,
+      "lot_decimals": 5,
+      "lot_multiplier": 1,
+      "leverage_buy": [],
+      "leverage_sell": [],
+      "fees": [],
+      "fees_maker": [],
+      "fee_volume_currency": "ZUSD",
+      "margin_call": 80,
+      "margin_stop": 40,
+      "ordermin": "5",
+      "costmin": "0.5",
+      "tick_size": "0.0001",
+      "status": "post_only",
+      "execution_venue": "international",
+      "long_position_limit": 0,
+      "short_position_limit": 0
     },
     "XLTCXXBT": {
       "altname": "LTCXBT",
